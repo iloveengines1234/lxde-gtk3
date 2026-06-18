@@ -1,4 +1,0 @@
-# List of source files which contain translatable strings.
-src/lxinput.c
-[type: gettext/glade]data/lxinput.ui
-data/lxinput.desktop.in
