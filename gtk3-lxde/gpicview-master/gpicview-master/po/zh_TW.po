@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2015-08-17 01:28+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: zh_TW <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-POOTLE-MTIME: 1439774893.036010\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[檔案]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "顯示版本資訊然後結束"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "開始放映"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr ""
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "圖片檢視"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "上一張"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "下一張"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "開始放映"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "縮小"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "放大"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "適合視窗大小"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "原始大小"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "全螢幕"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "逆時針旋轉"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "順時針旋轉"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "水平翻轉"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "垂直翻轉"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "開啟檔案"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "儲存檔案"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "另存新檔"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "刪除檔案"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "結束"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "停止放映"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"你選擇的檔案名稱已經存在\n"
+"是否確定要覆蓋原有檔案？\n"
+"(警告：原影像的品質可能會喪失)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "目前不支援儲存這種影像格式"
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"你是否確定要刪除目前檔案？\n"
+"\n"
+"警告：一旦刪除，檔案就無法復原。"
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "開始或停止放映"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "另存為"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "顯示／隱藏工具列"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr " * 參考 EOG 及 GThumb 的程式碼"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr ""
+"洪任諭 (PCMan) <pcman.tw@gmail.com>\n"
+"Walter Cheuk <wwycheuk@gmail.com>"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "GPicView 圖片檢視"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "版權所有 (C) 2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "來自 LXDE 計畫的輕巧圖片檢視器"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"GPicView 會設定為所有可支援圖檔的預設程式。\n"
+"(這將會透過 'xdg-mime' 這個程式來達成)\n"
+"\n"
+"<b>你是否確定要這麼做？</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "所有支援的影像格式"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "所有檔案"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "JPEG 品質："
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"選擇較低的品質可以產生比較小的檔案，\n"
+"但影像品質會較差。"
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "PNG 壓縮程度："
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"較高的壓縮程度可產生比較小的檔案，\n"
+"但需要較長的時間來進行壓縮。"
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "輕鬆檢視數位相片和圖片"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:4
+#, fuzzy
+#| msgid "Show/Hide toolbar"
+msgid "Show toolbar"
+msgstr "顯示／隱藏工具列"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "儲存影像前先詢問"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "刪除影像前先詢問"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "自動儲存經過旋轉的影像"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"透過改變 EXIF orientation 值來旋轉 JPEG 圖檔\n"
+"(只有當 EXIF orientation 標籤存在時有效)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "放映間隔"
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "秒"
+
+#: ../data/pref-dlg.ui.h:12
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom factor"
+msgstr "縮小"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "將 GPicView 設為預設的圖片檢視程式"
+
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "正常："
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "全螢幕："
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>背景色彩</b>"
+
+#~ msgid " Full Screen"
+#~ msgstr "全螢幕瀏覽"
+
+#~ msgid " * Some icons are taken from gimmage"
+#~ msgstr " * 部份圖示是從 gimmage 取得"
+
+#~ msgid ""
+#~ "Lightweight image viewer\n"
+#~ "\n"
+#~ "Developed by Hon Jen Yee (PCMan)"
+#~ msgstr ""
+#~ "輕巧的圖片檢視器\n"
+#~ "\n"
+#~ "由洪任諭 (PCMan) 開發"
+
+#~ msgid " Original Size"
+#~ msgstr "原始尺寸"

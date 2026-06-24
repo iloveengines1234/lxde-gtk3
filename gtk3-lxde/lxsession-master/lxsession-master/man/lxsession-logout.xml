@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<refentry>
+  <refentryinfo>
+    <address>
+      <email>grandpaul@gmail.com</email>
+    </address>
+    <author>
+      <firstname>Ying-Chun</firstname>
+      <surname>Liu</surname>
+    </author>
+    <copyright>
+      <year>2008-2026</year>
+      <holder>paulliu, Julien Lavergne</holder>
+    </copyright>
+    <date>May 21, 2026</date>
+  </refentryinfo>
+
+  <refmeta>
+    <refentrytitle>LXSESSION-LOGOUT</refentrytitle>
+    <miscinfo class="source">http://LXDE.org</miscinfo>
+    <manvolnum>1</manvolnum>
+  </refmeta>
+
+  <refnamediv>
+    <refname>lxsession-logout</refname>
+    <refpurpose>graphical interface to log out from LXSession</refpurpose>
+  </refnamediv>
+
+  <refsynopsisdiv>
+    <cmdsynopsis>
+      <command>lxsession-logout</command>
+      <arg choice="opt">--prompt <replaceable>"custom message"</replaceable></arg>
+      <arg choice="opt">--banner <replaceable>path_to_logo</replaceable></arg>
+      <arg choice="opt">--side <replaceable>left|top|right|bottom</replaceable></arg>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+
+  <refsect1>
+    <title>DESCRIPTION</title>
+    <para><command>lxsession-logout</command> provides a graphical shutdown, reboot, lock, and logout selection screen for the desktop session. It interacts directly with the active session server over D-Bus to safely interrupt execution loops and clear background processes.</para>
+  </refsect1>
+
+  <refsect1>
+    <title>OPTIONS</title>
+    <para>This program follows the standard GNU command-line syntax, with long options starting with two dashes (`--`). A summary of available configuration parameters is included below.</para>
+
+    <variablelist>
+      <varlistentry>
+        <term><option>--prompt</option> <replaceable>"Your custom message"</replaceable></term>
+        <listitem>
+          <para>Customize the descriptive string text or header prompt displayed in the logout dialog user interface.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term><option>--banner</option> <replaceable>path_to_image</replaceable></term>
+        <listitem>
+          <para>Specify an external graphical branding image or logo file to customize the dialog window aesthetic layout.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term><option>--side</option> <replaceable>left|top|right|bottom</replaceable></term>
+        <listitem>
+          <para>Define the alignment position of the banner image relative to the control actions menu buttons selection panel.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </refsect1>
+
+  <refsect1>
+    <title>SEE ALSO</title>
+    <para>lxsession(1), lxpanel(1).</para>
+  </refsect1>
+
+  <refsect1>
+    <title>AUTHOR</title>
+    <para>This manual page was originally written by paulliu <email>grandpaul@gmail.com</email> for the <productname>Debian</productname> system (but may be used by others). Permission is granted to copy, distribute and/or modify this document under the terms of the <acronym>GNU</acronym> General Public License, Version 2 or any later version published by the Free Software Foundation.</para>
+
+    <para>On Debian systems, the complete text of the GNU General Public License can be found in <filename>/usr/share/common-licenses/GPL</filename>.</para>
+  </refsect1>
+</refentry>

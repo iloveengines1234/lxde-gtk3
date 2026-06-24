@@ -1,0 +1,299 @@
+# gpicview polish translation
+# Copyright (C) 2009 THE GPicView'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the GPicView package.
+# Grzegorz Gibas <amigib@gmail.com>, 2007, 2008, 2009.
+# Piotr Sokół <piotr.sokol@10g.pl>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2017-05-25 06:45+0000\n"
+"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1495694740.015931\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[PLIK]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "Wypisuje informacje o wersji i kończy program"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "Rozpocznij prezentację"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr ""
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "Przeglądarka obrazów"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "Następny"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "Rozpocznij prezentację"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "Pomniejsz"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "Powiększ"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "Dopasuj do rozmiaru okna"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "Zwykły rozmiar"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "Pełny ekran"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "Obróć przeciwnie do ruchu wskazówek zegara"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "Obróć zgodnie z ruchem wskazówek zegara"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "Odbij poziomo"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "Odbij pionowo"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "Otwórz plik"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "Zapisz plik"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "Zapisz plik jako"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "Usuń plik"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "Preferencje"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "Zakończ"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "Zatrzymaj prezentację"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"Plik o wprowadzonej nazwie już istnieje.\n"
+"Nadpisać istniejący plik?\n"
+"(Uwaga: jakość obrazu może ulec pogorszeniu.)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "Zapisywanie do tego formatu nie jest obsługiwane."
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"Usunąć bieżący plik?\n"
+"\n"
+"Uwaga: usuniętego pliku nie będzie można odzyskać."
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "Rozpocznij/zatrzymaj prezentację"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "Zapisz jako"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "Pokaż/ukryj pasek narzędzi"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr " * Korzysta z kodu przeglądarek obrazów EOG oraz GThumb"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr ""
+"Grzegorz Gibas\n"
+"Artur Kruszewski\n"
+"Piotr Sokół\n"
+"Piotr Strębski"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "GPicView"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "Prawa autorskie (C) 2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "Lekka przeglądarka obrazów dla środowiska LXDE"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"Program GPicView stanie się domyślną przeglądarką dla wszystkich "
+"obsługiwanych obrazów w systemie.\n"
+"(Operacja zostanie wykonana przy użyciu programu 'xdg-mime')\n"
+"\n"
+"<b>Czy chcesz kontynuować?</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "Wszystkie obsługiwane obrazy"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "Wszystkie pliki"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "Jakość JPEG:"
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"Niższa wartość zapewnia mniejszą objętość pliku i\n"
+"jednocześnie gorszą jakość obrazu."
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "Poziom kompresji PNG:"
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"Wyższy poziom kompresji zapewnia mniejszą objętość pliku i\n"
+"jednocześnie wydłuża czas kompresji."
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "Wygodnie przeglądaj swoje obrazy"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:4
+#, fuzzy
+#| msgid "Show/Hide toolbar"
+msgid "Show toolbar"
+msgstr "Pokaż/ukryj pasek narzędzi"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "Wyświetlanie dialogu potwierdzenia przed zapisaniem obrazu"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "Wyświetlanie dialogu potwierdzenia przed usunięciem obrazu"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "Automatyczne zapisywanie obróconych obrazów"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"Obracanie plików JPEG poprzez zmianę wartości orientacji EXIF\n"
+"(tylko jeśli istnieje etykieta orientacji EXIF)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "Czas przejścia pomiędzy slajdami prezentacji"
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "sek."
+
+#: ../data/pref-dlg.ui.h:12
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom factor"
+msgstr "Pomniejsz"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "Ustaw GPicView jako domyślną przeglądarkę obrazów"
+
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "Normalny:"
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "Pełny ekran:"
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>Kolory tła</b>"

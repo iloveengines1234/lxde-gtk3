@@ -1,0 +1,184 @@
+# translation of gnome-menus to Russian
+# Copyright (C) 1998-2003, 2005, 2006, 2007 Free Software Foundation, Inc.
+#
+# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2004.
+# Leonid Kanter <leon@asplinux.ru>, 2005, 2007.
+# uglyside <uglyside@yandex.ru>, 2024.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-21 15:23+0200\n"
+"PO-Revision-Date: 2024-10-29 19:47+0300\n"
+"Last-Translator: uglyside <uglyside@yandex.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:1
+msgid "Multimedia"
+msgstr "Мультимедиа"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:2
+msgid "Audio and video applications"
+msgstr "Аудио и видео приложения"
+
+#: ../desktop-directories/lxde-development.directory.in.h:1
+msgid "Development"
+msgstr "Разработка"
+
+#: ../desktop-directories/lxde-development.directory.in.h:2
+msgid "Tools for software development"
+msgstr "Программное обеспечение для разработки"
+
+#: ../desktop-directories/lxde-education.directory.in.h:1
+msgid "Education"
+msgstr "Образование"
+
+#: ../desktop-directories/lxde-education.directory.in.h:2
+msgid "Educational software"
+msgstr "Образовательные приложения"
+
+#: ../desktop-directories/lxde-game.directory.in.h:1
+msgid "Games"
+msgstr "Игры"
+
+#: ../desktop-directories/lxde-game.directory.in.h:2
+msgid "Games and amusements"
+msgstr "Игры и развлечения"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:1
+msgid "Graphics"
+msgstr "Графика"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:2
+msgid "Graphics applications"
+msgstr "Приложения для работы с графикой"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:1
+msgid "Hardware"
+msgstr "Аппаратура"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:2
+msgid "Settings for several hardware devices"
+msgstr "Настройки различных аппаратных устройств"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:1
+msgid "Internet and Network"
+msgstr "Интернет и сети"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:2
+msgid "Network-related settings"
+msgstr "Параметры, относящиеся к настройке сети"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:1
+msgid "Look and Feel"
+msgstr "Оформление"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:2
+msgid "Settings controlling the desktop appearance and behavior"
+msgstr "Настройки внешнего вида и поведения рабочего стола"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:1
+msgid "Applications"
+msgstr "Приложения"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:2
+msgid "Application Menu"
+msgstr "Меню приложений"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:1
+#: ../desktop-directories/lxde-system.directory.in.h:1
+msgid "System"
+msgstr "Система"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:2
+msgid "Personal preferences and administration settings"
+msgstr "Личные предпочтения и административные параметры"
+
+#: ../desktop-directories/lxde-network.directory.in.h:1
+msgid "Internet"
+msgstr "Интернет"
+
+#: ../desktop-directories/lxde-network.directory.in.h:2
+msgid "Programs for Internet access"
+msgstr "Приложения для доступа к интернету"
+
+#: ../desktop-directories/lxde-office.directory.in.h:1
+msgid "Office"
+msgstr "Офис"
+
+#: ../desktop-directories/lxde-office.directory.in.h:2
+msgid "Office applications"
+msgstr "Приложения для работы с документами"
+
+#: ../desktop-directories/lxde-other.directory.in.h:1
+msgid "Other"
+msgstr "Прочее"
+
+#: ../desktop-directories/lxde-other.directory.in.h:2
+msgid "Applications that don't fit into other categories"
+msgstr "Приложения, не подходящие под прочие категории"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:1
+msgid "Personal"
+msgstr "Персональное"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:2
+msgid "Personal settings"
+msgstr "Персональные настройки"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:1
+msgid "Science & Math"
+msgstr "Наука и математика"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:2
+msgid "Scientific and mathematical software"
+msgstr "Научное и математическое программное обеспечение"
+
+#: ../desktop-directories/lxde-science.directory.in.h:1
+msgid "Science"
+msgstr "Наука"
+
+#: ../desktop-directories/lxde-science.directory.in.h:2
+msgid "Scientific software"
+msgstr "Научное программное обеспечение"
+
+#: ../desktop-directories/lxde-settings.directory.in.h:1
+msgid "Preferences"
+msgstr "Параметры"
+
+#: ../desktop-directories/lxde-settings.directory.in.h:2
+msgid "Desktop preferences"
+msgstr "Параметры рабочего окружения"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:1
+msgid "Administration"
+msgstr "Администрирование"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:2
+msgid "System-wide settings (affecting all users)"
+msgstr "Общесистемные настройки (влияет на всех пользователей)"
+
+#: ../desktop-directories/lxde-system.directory.in.h:2
+msgid "System tools and monitoring"
+msgstr "Средства конфигурации и мониторинга системы"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:1
+msgid "Universal Access"
+msgstr "Специальные возможности"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:2
+msgid "Universal Access Settings"
+msgstr "Настройки специальных возможностей"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:1
+msgid "Accessories"
+msgstr "Стандартные"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:2
+msgid "Desktop accessories"
+msgstr "Стандартные приложения"

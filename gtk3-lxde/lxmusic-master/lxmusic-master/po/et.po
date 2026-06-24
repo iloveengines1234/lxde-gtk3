@@ -1,0 +1,421 @@
+# lxmusic eesti keele tõlge
+# Estonian translation of LXmusic
+# Copyright (C) 2009 LXDE
+# This file is distributed under the same license as the lxmusic package.
+# Mattias Põldaru <mahfiaz gmail com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxmusic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-25 14:00+0200\n"
+"PO-Revision-Date: 2015-08-17 01:29+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: Gnome Estonian Translation Team <gnome-et linux ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439774971.044172\n"
+
+#: ../src/lxmusic.c:263
+msgid "Official icon of xmms2 by Arnaud DIDRY"
+msgstr "xmms2 ametliku ikooni autor Arnaud DIDRY"
+
+#: ../src/lxmusic.c:272
+#, fuzzy
+#| msgid ""
+#| "Music Player for LXDE\n"
+#| "Simple GUI XMMS2 client"
+msgid ""
+"Music Player for LXDE\n"
+"Simple XMMS2 GUI client"
+msgstr ""
+"LXDE muusikaesitaja\n"
+"Lihtne graafiline XMMS2 klient"
+
+#: ../src/lxmusic.c:434
+#, fuzzy
+#| msgid "_Show Main Window"
+msgid "Show Main Window"
+msgstr "_Näita peaakent"
+
+#. default
+#: ../src/lxmusic.c:496 ../src/utils.c:103 ../data/lxmusic.desktop.in.h:1
+#: ../data/lxmusic.ui.glade.h:25
+msgid "LXMusic"
+msgstr "LXMuusika"
+
+#: ../src/lxmusic.c:755
+msgid "Bitrate: "
+msgstr "Bitikiirus: "
+
+#: ../src/lxmusic.c:1062
+msgid "Audio Files"
+msgstr "Audiofailid"
+
+#: ../src/lxmusic.c:1067
+msgid "All Files"
+msgstr "Kõik failid"
+
+#: ../src/lxmusic.c:1094
+msgid "Input a URL"
+msgstr "Sisesta URL"
+
+#: ../src/lxmusic.c:1328 ../src/lxmusic.c:1923
+msgid "Now Playing:"
+msgstr "Praegu esitamisel:"
+
+#. metadata available
+#: ../src/lxmusic.c:1539 ../data/lxmusic.ui.glade.h:5
+#: ../src/lxmusic-notify.c:83
+msgid "Artist"
+msgstr "Artist"
+
+#: ../src/lxmusic.c:1547 ../data/lxmusic.ui.glade.h:6
+msgid "Album"
+msgstr "Album"
+
+#: ../src/lxmusic.c:1555 ../src/lxmusic-notify.c:84
+msgid "Title"
+msgstr "Pealkiri"
+
+#: ../src/lxmusic.c:1561
+msgid "Length"
+msgstr "Kestus"
+
+#: ../src/lxmusic.c:1728
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: ../src/lxmusic.c:1850
+msgid "Pause"
+msgstr "Paus"
+
+#: ../src/lxmusic.c:1864
+msgid "Play"
+msgstr "Esita"
+
+#: ../src/lxmusic.c:2417
+msgid "Create new playlist"
+msgstr "Loo uus esitusnimekiri"
+
+#: ../src/utils.c:81
+msgid "Error"
+msgstr "Viga"
+
+#. alsa use:
+#: ../src/lxmusic-plugin-config.c:17
+msgid "Advanced Linux Sound Architecture"
+msgstr "ALSA (Advanced Linux Sound Architecture)"
+
+#: ../src/lxmusic-plugin-config.c:18 ../src/lxmusic-plugin-config.c:23
+#: ../src/lxmusic-plugin-config.c:28
+msgid "Device:"
+msgstr "Seade:"
+
+#: ../src/lxmusic-plugin-config.c:19 ../src/lxmusic-plugin-config.c:24
+msgid "Mixer:"
+msgstr "Mikser:"
+
+#. oss
+#: ../src/lxmusic-plugin-config.c:22
+msgid "Open Sound System"
+msgstr "OSS (Open Sound System)"
+
+#. ao
+#: ../src/lxmusic-plugin-config.c:27
+msgid "Cross-platform audio output library"
+msgstr "Platvormidevaheline heliväljundi teek"
+
+#. pulse
+#: ../src/lxmusic-plugin-config.c:31
+msgid "PulseAudio"
+msgstr "PulseAudio"
+
+#: ../src/lxmusic-plugin-config.c:32
+msgid "Name:"
+msgstr "Nimi:"
+
+#: ../src/lxmusic-plugin-config.c:33 ../src/lxmusic-plugin-config.c:38
+msgid "Server:"
+msgstr "Server:"
+
+#: ../src/lxmusic-plugin-config.c:34
+msgid "Sink:"
+msgstr "Sink:"
+
+#. airtunes
+#: ../src/lxmusic-plugin-config.c:37
+msgid "AirTunes"
+msgstr "AirTunes"
+
+#. jack
+#: ../src/lxmusic-plugin-config.c:41
+msgid "JACK Audio Connection Kit"
+msgstr "JACK Audio Connection Kit"
+
+#: ../src/lxmusic-plugin-config.c:43
+msgid "Disk Writer"
+msgstr "Kettale kirjutaja"
+
+#: ../src/lxmusic-plugin-config.c:44
+msgid "Destination Directory:"
+msgstr "Sihtkataloog:"
+
+#: ../data/lxmusic.desktop.in.h:2
+msgid "Music Player"
+msgstr "Muusikaesitaja"
+
+#: ../data/lxmusic.desktop.in.h:3
+msgid "Play your music files easily"
+msgstr "Muusikafailide mugav kuulamine"
+
+#: ../data/lxmusic.ui.glade.h:1
+msgid "No Repeat"
+msgstr "Ei korda"
+
+#: ../data/lxmusic.ui.glade.h:2
+msgid "Repeat Current"
+msgstr "Korda ühte"
+
+#: ../data/lxmusic.ui.glade.h:3
+msgid "Repeat All"
+msgstr "Korda kõiki"
+
+#: ../data/lxmusic.ui.glade.h:4
+msgid "All"
+msgstr "Kõik"
+
+#: ../data/lxmusic.ui.glade.h:7
+msgid "Track Name"
+msgstr "Loo nimi"
+
+#: ../data/lxmusic.ui.glade.h:8
+msgid "_File"
+msgstr "_Fail"
+
+#: ../data/lxmusic.ui.glade.h:9
+#, fuzzy
+#| msgid "File Properties"
+msgctxt "menu"
+msgid "File Properties"
+msgstr "Faili omadused"
+
+#: ../data/lxmusic.ui.glade.h:10
+msgid "_Playlist"
+msgstr "_Esitusnimekiri"
+
+#: ../data/lxmusic.ui.glade.h:11
+msgid "_Switch To Playlist"
+msgstr "_Ava esitusnimekiri"
+
+#: ../data/lxmusic.ui.glade.h:12
+msgid "_Locate Currently Played"
+msgstr "_Leia praegu esitatav"
+
+#: ../data/lxmusic.ui.glade.h:13
+msgid "Add To Playlist"
+msgstr "Lisa esitusnimekirja"
+
+#: ../data/lxmusic.ui.glade.h:14
+msgid "Add Files or Folders"
+msgstr "Failid või kataloogid"
+
+#: ../data/lxmusic.ui.glade.h:15
+msgid "Add URL"
+msgstr "Lisa URL"
+
+#: ../data/lxmusic.ui.glade.h:16
+msgid "Remove From Playlist"
+msgstr "Eemalda esitusnimekirjast"
+
+#: ../data/lxmusic.ui.glade.h:17
+msgid "Remove Selected Items"
+msgstr "Eemalda valitud laulud"
+
+#: ../data/lxmusic.ui.glade.h:18
+msgid "Remove All Items"
+msgstr "Eemalda kõik laulud"
+
+#: ../data/lxmusic.ui.glade.h:19
+msgid "Create _New Playlist"
+msgstr "Loo _uus esitusnimekiri"
+
+#: ../data/lxmusic.ui.glade.h:20
+msgid "_Delete Current Playlist"
+msgstr "_Kustuta see esitusnimekiri"
+
+#: ../data/lxmusic.ui.glade.h:21
+msgid "_View"
+msgstr "_Vaade"
+
+#: ../data/lxmusic.ui.glade.h:22
+msgid "Show Playlist"
+msgstr "Näita esitusnimekirja"
+
+#: ../data/lxmusic.ui.glade.h:23
+msgid "_Tools"
+msgstr "_Tööriistad"
+
+#: ../data/lxmusic.ui.glade.h:24
+msgid "_Help"
+msgstr "A_bi"
+
+#: ../data/lxmusic.ui.glade.h:26
+msgid "Previous"
+msgstr "Eelmine"
+
+#: ../data/lxmusic.ui.glade.h:27
+msgid "Play/Pause"
+msgstr "Esita/paus"
+
+#: ../data/lxmusic.ui.glade.h:28
+msgid "Stop"
+msgstr "Peata"
+
+#: ../data/lxmusic.ui.glade.h:29
+msgid "Next"
+msgstr "Järgmine"
+
+#: ../data/lxmusic.ui.glade.h:30
+msgid "Current Playlist"
+msgstr "Praegune esitusnimekiri"
+
+#: ../data/lxmusic.ui.glade.h:31
+msgid "Favorites"
+msgstr "Lemmikud"
+
+#: ../data/lxmusic.ui.glade.h:32
+msgid "Media Library"
+msgstr "Meediakogu"
+
+#: ../data/lxmusic.ui.glade.h:33
+msgid "Add files to the playlist"
+msgstr "Failide lisamine esitusnimekirja"
+
+#: ../data/lxmusic.ui.glade.h:34
+msgid "Remove items from the playlist"
+msgstr "Esitusnimekirjast eemaldamine"
+
+#: ../data/lxmusic.ui.glade.h:35
+msgid "Locate currently played track"
+msgstr "Praegu esitatava laulu leidmine"
+
+#: ../data/lxmusic.ui.glade.h:36
+msgid "Filter:"
+msgstr "Filter:"
+
+#: ../data/lxmusic.ui.glade.h:37
+msgid "Enter keyword here"
+msgstr "Sisesta võtmesõna siia"
+
+#: ../data/pref-dlg.ui.glade.h:1
+msgid "Preferences"
+msgstr "Eelistused"
+
+#: ../data/pref-dlg.ui.glade.h:2
+msgid "Show system tray icon"
+msgstr "Süsteemisalve ikooni näitamine"
+
+#: ../data/pref-dlg.ui.glade.h:3
+msgid "Minimize to system tray on close"
+msgstr "Sulgemisel peidetakse süsteemisalve"
+
+#: ../data/pref-dlg.ui.glade.h:4
+msgid ""
+"Music files can be played without graphical user interface to save system "
+"resources"
+msgstr ""
+"Ressursside säästmiseks võib muusikafaile esitada ka ilma graafilise "
+"kasutajaliideseta"
+
+#: ../data/pref-dlg.ui.glade.h:5
+msgid "Continue playback in background after exiting LXMusic"
+msgstr "Esitamist jätkatakse taustal pärast LXMuusika sulgemist"
+
+#: ../data/pref-dlg.ui.glade.h:6
+msgid "General"
+msgstr "Üldine"
+
+#: ../data/pref-dlg.ui.glade.h:7
+msgid "Plugin: "
+msgstr "Plugin: "
+
+#: ../data/pref-dlg.ui.glade.h:8
+msgid "Buffer Size: "
+msgstr "Puhvri suurus: "
+
+#: ../data/pref-dlg.ui.glade.h:9
+msgid "KB"
+msgstr "KB"
+
+#: ../data/pref-dlg.ui.glade.h:10
+msgid "<b>Output</b>"
+msgstr "<b>Väljund</b>"
+
+#: ../data/pref-dlg.ui.glade.h:11
+msgid "CD-ROM Device: "
+msgstr "CD-ROM seade: "
+
+#: ../data/pref-dlg.ui.glade.h:12
+msgid "<b>Audio CD</b>"
+msgstr "<b>Audioplaat</b>"
+
+#: ../data/pref-dlg.ui.glade.h:13
+msgid "Audio"
+msgstr "Audio"
+
+#: ../data/pref-dlg.ui.glade.h:14
+msgid "Default ID3 V1 Encoding: "
+msgstr "Vaikimisi ID3 V1 kodeering: "
+
+#: ../data/pref-dlg.ui.glade.h:15
+msgid "Misc"
+msgstr "Muu"
+
+#: ../data/track-info.ui.glade.h:1
+#, fuzzy
+#| msgid "File Properties"
+msgctxt "title"
+msgid "File Properties"
+msgstr "Faili omadused"
+
+#: ../data/track-info.ui.glade.h:2
+msgid "<b>File Type: </b>"
+msgstr "<b>Failitüüp: </b>"
+
+#: ../data/track-info.ui.glade.h:3
+msgid "<b>Size: </b>"
+msgstr "<b>Suurus: </b>"
+
+#: ../data/track-info.ui.glade.h:4
+msgid "<b>Comment: </b>"
+msgstr "<b>Kommentaar: </b>"
+
+#: ../data/track-info.ui.glade.h:5
+msgid "<b>Artist: </b>"
+msgstr "<b>Artist: </b>"
+
+#: ../data/track-info.ui.glade.h:6
+msgid "<b>Album: </b>"
+msgstr "<b>Album: </b>"
+
+#: ../data/track-info.ui.glade.h:7
+msgid "<b>Title: </b>"
+msgstr "<b>Pealkiri: </b>"
+
+#: ../data/track-info.ui.glade.h:8
+msgid "<b>File: </b>"
+msgstr "<b>Fail: </b>"
+
+#, fuzzy
+#~ msgid "Server"
+#~ msgstr "Draiver:"
+
+#~ msgid "Use OSS for audio output"
+#~ msgstr "Audioväljundina OSSi kasutamine"
+
+#~ msgid "Use Pulse Audio for audio output"
+#~ msgstr "Audioväljundina PulseAudio kasutamine"

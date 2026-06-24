@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the LXDE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2013-09-04 22:13+0000\n"
+"Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
+"Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
+"Language: lg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1378332809.000000\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[FAYIRO]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "Kiwandike ebifa ku olwandika lwa kyo kiryoke kimale"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "Omwoleso gw'ebifaananyi gutandike"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr ""
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "Puloguramu ey'okukebera bifaananyi"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "Ekikulembera"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "Ekiddako"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "Omwoleso gw'ebifaananyi gutandike"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "Kendeeza kifaananyi"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "Gejjesa kifaananyi"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "Ekifaananyi kyonna kijje mu kadirisa"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "Ekifaananyi kiragire ku bunene bwakyo obwa ddala"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "Ekifaananyi kimaleyo olutimbe"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "Ekifaananyi kiwunzikire ku kkono"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "Ekifaananyi kiwunzikire ku ddyo"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "Ekifaananyi kivuunikire mu bugazi"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "Ekifaananyi kivuunikire mu busimba"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "Keberayo ekifaananyi"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "Kaza fayiro"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "Fayiro gigyemu koppi"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "Fayiro gigyewo"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "Enteekateeka"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "Mala"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "Omwoleso gukome"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"Waliwo fayiro endala erina erinnya eyryo.\n"
+"Fayiro eyo eggibwewo ozzewo eno?\n"
+"(Kulabula: Gy'okolowo eyinz'okwonoonekamu)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "Puloguramu eno temanyi kuwandika fayiro ez'ekika kino."
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"Okukakasa nti fayiro eno oyagal'okugigyawo?\n"
+"\n"
+"Kulabula: Kasita fayiro eno eggibwawo, teyinza kukomezebwawo."
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "Tandika/komya omwoleso gw'ebifaananyi"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "Fayiro gigyemu koppi"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "Ndaga/Kisa amapeesa g'ebikozesebwa"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr ""
+" * Kebera obulambe obw'ennono obwa puloguramu ez'okukebera bifaananyi EOG ne "
+"GThumb"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr "Kizito Birabwa <kbirabwa@yahoo.co.uk>"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "GPicView"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "Copyright (C) 2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "Puloguramu ey'okukebera bifaananyi ey'omu LXDE etanyunyunta kompyuta"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"Sisitemu okukeberanga bifaananyi ejjakukozesanga GPicView.\n"
+"(Ebifaananyi ejjakubitegeeranga n'obuyambi obwa puloguramu 'xdg-mime')\n"
+"\n"
+"<b>Okakasa nti oyagala yeyise bwetyi?</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "Laga ebika by'ebifaananyi puloguramu by'emanyi byokka"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "Laga ebika bya fayiro byonna"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "Obulongoofu bwa JPEG:"
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"Obulongoofu gye bukoma butono ne fayiro gy'ekoma okuba ntono,\n"
+"naye ekifaananyi kijjakukendeera okulabika obulungi."
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "Obupakivu obwa PNG:"
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"Obupakivu gy'okoma okubwongeza ne fayiro gy'ekoma okuba ntono,\n"
+"naye fayiro gy'ekoma okutwal'obudde okukaza."
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "Ekyanguya okukebera bifaananyi byo"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:4
+#, fuzzy
+#| msgid "Show/Hide toolbar"
+msgid "Show toolbar"
+msgstr "Ndaga/Kisa amapeesa g'ebikozesebwa"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "Puloguramu esookenga okukubuuza buli lw'oyagala okukaza ekifaananyi"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "Puloguramu esookenga okukubuuza buli lw'oyagala okugyawo ekifaananyi"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "Ebifaananyi byenpunzisizza bikazibwenga"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"Okuwunzika ekifaananyi eky'ekika kya JPEG, kyusa omuwendo\n"
+"ogw'omu EXIF ya kyo ogufuga entereera yakyo (singa kiba nga EXIF kigirina)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "Ekiseera ekifaananyi lye kimala nga kikulagibwa mu mwoleso"
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "sikonda"
+
+#: ../data/pref-dlg.ui.h:12
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom factor"
+msgstr "Kendeeza kifaananyi"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "GPicView efuuke puloguramu sistemu gy'ekozesa okukulaga ebifaananyi"
+
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "Nga ekifaananyi kiri mu kadirisa:"
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "Nga ekifaananyi kimazeyo olutimbe:"
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>Langi ez'oku bwaliriro</b>"

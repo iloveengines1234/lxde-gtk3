@@ -1,0 +1,197 @@
+# lxmenu-data.po CATALAN TRANSLATION
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-21 15:23+0200\n"
+"PO-Revision-Date: 2025-10-30 12:48+0100\n"
+"Last-Translator: Davidmp <rbndavid@gmail.com>\n"
+"Language-Team: LXDE Catalan translators group\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+"X-POOTLE-MTIME: 1538133750.017468\n"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:1
+msgid "Multimedia"
+msgstr "Multimèdia"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:2
+msgid "Audio and video applications"
+msgstr "Aplicacions d'àudio i vídeo"
+
+#: ../desktop-directories/lxde-development.directory.in.h:1
+msgid "Development"
+msgstr "Desenvolupament"
+
+#: ../desktop-directories/lxde-development.directory.in.h:2
+msgid "Tools for software development"
+msgstr "Eines per al desenvolupament de programari"
+
+#: ../desktop-directories/lxde-education.directory.in.h:1
+msgid "Education"
+msgstr "Educació"
+
+#: ../desktop-directories/lxde-education.directory.in.h:2
+msgid "Educational software"
+msgstr "Programari educatiu"
+
+#: ../desktop-directories/lxde-game.directory.in.h:1
+msgid "Games"
+msgstr "Jocs"
+
+#: ../desktop-directories/lxde-game.directory.in.h:2
+msgid "Games and amusements"
+msgstr "Jocs i entreteniments"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:1
+msgid "Graphics"
+msgstr "Gràfics"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:2
+msgid "Graphics applications"
+msgstr "Aplicacions de gràfics"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:1
+msgid "Hardware"
+msgstr "Maquinari"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:2
+msgid "Settings for several hardware devices"
+msgstr "Configuració de diversos dispositius de maquinari"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:1
+msgid "Internet and Network"
+msgstr "Internet i xarxa"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:2
+msgid "Network-related settings"
+msgstr "Configuració relacionada amb la xarxa"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:1
+msgid "Look and Feel"
+msgstr "Aspecte i sensació"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:2
+msgid "Settings controlling the desktop appearance and behavior"
+msgstr "Configuració de l'aparença i el comportament de l'escriptori"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:1
+msgid "Applications"
+msgstr "Aplicacions"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:2
+msgid "Application Menu"
+msgstr "Menú d'aplicacions"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:1
+#: ../desktop-directories/lxde-system.directory.in.h:1
+msgid "System"
+msgstr "Sistema"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:2
+msgid "Personal preferences and administration settings"
+msgstr "Preferències personals i configuració d'administració"
+
+#: ../desktop-directories/lxde-network.directory.in.h:1
+msgid "Internet"
+msgstr "Internet"
+
+#: ../desktop-directories/lxde-network.directory.in.h:2
+msgid "Programs for Internet access"
+msgstr "Programes per accedir a Internet"
+
+#: ../desktop-directories/lxde-office.directory.in.h:1
+msgid "Office"
+msgstr "Oficina"
+
+#: ../desktop-directories/lxde-office.directory.in.h:2
+msgid "Office applications"
+msgstr "Aplicacions d'oficina"
+
+#: ../desktop-directories/lxde-other.directory.in.h:1
+msgid "Other"
+msgstr "Altres"
+
+#: ../desktop-directories/lxde-other.directory.in.h:2
+msgid "Applications that don't fit into other categories"
+msgstr "Aplicacions que no encaixen en altres categories"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:1
+msgid "Personal"
+msgstr "Personal"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:2
+msgid "Personal settings"
+msgstr "Configuració personal"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:1
+msgid "Science & Math"
+msgstr "Ciència i matemàtiques"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:2
+msgid "Scientific and mathematical software"
+msgstr "Programari científic i matemàtic"
+
+#: ../desktop-directories/lxde-science.directory.in.h:1
+msgid "Science"
+msgstr "Ciència"
+
+#: ../desktop-directories/lxde-science.directory.in.h:2
+msgid "Scientific software"
+msgstr "Programari científic"
+
+#: ../desktop-directories/lxde-settings.directory.in.h:1
+msgid "Preferences"
+msgstr "Preferències"
+
+#: ../desktop-directories/lxde-settings.directory.in.h:2
+msgid "Desktop preferences"
+msgstr "Preferències de l'escriptori"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:1
+msgid "Administration"
+msgstr "Administració"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:2
+msgid "System-wide settings (affecting all users)"
+msgstr "Configuració de tot el sistema (afecta tots els usuaris)"
+
+#: ../desktop-directories/lxde-system.directory.in.h:2
+msgid "System tools and monitoring"
+msgstr "Eines del sistema i monitoratge"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:1
+msgid "Universal Access"
+msgstr "Accés universal"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:2
+msgid "Universal Access Settings"
+msgstr "Configuració de l'accés universal"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:1
+msgid "Accessories"
+msgstr "Accessoris"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:2
+msgid "Desktop accessories"
+msgstr "Accessoris de l'escriptori"
+
+#~ msgid "Sound & Video"
+#~ msgstr "So i Vídeo"
+
+#~ msgid "Programming"
+#~ msgstr "Programació"
+
+#~ msgid "System settings"
+#~ msgstr "Configuració del sistema"
+
+#~ msgid "System Tools"
+#~ msgstr "Eines de sistema"

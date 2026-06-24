@@ -1,0 +1,292 @@
+# Kazakh translation for gpicview
+# Copyright (C) 2010 HZ
+# This file is distributed under the same license as the PACKAGE package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2017-05-24 16:22+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1495642941.596394\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[ФАЙЛ]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "Нұсқа ақпаратын шығару мен шығу"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "Слайдшоуды бастау"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr ""
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "Суреттерді көрсетуші"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "Алдыңғысы"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "Келесі"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "Слайдшоуды бастау"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "Үлкейту"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "Кішірейту"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "Суретті терезе өлшеміне сыйдыру"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "Бастапқы өлшемі"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "Толық экранға"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "Сағат тілі бойына қарсы бұру"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "Сағат тілі бойымен бұру"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "Горизонталды аудару"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "Вертикалды аудару"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "Файлды ашу"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "Файлды сақтау"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "Файлды қалайша сақтау"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "Файлды өшіру"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "Баптаулар"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "Шығу"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "Слайдшоуды тоқтату"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"Сіз таңдаған атымен файл бар болып тұр.\n"
+"Бар файлды алмастыруды қалайсыз ба?\n"
+"(Ескерту: Бастапқы файлдың сапасы жоғалуы мүмкін)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "Суретті осы пішімде сақтауға қолдау жоқ."
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"Ағымдағы файлды өшіруге сенімдісіз бе?\n"
+"\n"
+"Ескерту: Өшірілген файлды қайтаруға болмайды."
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "Слайдшоуды бастау/тоқтату"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "Қалайша сақтау"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "Панельді көрсету/жасыру"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr " * EOG сурет көрсетуші мен GThumb бастапқы кодына сілтейді"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "GPicView"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "Copyright (C) 2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "LXDE жобасынан шыққан суреттерді жеңіл көрсетуші"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"GPicView енді жүйеңізде қолдау бар суреттерді негізгі көрсетуші ретінде "
+"орнатылады.\n"
+"(Бұл әрекет 'xdg-mime' бағдарламасы арқылы іске асады)\n"
+"\n"
+"<b>Осыны жасауға сенімдісіз бе?</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "Барлық қолдау бар суреттер"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "Барлық файлдар"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "JPEG сапасы:"
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"Төменірек сапа мәні файл өлшемдерін аз қылады,\n"
+"бірақ сурет сапасы төменірек болады."
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "PNG сығу деңгейі:"
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"Үлкенірек сығу дәрежесі файл өлшемдерін аз қылады,\n"
+"бірақ сығу салдарынан көбірек уақытты алады."
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "Суреттеріңізді ыңғайлы қарау"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:4
+#, fuzzy
+#| msgid "Show/Hide toolbar"
+msgid "Show toolbar"
+msgstr "Панельді көрсету/жасыру"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "Суреттерді сақтау алдында сұрау"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "Суреттерді өшіру алдында сұрау"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "Бұрылған суреттерді автосақтау"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"JPEG файлын EXIF бағдарлау мәнін өзгерту арқылы бұру\n"
+"(тек EXIF бағдарлау тегі бар болса)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "Слайдшоу кідірісі"
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "сек"
+
+#: ../data/pref-dlg.ui.h:12
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom factor"
+msgstr "Үлкейту"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "GPicView бағдарламасын суреттерді негізгі көрсетуші қылу"
+
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "Қалыпты:"
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "Толық экран:"
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>Фон түстері</b>"

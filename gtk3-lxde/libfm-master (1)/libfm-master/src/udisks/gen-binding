@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Ensure the generation target directory/files are completely clean
+rm -f udisks.h udisks-device.h
+
+echo "#ifndef __UDISKS_H__" > udisks.h
+echo "#define __UDISKS_H__" >> udisks.h
+dbus-binding-tool --mode=glib-client /usr/share/dbus-1/interfaces/org.freedesktop.UDisks.xml >> udisks.h
+echo "#endif /* __UDISKS_H__ */" >> udisks.h
+
+echo "#ifndef __UDISKS_DEVICE_H__" > udisks-device.h
+echo "#define __UDISKS_DEVICE_H__" >> udisks-device.h
+dbus-binding-tool --mode=glib-client /usr/share/dbus-1/interfaces/org.freedesktop.UDisks.Device.xml >> udisks-device.h
+echo "#endif /* __UDISKS_DEVICE_H__ */" >> udisks-device.h

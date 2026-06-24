@@ -1,0 +1,278 @@
+# Hungarian translation of lxtask.
+# Copyright (C) 2008 Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+# This file is distributed under the same license as the lxtask package.
+# Attila Szervac <sas@321.hu>, 2006-2010.
+# Laszlo Dvornik <dvornik@gnome.hu>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxtask\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-28 20:12+0200\n"
+"PO-Revision-Date: 2015-05-04 16:43+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439775046.447069\n"
+
+#: ../data/lxtask.desktop.in.h:1 ../src/interface.c:75
+msgid "Task Manager"
+msgstr "Feladatkezelő"
+
+#: ../data/lxtask.desktop.in.h:2
+msgid "Manage running processes"
+msgstr "Futó folyamatok kezelése"
+
+#: ../data/lxtask.desktop.in.h:3
+msgid "Process manager"
+msgstr "Folyamatkezelő"
+
+#: ../data/lxtask.desktop.in.h:4
+msgid "task;kill;suspend;processor;memory;monitoring;performance;"
+msgstr "feladat;kilövés;készenlét;processzor;memória;megfigyelés;teljesítmény;"
+
+#: ../src/xfce-taskmanager-linux.c:305
+#, c-format
+msgid ""
+"Couldn't send signal %d to the task with ID %d\n"
+"\n"
+"%s"
+msgstr ""
+"Nem lehet %d szignált küldeni a következő azonosítójú feladatra: %d\n"
+"\n"
+"%s"
+
+#: ../src/xfce-taskmanager-linux.c:319
+#, c-format
+msgid "Couldn't set priority %d to the task with ID %d"
+msgstr ""
+"Nem lehet %d prioritást beállítani a következő azonosítójú feladatra: %d"
+
+#: ../src/callbacks.c:60
+msgid "Really kill the task?"
+msgstr "Valóban kilövöd a feladatot?"
+
+#: ../src/callbacks.c:64
+msgid "Really terminate the task?"
+msgstr "Valóban leállítod a feladatot?"
+
+#: ../src/callbacks.c:88
+msgid "Can't stop process self"
+msgstr "Nem lehet a folyamatot magát leállítani"
+
+#. FIXME: this will work only for < 2048 TB but where so many memory...
+#: ../src/functions.c:150
+#, c-format
+msgid "Memory: %d MB of %d MB used"
+msgstr "Memória: %d MB/%d MB használt"
+
+#. TRANSLATORS: If it is customary, insert a space before the double percent sign.
+#: ../src/functions.c:160
+#, c-format
+msgid "CPU usage: %0.0f%%"
+msgstr "CPU-használat: %0.0f %%"
+
+#: ../src/functions.c:160
+#, c-format
+msgid "CPU usage: %0.1f%%"
+msgstr "CPU-használat: %0.1f %%"
+
+#: ../src/interface.c:57
+#, fuzzy
+#| msgid "More details"
+msgid "Less details"
+msgstr "részletek"
+
+#: ../src/interface.c:57
+msgid "More details"
+msgstr "részletek"
+
+#: ../src/interface.c:90
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../src/interface.c:111
+msgid "_View"
+msgstr "_Nézet"
+
+#: ../src/interface.c:117
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/interface.c:144
+msgid "cpu usage"
+msgstr "cpu-használat"
+
+#: ../src/interface.c:155
+msgid "memory usage"
+msgstr "memóriahasználat"
+
+#: ../src/interface.c:210
+msgid "Command"
+msgstr "Parancs"
+
+#: ../src/interface.c:221
+msgid "User"
+msgstr "Felhasználó"
+
+#: ../src/interface.c:235
+msgid "CPU"
+msgstr "CPU"
+
+#: ../src/interface.c:246
+msgid "RSS"
+msgstr "RSS"
+
+#: ../src/interface.c:257
+msgid "VM-Size"
+msgstr "VM-méret"
+
+#: ../src/interface.c:268
+msgid "PID"
+msgstr "PID"
+
+#: ../src/interface.c:279
+msgid "State"
+msgstr "Állapot"
+
+#: ../src/interface.c:290
+msgid "Prio"
+msgstr "Prio"
+
+#: ../src/interface.c:301
+msgid "PPID"
+msgstr "PPID"
+
+#: ../src/interface.c:322
+msgid "Stop"
+msgstr "Megállítás"
+
+#: ../src/interface.c:327
+msgid "Continue"
+msgstr "Folytatás"
+
+#: ../src/interface.c:332
+msgid "Term"
+msgstr "Leállítás"
+
+#: ../src/interface.c:337
+msgid "Kill"
+msgstr "Kényszerített leállítás"
+
+#: ../src/interface.c:342
+msgid "Priority"
+msgstr "Prioritás"
+
+#: ../src/interface.c:355
+msgid "  -10"
+msgstr "  -10"
+
+#: ../src/interface.c:360
+msgid "  -5"
+msgstr "  -5"
+
+#: ../src/interface.c:365
+msgid "    0"
+msgstr "    0"
+
+#: ../src/interface.c:370
+msgid "   5"
+msgstr "   5"
+
+#: ../src/interface.c:375
+msgid "   10"
+msgstr "   10"
+
+# Igaz, hogy:
+# tasks > feladatok ÉS
+# task manager > feladatkezelő DE!
+#
+# Ebben a szövegkörnyezetben a folyamat elnevezés egyértelműbb, ezért ez használandó.
+#: ../src/interface.c:401
+msgid "Show user tasks"
+msgstr "Felhasználói folyamatok megjelenítése"
+
+# Igaz, hogy:
+# tasks > feladatok ÉS
+# task manager > feladatkezelő DE!
+#
+# Ebben a szövegkörnyezetben a folyamat elnevezés egyértelműbb, ezért ez használandó.
+#: ../src/interface.c:406
+msgid "Show root tasks"
+msgstr "Root folyamatok megjelenítése"
+
+# Igaz, hogy:
+# tasks > feladatok ÉS
+# task manager > feladatkezelő DE!
+#
+# Ebben a szövegkörnyezetben a folyamat elnevezés egyértelműbb, ezért ez használandó.
+#: ../src/interface.c:411
+msgid "Show other tasks"
+msgstr "Egyéb folyamatok megjelenítése"
+
+#: ../src/interface.c:416
+msgid "Show full cmdline"
+msgstr "Teljes cmdline megjelenítése"
+
+#: ../src/interface.c:421
+msgid "Show memory used by cache as free"
+msgstr "A gyorsítótár által használt memória megjelenítése szabadként"
+
+#: ../src/interface.c:453
+msgid ""
+"LXTask is derived from Xfce4 Task Manager by:\n"
+"  * Johannes Zellner <webmaster@nebulon.de>"
+msgstr ""
+"Az LXTask az Xfce4 feladatkezelőből lett kifejlesztve.\n"
+"Eredeti készítő: Johannes Zellner <webmaster@nebulon.de>"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/interface.c:458
+msgid "translator-credits"
+msgstr ""
+"Dvornik László <dvornik@gnome.hu>\n"
+"Szervác Attila <sas@321.hu>\n"
+"Gyönki Bendegúz <gyeben@gyeben.tk>"
+
+#: ../src/interface.c:467 ../src/interface.c:469
+msgid "LXTask"
+msgstr "LXTask"
+
+#: ../src/interface.c:473
+#, fuzzy
+msgid "Copyright (C) 2008-2025 LXDE team"
+msgstr "Copyright (C) 2008 LXDE csapat"
+
+#: ../src/interface.c:474
+msgid "Lightweight task manager for LXDE project"
+msgstr "Pehelysúlyú feladatkezelő az LXDE projekthez"
+
+#. TRANSLATORS: If it is customary, insert a space before the double percent sign.
+#: ../src/interface.c:521
+#, c-format
+msgid "%0.1f%%"
+msgstr "%0.1f %%"
+
+#: ../src/interface.c:717
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: ../src/interface.c:725
+msgid "General"
+msgstr "Általános"
+
+#: ../src/interface.c:726
+msgid "Refresh rate (seconds):"
+msgstr "Frissítési gyakoriság (másodperc):"
+
+#: ../src/utils.c:43
+msgid "Error"
+msgstr "Hiba"
+
+#: ../src/utils.c:56
+msgid "Confirm"
+msgstr "Megerősítés"

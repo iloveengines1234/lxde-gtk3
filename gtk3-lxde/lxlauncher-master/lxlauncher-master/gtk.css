@@ -1,0 +1,61 @@
+/* ==========================================================================
+   LXLauncher / Taskmanager Style Configuration (GTK 3.24.52 Production Engine)
+   ========================================================================== */
+
+/* --- Core View Blocks --- */
+viewport {
+    background-image: none;
+    /* Swapped theme macro for an explicit hex color to fix IDE parsing */
+    background-color: #f6f6f6; 
+}
+
+/* --- Primary Layout Architecture --- */
+notebook {
+    background-color: #4a82b5;
+}
+
+/* --- Container Sub-node Structural Overrides --- */
+notebook > header,
+notebook > stack,
+notebook > frame,
+notebook > box.vertical {
+    background-color: #B7D6EA;
+    
+    /* Hardened, broken-out explicit font configurations */
+    font-family: "Sans", "Cantarell", "Helvetica";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* --- Inactive / Unselected Labels Layout Mapping --- */
+notebook > header > tabs > tab label,
+notebook > box.horizontal label {
+    color: #B7D6EA;
+}
+
+/* --- Active / Selected State Interaction Map --- */
+notebook > header > tabs > tab:checked label,
+notebook > header > tabs > tab:selected label,
+notebook > box.horizontal:active label,
+notebook > box.horizontal:selected label {
+    color: #FFFFFF;
+}
+
+/* --- Default Layout Text Contrast Blocks --- */
+notebook > stack label,
+notebook > box.vertical label {
+    color: #3675AD;
+}
+
+/* --- Isolated Context Action Components --- */
+/* Scoped cleanly inside your launcher/task lists to prevent leaking text 
+   color parameter overrides into global confirmation modal dialog buttons */
+notebook button label,
+notebook box.horizontal button label {
+    color: #3675AD;
+}
+
+/* Provide clear visual focus tracking properties when interacting via keyboards */
+notebook button:hover label {
+    color: #FFFFFF;
+}

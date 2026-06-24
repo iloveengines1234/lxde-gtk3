@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Lxrandr package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxrandr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 16:06+0200\n"
+"PO-Revision-Date: 2014-12-05 10:28+0000\n"
+"Last-Translator: system user <>\n"
+"Language-Team: English UK en_GB\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1410630615.000000\n"
+
+#: ../src/lxrandr.c:87
+msgid "Laptop LCD Monitor"
+msgstr "Laptop LCD Monitor"
+
+#: ../src/lxrandr.c:89
+msgid "External VGA Monitor"
+msgstr "External VGA Monitor"
+
+#: ../src/lxrandr.c:89
+#, fuzzy
+msgid "VGA Monitor"
+msgstr "External VGA Monitor"
+
+#: ../src/lxrandr.c:91
+msgid "External DVI Monitor"
+msgstr "External DVI Monitor"
+
+#: ../src/lxrandr.c:91
+#, fuzzy
+msgid "DVI Monitor"
+msgstr "External DVI Monitor"
+
+#: ../src/lxrandr.c:93
+msgid "TV"
+msgstr "Television"
+
+#: ../src/lxrandr.c:95
+msgid "Default Monitor"
+msgstr "Default Monitor"
+
+#: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
+#: ../src/lxrandr.c:893
+msgid "Auto"
+msgstr "Auto"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:293
+msgid "translator-credits"
+msgstr "translator-credits"
+
+#: ../src/lxrandr.c:301
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#: ../src/lxrandr.c:304
+#, fuzzy
+msgid "Copyright (C) 2008-2025"
+msgstr "Copyright © 2008-2025"
+
+#: ../src/lxrandr.c:305
+msgid "Monitor configuration tool for LXDE"
+msgstr "Monitor configuration tool for LXDE"
+
+#: ../src/lxrandr.c:474
+msgid "LXRandR autostart"
+msgstr "LXRandR autostart"
+
+#: ../src/lxrandr.c:475
+msgid "Start xrandr with settings done in LXRandR"
+msgstr "Start xrandr with settings done in LXRandR"
+
+#: ../src/lxrandr.c:519
+msgid ""
+"Is everything OK? Confirm within 15 seconds, otherwise previous state will "
+"be restored."
+msgstr ""
+
+#: ../src/lxrandr.c:522
+msgid "_OK"
+msgstr ""
+
+#: ../src/lxrandr.c:523
+msgid "_Abort"
+msgstr ""
+
+#: ../src/lxrandr.c:652
+#, fuzzy
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessible without monitor."
+msgstr ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessible without monitor."
+
+#: ../src/lxrandr.c:673
+msgid "Configuration Saved"
+msgstr "Configuration Saved"
+
+#: ../src/lxrandr.c:701
+msgid "Unable to get monitor information!"
+msgstr "Unable to get monitor information!"
+
+#: ../src/lxrandr.c:707
+msgid "Display Settings"
+msgstr "Display Settings"
+
+#: ../src/lxrandr.c:742
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "Show the same screen on both laptop LCD and external monitor"
+
+#: ../src/lxrandr.c:747
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Turn off laptop LCD and use external monitor only"
+
+#: ../src/lxrandr.c:752
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Turn off external monitor and use laptop LCD only"
+
+#: ../src/lxrandr.c:757
+#, fuzzy
+msgid "Place external monitor to the right of laptop LCD"
+msgstr "Turn off external monitor and use laptop LCD only"
+
+#: ../src/lxrandr.c:762
+#, fuzzy
+msgid "Place external monitor above of laptop LCD"
+msgstr "Turn off external monitor and use laptop LCD only"
+
+#: ../src/lxrandr.c:766
+msgid "Quick Options"
+msgstr "Quick Options"
+
+#: ../src/lxrandr.c:775
+msgid "Advanced"
+msgstr "Advanced"
+
+#: ../src/lxrandr.c:779
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "The following monitor is detected:"
+msgstr[1] "The following monitors are detected:"
+
+#: ../src/lxrandr.c:831
+msgid "Turn On"
+msgstr "Turn On"
+
+#: ../src/lxrandr.c:845
+#, fuzzy
+msgid "Position:"
+msgstr "Resolution:"
+
+#: ../src/lxrandr.c:849 ../src/lxrandr.c:857
+#, fuzzy
+msgid "Default"
+msgstr "Default Monitor"
+
+#: ../src/lxrandr.c:850 ../src/lxrandr.c:858
+msgid "On right"
+msgstr ""
+
+#: ../src/lxrandr.c:851 ../src/lxrandr.c:859
+msgid "Above"
+msgstr ""
+
+#: ../src/lxrandr.c:852 ../src/lxrandr.c:860
+msgid "On left"
+msgstr ""
+
+#: ../src/lxrandr.c:853 ../src/lxrandr.c:861
+msgid "Below"
+msgstr ""
+
+#: ../src/lxrandr.c:869
+msgid "Resolution:"
+msgstr "Resolution:"
+
+#: ../src/lxrandr.c:880
+msgid "Refresh Rate:"
+msgstr "Refresh Rate:"
+
+#: ../data/lxrandr.desktop.in.h:1
+msgid "Monitor Settings"
+msgstr "Monitor Settings"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Change screen resolution and configure external monitors"
+
+#: ../data/lxrandr.desktop.in.h:3
+msgid ""
+"screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
+"disable;"
+msgstr ""

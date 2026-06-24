@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-21 15:23+0200\n"
+"PO-Revision-Date: 2010-03-19 09:38+0200\n"
+"Last-Translator: Gunleif <gunleif@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.1\n"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:1
+#, fuzzy
+#| msgid "Multimedia menu"
+msgid "Multimedia"
+msgstr "Margmiðla-valmynd"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:2
+#, fuzzy
+#| msgid "Graphics applications"
+msgid "Audio and video applications"
+msgstr "Teknindis nýtsluskipanir"
+
+#: ../desktop-directories/lxde-development.directory.in.h:1
+msgid "Development"
+msgstr ""
+
+#: ../desktop-directories/lxde-development.directory.in.h:2
+msgid "Tools for software development"
+msgstr "Amboð til ritbúnaðarmenning"
+
+#: ../desktop-directories/lxde-education.directory.in.h:1
+msgid "Education"
+msgstr "Útbúgving"
+
+#: ../desktop-directories/lxde-education.directory.in.h:2
+#, fuzzy
+#| msgid "Education"
+msgid "Educational software"
+msgstr "Útbúgving"
+
+#: ../desktop-directories/lxde-game.directory.in.h:1
+msgid "Games"
+msgstr "Spøl"
+
+#: ../desktop-directories/lxde-game.directory.in.h:2
+msgid "Games and amusements"
+msgstr "Spøl og skemt"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:1
+msgid "Graphics"
+msgstr "Teknindi"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:2
+msgid "Graphics applications"
+msgstr "Teknindis nýtsluskipanir"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:1
+msgid "Hardware"
+msgstr "Tólbúnaður"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:2
+msgid "Settings for several hardware devices"
+msgstr "Setingar fyri fleiri tólbúnðareindir"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:1
+msgid "Internet and Network"
+msgstr "Alnet og net"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:2
+msgid "Network-related settings"
+msgstr "Net tengdar setingar"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:1
+msgid "Look and Feel"
+msgstr "Útsjónd og atburður"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:2
+msgid "Settings controlling the desktop appearance and behavior"
+msgstr "Setingar ið stýra útsjónd og atburð á skriviborðinum"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:1
+msgid "Applications"
+msgstr "Nýtsluskipanir"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:2
+#, fuzzy
+#| msgid "Applications"
+msgid "Application Menu"
+msgstr "Nýtsluskipanir"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:1
+#: ../desktop-directories/lxde-system.directory.in.h:1
+msgid "System"
+msgstr "Kervi"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:2
+msgid "Personal preferences and administration settings"
+msgstr "Persónligar sertokkar og leiðslusetingar"
+
+#: ../desktop-directories/lxde-network.directory.in.h:1
+msgid "Internet"
+msgstr "Alnet"
+
+#: ../desktop-directories/lxde-network.directory.in.h:2
+#, fuzzy
+#| msgid "Programs for Internet access such as web and email"
+msgid "Programs for Internet access"
+msgstr "Forrit til alnetsatgongd, so sum alnet og t-post"
+
+#: ../desktop-directories/lxde-office.directory.in.h:1
+msgid "Office"
+msgstr "Skrivstova"
+
+#: ../desktop-directories/lxde-office.directory.in.h:2
+#, fuzzy
+#| msgid "Office Applications"
+msgid "Office applications"
+msgstr "Skrivstovu nýtsluskipanir"
+
+#: ../desktop-directories/lxde-other.directory.in.h:1
+msgid "Other"
+msgstr "Annað"
+
+#: ../desktop-directories/lxde-other.directory.in.h:2
+#, fuzzy
+#| msgid "Applications that did not fit in other categories"
+msgid "Applications that don't fit into other categories"
+msgstr "Nýtsluskipanir ið ikki passa í aðrar bólkar"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:1
+msgid "Personal"
+msgstr "Persónligt"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:2
+msgid "Personal settings"
+msgstr "Persónligar setingar"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:1
+msgid "Science & Math"
+msgstr ""
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:2
+msgid "Scientific and mathematical software"
+msgstr ""
+
+#: ../desktop-directories/lxde-science.directory.in.h:1
+msgid "Science"
+msgstr ""
+
+#: ../desktop-directories/lxde-science.directory.in.h:2
+msgid "Scientific software"
+msgstr ""
+
+#: ../desktop-directories/lxde-settings.directory.in.h:1
+msgid "Preferences"
+msgstr "Sertokkar"
+
+#: ../desktop-directories/lxde-settings.directory.in.h:2
+#, fuzzy
+#| msgid "Personal preferences"
+msgid "Desktop preferences"
+msgstr "Persónligar sertokkar"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:1
+msgid "Administration"
+msgstr "Leiðsla"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:2
+#, fuzzy
+#| msgid "Change system-wide settings (affects all users)"
+msgid "System-wide settings (affecting all users)"
+msgstr "Broyt alkervis setingar (ávirkar allar brúkarar)"
+
+#: ../desktop-directories/lxde-system.directory.in.h:2
+#, fuzzy
+#| msgid "System configuration and monitoring"
+msgid "System tools and monitoring"
+msgstr "Kervis samanseting og vøka"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:1
+msgid "Universal Access"
+msgstr "Algild atgongd"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:2
+msgid "Universal Access Settings"
+msgstr "Setingar fyri algilda atgongu"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:1
+msgid "Accessories"
+msgstr "Tilhoyr"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:2
+msgid "Desktop accessories"
+msgstr "Skriviborðs-tilhoyr"
+
+#~ msgid "Sound & Video"
+#~ msgstr "Ljóð og video"
+
+#~ msgid "Programming"
+#~ msgstr "Forritan"
+
+#~ msgid "System settings"
+#~ msgstr "Setingar á kervi"
+
+#~ msgid "System Tools"
+#~ msgstr "Kervis amboð"

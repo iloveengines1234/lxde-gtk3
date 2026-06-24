@@ -1,0 +1,801 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Warut Bunprasert <warut.b@disroot.org>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-31 13:41+0200\n"
+"PO-Revision-Date: 2025-12-17 20:05+0700\n"
+"Last-Translator: # Warut Bunprasert <warut.b@disroot.org>, 2025\n"
+"Language-Team: th <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../lxsession-logout/lxsession-logout.c:52
+msgid "Custom message to show on the dialog"
+msgstr "ข้อความที่กำหนดเองเพื่อแสดงในกล่องโต้ตอบ"
+
+#: ../lxsession-logout/lxsession-logout.c:52
+msgid "message"
+msgstr "ข้อความ"
+
+#: ../lxsession-logout/lxsession-logout.c:53
+msgid "Banner to show on the dialog"
+msgstr "แบนเนอร์เพื่อแสดงบนกล่องโต้ตอบ"
+
+#: ../lxsession-logout/lxsession-logout.c:53
+msgid "image file"
+msgstr "ไฟล์ภาพ"
+
+#: ../lxsession-logout/lxsession-logout.c:54
+msgid "Position of the banner"
+msgstr "ตำแหน่งของแบนเนอร์"
+
+#: ../lxsession-logout/lxsession-logout.c:55
+msgid "Hide button"
+msgstr "ปุ่มซ่อน"
+
+#: ../lxsession-logout/lxsession-logout.c:625
+#, c-format
+msgid "Error: %s\n"
+msgstr "ข้อผิดพลาด: %s\n"
+
+#: ../lxsession-logout/lxsession-logout.c:752
+#, c-format
+msgid "<b><big>Logout %s %s session?</big></b>"
+msgstr "<b><big>ออกจากวาระของ %s %s</big></b>"
+
+#: ../lxsession-logout/lxsession-logout.c:754
+#, c-format
+msgid "<b><big>Logout %s session?</big></b>"
+msgstr "<b><big>ออกจากวาระของ %s</big></b>"
+
+#: ../lxsession-logout/lxsession-logout.c:764
+msgid "Sh_utdown"
+msgstr "_ปิดเครื่อง"
+
+#: ../lxsession-logout/lxsession-logout.c:775
+msgid "_Reboot"
+msgstr "_รีบูต"
+
+#: ../lxsession-logout/lxsession-logout.c:786
+msgid "_Suspend"
+msgstr "_หยุดชั่วคราว"
+
+#: ../lxsession-logout/lxsession-logout.c:797
+msgid "_Hibernate"
+msgstr "_จำศีล"
+
+#: ../lxsession-logout/lxsession-logout.c:808
+msgid "S_witch User"
+msgstr "ผู้ใช้_สลับ"
+
+#: ../lxsession-logout/lxsession-logout.c:819
+msgid "L_ock Screen"
+msgstr "_ล็อคหน้าจอ"
+
+#. Create the Logout button.
+#: ../lxsession-logout/lxsession-logout.c:828
+msgid "_Logout"
+msgstr "_ออกจากระบบ"
+
+#: ../lxsession-edit/lxsession-edit-common.c:385
+msgid "Enabled"
+msgstr "เปิดใช้งานแล้ว"
+
+#: ../lxsession-edit/lxsession-edit-common.c:390
+msgid "Application"
+msgstr "แอปพลิเคชัน"
+
+#: ../lxpolkit/lxpolkit.c:44
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+#: ../lxpolkit/lxpolkit.c:47
+msgid "Information"
+msgstr "ข้อมูล"
+
+#: ../lxpolkit/main.vala:40
+msgid "lxpolkit is already running. Exiting"
+msgstr "lxpolkit กำลังทำงานอยู่ "
+
+#: ../lxpolkit/lxpolkit-listener.c:88
+msgid ""
+"Authentication failed!\n"
+"Wrong password?"
+msgstr "การตรวจสอบสิทธิ์ล้มเหลว!\nรหัสผ่านผิด?"
+
+#: ../lxpolkit/lxpolkit-listener.c:106
+msgid "Password: "
+msgstr "รหัสผ่าน:"
+
+#: ../lxpolkit/lxpolkit-listener.c:251
+#, c-format
+msgid "Group: %s"
+msgstr "กลุ่ม: %s"
+
+#: ../data/ui/lxsession-edit.ui.h:1
+msgctxt "Title"
+msgid "Desktop Session Settings"
+msgstr "การตั้งค่าเซสชันเดสก์ท็อป"
+
+#: ../data/ui/lxsession-edit.ui.h:2
+msgid "Applications automatically started after entering desktop:"
+msgstr "แอปพลิเคชันเริ่มต้นโดยอัตโนมัติหลังจากเข้าสู่เดสก์ท็อป:"
+
+#: ../data/ui/lxsession-edit.ui.h:3
+msgid "Automatically Started Applications"
+msgstr "แอปพลิเคชันที่เริ่มโดยอัตโนมัติ"
+
+#: ../data/ui/lxsession-edit.ui.h:4
+msgid "Window Manager:"
+msgstr "ตัวจัดการหน้าต่าง:"
+
+#: ../data/ui/lxsession-edit.ui.h:5
+msgid ""
+"Command line used to launch window manager\n"
+"(The default window manager command for LXDE should be openbox-lxde)"
+msgstr "บรรทัดคำสั่งที่ใช้ในการเปิดตัวจัดการหน้าต่าง\n(คำสั่งตัวจัดการหน้าต่างเริ่มต้นสำหรับ LXDE ควรเป็น openbox-lxde)"
+
+#: ../data/ui/lxsession-edit.ui.h:7
+msgid ""
+"<b>Warning:</b> Do <b>NOT</b> touch this unless you know exactly what you "
+"are doing.\n"
+"\n"
+"<b>NOTE:</b> This setting will take effect on next login."
+msgstr "<b>คำเตือน:</b> กรุณา <b>อย่า</b> แตะสิ่งนี้ เว้นแต่คุณจะรู้แน่ชัดว่าคุณกำลังทำอะไรอยู่\n\n<b>หมายเหตุ:</b> การตั้งค่านี้จะมีผลในการเข้าสู่ระบบครั้งถัดไป"
+
+#: ../data/ui/lxsession-edit.ui.h:10
+msgid "Advanced Options"
+msgstr "ตัวเลือกขั้นสูง"
+
+#: ../data/ui/lxpolkit.ui.h:1
+msgid "Authentication"
+msgstr "การรับรองความถูกต้อง"
+
+#: ../data/ui/lxpolkit.ui.h:2
+msgid "Identity:"
+msgstr "ตัวตน:"
+
+#: ../data/ui/lxsession-default-apps.ui.h:1
+msgid "File Manager"
+msgstr "ตัวจัดการไฟล์"
+
+#: ../data/ui/lxsession-default-apps.ui.h:2
+msgid "Reload"
+msgstr "โหลดซ้ำ"
+
+#: ../data/ui/lxsession-default-apps.ui.h:3
+msgid "More"
+msgstr "เพิ่มเติม"
+
+#: ../data/ui/lxsession-default-apps.ui.h:4
+msgid "Terminal manager"
+msgstr "โปรแกรมจัดการเทอร์มินัล"
+
+#: ../data/ui/lxsession-default-apps.ui.h:5
+msgid "Webbrowser"
+msgstr "เว็บเบราว์เซอร์"
+
+#: ../data/ui/lxsession-default-apps.ui.h:6
+msgid "Email"
+msgstr "อีเมล"
+
+#: ../data/ui/lxsession-default-apps.ui.h:7
+msgid "Communication 1"
+msgstr "การสื่อสาร 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:8
+msgid "Communication 2"
+msgstr "การสื่อสาร 2"
+
+#: ../data/ui/lxsession-default-apps.ui.h:9
+msgid "Widget 1"
+msgstr "วิดเจ็ต 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:10
+msgid "Launcher manager"
+msgstr "โปรแกรมจัดการตัวเรียกโปรแกรม"
+
+#: ../data/ui/lxsession-default-apps.ui.h:11
+msgid "Screenshot manager"
+msgstr "โปรแกรมจัดการภาพหน้าจอ"
+
+#: ../data/ui/lxsession-default-apps.ui.h:12
+msgid "PDF Reader"
+msgstr "โปรแกรมอ่าน PDF"
+
+#: ../data/ui/lxsession-default-apps.ui.h:13
+msgid "Video player"
+msgstr "โปรแกรมเล่นวิดีโอ"
+
+#: ../data/ui/lxsession-default-apps.ui.h:14
+msgid "Audio player"
+msgstr "โปรแกรมเล่นเสียง"
+
+#: ../data/ui/lxsession-default-apps.ui.h:15
+msgid "Image viewer"
+msgstr "โปรแกรมดูรูปภาพ"
+
+#: ../data/ui/lxsession-default-apps.ui.h:16
+msgid "Text editor"
+msgstr "โปรแกรมแก้ไขข้อความ"
+
+#: ../data/ui/lxsession-default-apps.ui.h:17
+msgid "Archive"
+msgstr "โปรแกรมบีบอัดไฟล์"
+
+#: ../data/ui/lxsession-default-apps.ui.h:18
+msgid "Charmap"
+msgstr "ชาร์แมป"
+
+#: ../data/ui/lxsession-default-apps.ui.h:19
+msgid "Calculator"
+msgstr "เครื่องคิดเลข"
+
+#: ../data/ui/lxsession-default-apps.ui.h:20
+msgid "Spreadsheet"
+msgstr "สเปรดชีต"
+
+#: ../data/ui/lxsession-default-apps.ui.h:21
+msgid "Bittorent"
+msgstr "Bittorent"
+
+#: ../data/ui/lxsession-default-apps.ui.h:22
+msgid "Document"
+msgstr "เอกสาร"
+
+#: ../data/ui/lxsession-default-apps.ui.h:23
+msgid "Webcam"
+msgstr "เว็บแคม"
+
+#: ../data/ui/lxsession-default-apps.ui.h:24
+msgid "Burning utility"
+msgstr "ยูทิลิตี้การเผาไหม้"
+
+#: ../data/ui/lxsession-default-apps.ui.h:25
+msgid "Notes utility"
+msgstr "ยูทิลิตี้บันทึกย่อ"
+
+#: ../data/ui/lxsession-default-apps.ui.h:26
+msgid "Disks utility"
+msgstr "ยูทิลิตี้ดิสก์"
+
+#: ../data/ui/lxsession-default-apps.ui.h:27
+msgid "Tasks monitor"
+msgstr "การตรวจสอบงาน"
+
+#: ../data/ui/lxsession-default-apps.ui.h:28
+msgid "Launching applications"
+msgstr "กำลังเรียกทำงานแอปพลิเคชัน"
+
+#: ../data/ui/lxsession-default-apps.ui.h:29
+msgid "Windows Manager"
+msgstr "ตัวจัดการวินโดวส์"
+
+#: ../data/ui/lxsession-default-apps.ui.h:30
+msgid "Panel"
+msgstr "พาเนล"
+
+#: ../data/ui/lxsession-default-apps.ui.h:31
+msgid "Dock"
+msgstr "แถบด็อก"
+
+#: ../data/ui/lxsession-default-apps.ui.h:32
+msgid "Composite Manager"
+msgstr "โปรแกรมจัดการคอมโพสิต"
+
+#: ../data/ui/lxsession-default-apps.ui.h:33
+msgid "Desktop Manager"
+msgstr "โปรแกรมจัดการเดสก์ท็อป"
+
+#: ../data/ui/lxsession-default-apps.ui.h:34
+msgid "Screensaver"
+msgstr "สกรีนเซฟเวอร์"
+
+#: ../data/ui/lxsession-default-apps.ui.h:35
+msgid "Power Manager"
+msgstr "โปรแกรมจัดการพลังงาน"
+
+#: ../data/ui/lxsession-default-apps.ui.h:36
+msgid "Polkit agent"
+msgstr "ตัวแทนโพลกิต"
+
+#: ../data/ui/lxsession-default-apps.ui.h:37
+msgid "Network GUI"
+msgstr "GUI เครือข่าย"
+
+#: ../data/ui/lxsession-default-apps.ui.h:38
+msgid "Lock screen manager"
+msgstr "โปรแกรมจัดการการล็อคหน้าจอ"
+
+#: ../data/ui/lxsession-default-apps.ui.h:39
+msgid "Audio manager"
+msgstr "โปรแกรมจัดการเสียง"
+
+#: ../data/ui/lxsession-default-apps.ui.h:40
+msgid "Workspace manager"
+msgstr "โปรแกรมจัดการพื้นที่ทำงาน"
+
+#: ../data/ui/lxsession-default-apps.ui.h:41
+msgid "Quit manager"
+msgstr "โปรแกรมจัดการออกจาก"
+
+#: ../data/ui/lxsession-default-apps.ui.h:42
+msgid "Upgrade manager"
+msgstr "โปรแกรมจัดการการอัพเกรด"
+
+#: ../data/ui/lxsession-default-apps.ui.h:43
+msgid "Clipboard manager"
+msgstr "โปรแกรมจัดการคลิปบอร์ด"
+
+#: ../data/ui/lxsession-default-apps.ui.h:44
+msgid "Security (keyring)"
+msgstr "ความปลอดภัย (พวงกุญแจ)"
+
+#: ../data/ui/lxsession-default-apps.ui.h:45
+msgid "A11y"
+msgstr "A11y"
+
+#: ../data/ui/lxsession-default-apps.ui.h:46
+msgid "Proxy"
+msgstr "Proxy"
+
+#: ../data/ui/lxsession-default-apps.ui.h:47
+msgid "Xrandr"
+msgstr "Xrandr"
+
+#: ../data/ui/lxsession-default-apps.ui.h:48
+msgid "Core applications"
+msgstr "แอปพลิเคชันหลัก"
+
+#: ../data/ui/lxsession-default-apps.ui.h:49
+msgid "Disable autostarted applications?"
+msgstr "ปิดใช้งานแอปพลิเคชันที่เริ่มอัตโนมัติหรือไม่"
+
+#: ../data/ui/lxsession-default-apps.ui.h:50
+msgid "<b>Settings</b>"
+msgstr "<b>การตั้งค่า</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:51
+msgid "<b>Manual autostarted applications</b>"
+msgstr "<b>แอปพลิเคชันที่เริ่มอัตโนมัติด้วยตนเอง</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:52
+msgid "<b>Known Applications </b>"
+msgstr "<b>แอปพลิเคชันที่รู้จัก </b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:53
+msgid "Autostart"
+msgstr "เริ่มต้นอัตโนมัติ"
+
+#: ../data/ui/lxsession-default-apps.ui.h:54
+msgid "Laptop mode"
+msgstr "โหมดแล็ปท็อป"
+
+#: ../data/ui/lxsession-default-apps.ui.h:55
+msgid "<b>General settings</b>"
+msgstr "<b>การตั้งค่าทั่วไป</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:56
+msgid "<b>Dbus</b>"
+msgstr "<b>ดีบัส</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:57
+msgid "Type"
+msgstr "ชนิด"
+
+#: ../data/ui/lxsession-default-apps.ui.h:58
+msgid "Menu prefix"
+msgstr "คำนำหน้าเมนู"
+
+#: ../data/ui/lxsession-default-apps.ui.h:59
+#: ../lxsession-default-apps/combobox.vala:168
+#: ../lxsession-default-apps/combobox.vala:284
+msgid "Apply"
+msgstr "เริ่มใช้"
+
+#: ../data/ui/lxsession-default-apps.ui.h:60
+msgid "<b>Environment</b>"
+msgstr "<b>สภาพแวดล้อม</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:61
+msgid "Mode"
+msgstr "โหมด"
+
+#: ../data/ui/lxsession-default-apps.ui.h:62
+msgid "Model"
+msgstr "แบบอย่าง"
+
+#: ../data/ui/lxsession-default-apps.ui.h:63
+msgid "Layout"
+msgstr "เค้าโครง"
+
+#: ../data/ui/lxsession-default-apps.ui.h:64
+msgid "Variant"
+msgstr "ตัวแปร"
+
+#: ../data/ui/lxsession-default-apps.ui.h:65
+msgid "Options"
+msgstr "ตัวเลือก"
+
+#: ../data/ui/lxsession-default-apps.ui.h:66
+msgid "<b>Keymap</b>"
+msgstr "<b>คีย์แมป</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:67
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: ../data/lxsession-edit.desktop.in.h:1
+msgid "Desktop Session Settings"
+msgstr "การตั้งค่าเซสชันเดสก์ท็อป"
+
+#: ../data/lxsession-edit.desktop.in.h:2
+msgid "Manage applications loaded in desktop session"
+msgstr "จัดการแอปพลิเคชันที่โหลดในเซสชันเดสก์ท็อป"
+
+#: ../data/lxsession-default-apps.desktop.in.h:1
+msgid "Default applications for LXSession"
+msgstr "แอปพลิเคชันเริ่มต้นสำหรับ LXSession"
+
+#: ../data/lxsession-default-apps.desktop.in.h:2
+msgid "Change the default applications on LXDE"
+msgstr "เปลี่ยนแอปพลิเคชันเริ่มต้นบน LXDE"
+
+#: ../data/lxpolkit.desktop.in.in.h:1
+msgid "LXPolKit"
+msgstr "LXPolKit"
+
+#: ../data/lxpolkit.desktop.in.in.h:2
+msgid "Policykit Authentication Agent"
+msgstr "ตัวแทนการตรวจสอบสิทธิ์ Policykit"
+
+#: ../lxsession-default-apps/main.vala:31
+msgid "Update lxsession database"
+msgstr "อัพเดตฐานข้อมูล lxsession"
+
+#. Widget content:
+#: ../lxsession-default-apps/main.vala:44
+msgid "The database is updating, please wait"
+msgstr "ฐานข้อมูลกำลังอัปเดต กรุณารอสักครู่"
+
+#: ../lxsession-default-apps/main.vala:98
+msgid "LXSession configuration"
+msgstr "การกำหนดค่า LXSession"
+
+#. Common string
+#: ../lxsession-default-apps/main.vala:158
+msgid ""
+"Manual Settings: Manually sets the command (you need to restart lxsession-"
+"default-apps to see the change)\n"
+msgstr "การตั้งค่าด้วยตนเอง: ตั้งค่าคำสั่งด้วยตนเอง (คุณต้องรีสตาร์ท lxsession-default-apps เพื่อดูการเปลี่ยนแปลง)\n"
+
+#: ../lxsession-default-apps/main.vala:159
+msgid "Session : specify the session\n"
+msgstr "เซสชัน : ระบุเซสชัน\n"
+
+#: ../lxsession-default-apps/main.vala:160
+msgid "Extra: Add an extra parameter to the launch option\n"
+msgstr "พิเศษ: เพิ่มพารามิเตอร์พิเศษให้กับตัวเลือกการเริ่ม\n"
+
+#: ../lxsession-default-apps/main.vala:161
+msgid ""
+"Mime association: Automatically associates mime types to this application?\n"
+msgstr "การเชื่อมโยง Mime: เชื่อมโยงประเภท mime กับแอปพลิเคชันนี้โดยอัตโนมัติหรือไม่\n"
+
+#: ../lxsession-default-apps/main.vala:162
+msgid ""
+"Available applications : Applications of this type available on your "
+"repositories\n"
+msgstr "แอปพลิเคชันที่มีให้บริการ : แอปพลิเคชันประเภทนี้มีอยู่ในที่เก็บของคุณ\n"
+
+#: ../lxsession-default-apps/main.vala:163
+msgid "Handle Desktop: Draw the desktop using the file manager?\n"
+msgstr "จัดการเดสก์ท็อป: วาดเดสก์ท็อปโดยใช้ตัวจัดการไฟล์หรือไม่\n"
+
+#: ../lxsession-default-apps/main.vala:164
+msgid "Autostart the application?\n"
+msgstr "เริ่มต้นแอปพลิเคชันอัตโนมัติหรือไม่\n"
+
+#: ../lxsession-default-apps/main.vala:165
+msgid ""
+"Set default program for Debian system (using update-alternatives, need root "
+"password)\n"
+msgstr "ตั้งค่าโปรแกรมเริ่มต้นสำหรับระบบ Debian (โดยใช้ทางเลือกในการอัปเดต ต้องใช้รหัสผ่านรูท)\n"
+
+#. New inits
+#: ../lxsession-default-apps/main.vala:168
+msgid ""
+"Windows manager draws and manage the windows. \n"
+"You can choose openbox, openbox-custom (for a custom openbox configuration, "
+"see \"More\"), kwin, compiz ..."
+msgstr "ตัวจัดการ Windows ดึงและจัดการหน้าต่าง \n คุณสามารถเลือก (สำหรับการตั้งค่า openbox แบบกำหนดเอง "
+"ให้ศึกษาที่ \"เพิ่มเติม\"), kwin, compiz ..."
+
+#: ../lxsession-default-apps/main.vala:173
+msgid ""
+"Panel is the component usually at the bottom of the screen which manages a "
+"list of opened windows, shortcuts, notification area ..."
+msgstr "พาเนลเป็นส่วนประกอบซึ่งโดยปกติจะอยู่ที่ด้านล่างของหน้าจอซึ่งจัดการรายการหน้าต่างที่เปิดอยู่ ทางลัด พื้นที่แจ้งเตือน ..."
+
+#: ../lxsession-default-apps/main.vala:178
+msgid ""
+"Dock is a second panel. It's used to launch a different program to handle a "
+"second type of panel."
+msgstr "แบบด็อกเป็นพาเนลที่สอง สำหรับการเรียกใช้โปรแกรมที่แตกต่างออกไป ที่ได้จัดไว้ในพาเนลอีกที่หนึ่ง"
+
+#: ../lxsession-default-apps/main.vala:183
+msgid ""
+"File manager is the component which open the files.\n"
+"See \"More\" to add options to handle the desktop, or opening files "
+msgstr "ตัวจัดการไฟล์เป็นส่วนประกอบที่ใช้เปิดไฟล์\nดู \"เพิ่มเติม\" เพื่อเพิ่มตัวเลือกในการจัดการเดสก์ท็อปหรือเปิดไฟล์"
+
+#: ../lxsession-default-apps/main.vala:188
+msgid ""
+"Composite manager enables graphics effects, like transparency and shadows, "
+"if the windows manager doesn't handle it. \n"
+"Example: compton"
+msgstr "โปรแกรมจัดการคอมโพสิต จะเปิดใช้งานเอฟเฟกต์กราฟิก เช่น ความโปร่งใสและเงา หากตัวจัดการหน้าต่างไม่สามารถจัดการได้ เช่น compton"
+
+#: ../lxsession-default-apps/main.vala:193
+msgid ""
+"Desktop manager draws the desktop and manages the icons inside it.\n"
+"You can manage it with the file manager by setting \"filemanager\""
+msgstr "ตัวจัดการเดสก์ท็อปจะดึงเดสก์ท็อปและจัดการไอคอนภายในนั้น\nคุณสามารถจัดการได้ด้วยตัวจัดการไฟล์โดยการตั้งค่า \"ตัวจัดการไฟล์\""
+
+#: ../lxsession-default-apps/main.vala:195
+msgid "Wallpaper: Set an image path to draw the wallpaper"
+msgstr "วอลเปเปอร์: กำหนดเส้นทางรูปภาพเพื่อวาดวอลเปเปอร์"
+
+#: ../lxsession-default-apps/main.vala:198
+msgid ""
+"Screensaver is a program which displays animations when your computer is idle"
+msgstr "สกรีนเซฟเวอร์เป็นโปรแกรมที่แสดงภาพเคลื่อนไหวเมื่อคอมพิวเตอร์ของคุณไม่ได้ใช้งาน"
+
+#: ../lxsession-default-apps/main.vala:203
+msgid ""
+"Power Manager helps you to reduce the usage of batteries. You probably don't "
+"need one if you have a desktop computer.\n"
+"Auto option will set it automatically, depending of the laptop mode option."
+msgstr "โปรแกรมจัดการพลังงาน ช่วยให้คุณลดการใช้แบตเตอรี่ คุณอาจไม่จำเป็นต้องใช้หากคอมพิวเตอร์ของคุณมีการตั้งค่าพลังงานแบบอัตโนมัติอยู่แล้ว"
+
+#: ../lxsession-default-apps/main.vala:208
+msgid ""
+"Polkit agent provides authorisations to use some actions, like suspend, "
+"hibernate, using Consolekit ... It's not advised to make it blank."
+msgstr "ตัวแทน Polkit ให้สิทธิ์ในการใช้การกระทำบางอย่าง เช่น หยุดชั่วคราว จำศีล สำหรับการใช้ Consolekit ... ไม่แนะนำให้เว้นว่างไว้"
+
+#: ../lxsession-default-apps/main.vala:213
+msgid "Set an utility to manager connections, such as nm-applet"
+msgstr "ตั้งค่ายูทิลิตี้ให้กับการเชื่อมต่อของโปรแกรมจัดการ เช่น nm-applet"
+
+#: ../lxsession-default-apps/main.vala:218
+msgid "Use a communication software (an IRC client, an IM client ...)"
+msgstr "ใช้ซอฟต์แวร์การสื่อสาร (ไคลเอนต์ IRC, ไคลเอนต์ IM ... )"
+
+#: ../lxsession-default-apps/main.vala:223
+msgid "Use another communication software (an IRC client, an IM client ...)"
+msgstr "ใช้ซอฟต์แวร์การสื่อสารอื่น (ไคลเอนต์ IRC, ไคลเอนต์ IM ... )"
+
+#: ../lxsession-default-apps/main.vala:228
+msgid "Terminal by default to launch command line."
+msgstr "เทอร์มินัลโดยค่าเริ่มต้นเพื่อเปิดบรรทัดคำสั่ง"
+
+#: ../lxsession-default-apps/main.vala:233
+msgid "Application to go to Internet, Google, Facebook, debian.org ..."
+msgstr "แอปพลิเคชันเพื่อเข้าสู่อินเทอร์เน็ต, Google, Facebook, debian.org ..."
+
+#: ../lxsession-default-apps/main.vala:238
+msgid "Application to send mails"
+msgstr "แอปพลิเคชันต์ใช้ในการส่งจดหมาย"
+
+#: ../lxsession-default-apps/main.vala:243
+msgid "Utility to launch gadgets, like conky, screenlets ..."
+msgstr "ยูทิลิตี้สำหรับเรียกใช้ Gadget เช่น conky, screenlets ..."
+
+#: ../lxsession-default-apps/main.vala:248
+msgid ""
+"Utility to launch application, like synapse, kupfer ... \n"
+"For using lxpanel or lxde default utility, use \"lxpanelctl\" "
+msgstr "ยูทิลิตี้เพื่อเปิดแอปพลิเคชัน เช่น synapse, kupfer ... \nสำหรับการใช้ยูทิลิตี้เริ่มต้น lxpanel หรือ lxde ให้ใช้ \"lxpanelctl\""
+
+#: ../lxsession-default-apps/main.vala:253
+msgid "Application for taking screeshot of your desktop, like scrot ..."
+msgstr "แอปพลิเคชันสำหรับถ่ายภาพหน้าจอเดสก์ท็อปของคุณ เช่น scrot ..."
+
+#: ../lxsession-default-apps/main.vala:258
+msgid "Viewer for PDF, like evince"
+msgstr "โปรแกรมดู PDF เช่น evince"
+
+#: ../lxsession-default-apps/main.vala:263
+msgid "Video application"
+msgstr "แอปพลิเคชันวิดีโอ"
+
+#: ../lxsession-default-apps/main.vala:268
+msgid "Audio application"
+msgstr "แอปพลิเคชันเสียง"
+
+#: ../lxsession-default-apps/main.vala:273
+msgid "Application to display images"
+msgstr "แอพพลิเคชั่นแสดงภาพ"
+
+#: ../lxsession-default-apps/main.vala:278
+msgid "Application to edit text"
+msgstr "แอปพลิเคชันแก้ไขข้อความ"
+
+#: ../lxsession-default-apps/main.vala:283
+msgid "Application to create archives, like file-roller"
+msgstr "แอปพลิเคชันสำหรับสร้างไฟล์เก็บถาวรเช่น file-roller"
+
+#: ../lxsession-default-apps/main.vala:288
+msgid "Charmap application"
+msgstr "แอปพลิเคชัน Charmap"
+
+#: ../lxsession-default-apps/main.vala:293
+msgid "Calculator application"
+msgstr "แอพพลิเคชั่นเครื่องคิดเลข"
+
+#: ../lxsession-default-apps/main.vala:298
+msgid "Application to create spreedsheet, like gnumeric"
+msgstr "แอปพลิเคชันสำหรับสร้างสเปรดชีต เช่น gnumeric"
+
+#: ../lxsession-default-apps/main.vala:303
+msgid "Application to manage bittorent, like transmission"
+msgstr "แอปพลิเคชันสำหรับจัดการ BitTorrent เช่นการส่งข้อมูล"
+
+#: ../lxsession-default-apps/main.vala:308
+msgid "Application to manage office text, like abiword"
+msgstr "แอปพลิเคชันสำหรับจัดการข้อความในสำนักงานเช่น abiword"
+
+#: ../lxsession-default-apps/main.vala:313
+msgid "Application to manage webcam"
+msgstr "แอปพลิเคชันเพื่อจัดการเว็บแคม"
+
+#: ../lxsession-default-apps/main.vala:318
+msgid "Application to manage burning CD/DVD utilty "
+msgstr "แอปพลิเคชันสำหรับจัดการอรรถประโยชน์การเบิร์นซีดี/ดีวีดี"
+
+#: ../lxsession-default-apps/main.vala:323
+msgid "Application to manage notes utility"
+msgstr "แอปพลิเคชันเพื่อจัดการยูทิลิตี้บันทึกย่อ"
+
+#: ../lxsession-default-apps/main.vala:328
+msgid "Application to manage disks"
+msgstr "แอปพลิเคชันเพื่อจัดการดิสก์"
+
+#: ../lxsession-default-apps/main.vala:333
+msgid "Application to monitor tasks running on your system"
+msgstr "แอปพลิเคชันสำหรับตรวจสอบงานที่ทำงานบนระบบของคุณ"
+
+#: ../lxsession-default-apps/main.vala:338
+msgid "Application to lock your screen"
+msgstr "แอปพลิเคชันล็อคหน้าจอของคุณ"
+
+#: ../lxsession-default-apps/main.vala:343
+msgid "Managing your audio configuration"
+msgstr "การจัดการการกำหนดค่าเสียงของคุณ"
+
+#: ../lxsession-default-apps/main.vala:348
+msgid "Managing your workspace configuration"
+msgstr "การจัดการการกำหนดค่าพื้นที่ทำงานของคุณ"
+
+#: ../lxsession-default-apps/main.vala:353
+msgid "Managing the application to quit your session"
+msgstr "การจัดการแอปพลิเคชันเพื่อออกจากเซสชันของคุณ"
+
+#: ../lxsession-default-apps/main.vala:358
+msgid "Managing the application to update and upgrade your system"
+msgstr "การจัดการแอปพลิเคชันเพื่ออัปเดตและอัปเกรดระบบของคุณ"
+
+#: ../lxsession-default-apps/main.vala:363
+msgid "Managing clipboard support"
+msgstr "การจัดการการสนับสนุนคลิปบอร์ด"
+
+#: ../lxsession-default-apps/main.vala:368
+msgid ""
+"Managing keyring support.\n"
+"Standard options available \"gnome\" for gnome-keyring support  or \"ssh-"
+"agent\" for ssh-agent support"
+msgstr "การจัดการการสนับสนุนพวงกุญแจ\nมีตัวเลือกมาตรฐาน \"gnome\" สำหรับการสนับสนุน gnome-keyring หรือ \"ssh-agent\" สำหรับการสนับสนุน ssh-agent"
+
+#: ../lxsession-default-apps/main.vala:373
+msgid ""
+"Managing support for accessibility.\n"
+"Stardart option are gnome, for stardart gnome support."
+msgstr "การจัดการการสนับสนุนสำหรับการเข้าถึง\nตัวเลือก Stardart คือ gnome สำหรับการสนับสนุน stardart gnome"
+
+#: ../lxsession-default-apps/main.vala:378
+msgid "Managing proxy support"
+msgstr "การจัดการการสนับสนุนพร็อกซี"
+
+#: ../lxsession-default-apps/main.vala:383
+msgid "Managing XRandr parameters. Use a command like xrandr --something"
+msgstr "การจัดการพารามิเตอร์ XRandr "
+
+#: ../lxsession-default-apps/combobox.vala:145
+msgid "Manual setting"
+msgstr "การตั้งค่าด้วยตนเอง"
+
+#: ../lxsession-default-apps/combobox.vala:165
+msgid "Mime Association"
+msgstr "การจับคู่ไฟล์และโปรแกรม"
+
+#: ../lxsession-default-apps/combobox.vala:194
+msgid "Available applications"
+msgstr "แอปพลิเคชันที่มี"
+
+#: ../lxsession-default-apps/combobox.vala:240
+msgid "Autostart the application?"
+msgstr "เริ่มแอปพลิเคชันอัตโนมัติหรือไม่"
+
+#: ../lxsession-default-apps/combobox.vala:261
+msgid "Handle the desktop with it?"
+msgstr "จัดการกับเดสก์ท็อปด้วยเหรอ?"
+
+#: ../lxsession-default-apps/combobox.vala:281
+msgid "Set debian default programs"
+msgstr "ตั้งค่าโปรแกรมเริ่มต้นของเดเบียน"
+
+#: ../lxsession-default-apps/combobox.vala:425
+msgid "Disable"
+msgstr "ปิดการใช้งาน"
+
+#: ../lxsession-default-apps/combobox.vala:564
+msgid "Do you want to associate the following Mimetype?\n"
+msgstr "คุณต้องการเชื่อมโยง Mimetype ต่อไปนี้หรือไม่\n"
+
+#: ../lxsession-default-apps/combobox.vala:612
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: ../lxsession/app.vala:1273
+msgid "Reboot required"
+msgstr "จำเป็นต้องรีบูต"
+
+#: ../lxsession/app.vala:1301
+msgid "Reboot"
+msgstr "รีบูต"
+
+#: ../lxsession/app.vala:1341
+msgid "Launch language support"
+msgstr "เปิดตัวรองรับภาษา"
+
+#: ../lxsession/app.vala:1374
+msgid "Language support missing"
+msgstr "ขาดการสนับสนุนด้านภาษา"
+
+#: ../lxsession/app.vala:1416 ../lxsession/app.vala:1520
+msgid "Updates available"
+msgstr "มีการอัปเดต"
+
+#: ../lxsession/app.vala:1418
+msgid "Launch Update Manager"
+msgstr "เปิดตัวจัดการการอัปเดต"
+
+#: ../lxsession/app.vala:1493
+msgid ""
+"An error occurred, please run Package Manager from the left-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr "เกิดข้อผิดพลาด โปรดเรียกใช้ Package Manager จากเมนูคลิกซ้ายหรือ apt-get ในเทอร์มินัลเพื่อดูว่ามีอะไรผิดปกติ"
+
+#: ../lxsession/app.vala:1496
+msgid "The error message was: "
+msgstr "ข้อความแสดงข้อผิดพลาดคือ:"
+
+#: ../lxsession/app.vala:1516
+msgid " Update available"
+msgstr "การอัปเดตพร้อมใช้งาน"
+
+#: ../lxsession/app.vala:1866
+msgid "Report "
+msgstr "รายงาน"
+
+#: ../lxsession/app.vala:1903
+msgid "Crash files available for report"
+msgstr "ไฟล์ข้อขัดข้องพร้อมสำหรับรายงาน"

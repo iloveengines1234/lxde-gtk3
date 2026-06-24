@@ -1,0 +1,66 @@
+# Modernized GLIB C Unit Test Target Declarations 
+# Purged obsolete gtester/gtester-report reliance to support GLib >= 2.88.1.
+
+NULL =
+
+# Initialize variables safely for unconditional += appending across the project
+EXTRA_DIST =
+TEST_PROGS =
+
+### Testing Rules
+
+# test: Run all unit tests recursively in current directory and subdirectories
+test: test-nonrecursive
+	@for subdir in $(SUBDIRS) . ; do \
+		test "$$subdir" = "." -o "$$subdir" = "po" || \
+		( cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $@ ) || exit $$? ; \
+	done
+
+# test-nonrecursive: Safely invoke standard GTest compiled binaries directly
+test-nonrecursive: ${TEST_PROGS}
+	@test -z "${TEST_PROGS}" || { \
+		for tprog in ${TEST_PROGS}; do \
+			echo "Running modern unit test: $$tprog"; \
+			MALLOC_CHECK_=2 \
+			MALLOC_PERTURB_=$$(( $${RANDOM:-256} % 256 )) \
+			./$$tprog --verbose || exit $$?; \
+		done; \
+	}
+
+# test-report / full-report: Kept for structural compatibility.
+# Natively forces a verbose tap run instead of relying on the dead gtester engine.
+test-report perf-report full-report: ${TEST_PROGS}
+	@test -z "${TEST_PROGS}" || { \
+		for tprog in ${TEST_PROGS}; do \
+			echo "Generating Test Report for: $$tprog"; \
+			./$$tprog --verbose --tap || exit $$?; \
+		done; \
+	}
+	@for subdir in $(SUBDIRS) . ; do \
+		test "$$subdir" = "." -o "$$subdir" = "po" || \
+		( cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $@ ) || exit $$? ; \
+	done
+
+.PHONY: test test-report perf-report full-report test-nonrecursive
+
+### Code Coverage Integration Rules (lcov)
+
+.PHONY: lcov genlcov lcov-clean
+
+lcov:
+	-$(MAKE) $(AM_MAKEFLAGS) -k check
+	$(MAKE) $(AM_MAKEFLAGS) genlcov
+
+# Modernized to correctly handle libtool hidden object placement (.libs/)
+genlcov:
+	rm -f $(top_builddir)/tests/.libs/libmoduletestplugin_*.gcda
+	$(LTP) --directory $(top_builddir) --capture --output-file glib-lcov.info --test-name GLIB_PERF --no-checksum --compat-libtool
+	LANG=C $(LTP_GENHTML) --prefix $(top_builddir) --output-directory glib-lcov --title "GLib Code Coverage" --legend --show-details glib-lcov.info
+
+lcov-clean:
+	-$(LTP) --directory $(top_builddir) -z
+	-rm -rf glib-lcov.info glib-lcov
+	-find . -name '*.gcda' -print | xargs rm -f
+
+# Automatically map local validation tasks during standard 'make check' invocations
+check-local: test-nonrecursive

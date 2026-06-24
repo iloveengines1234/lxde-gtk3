@@ -1,0 +1,436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lxmusic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-25 14:00+0200\n"
+"PO-Revision-Date: 2015-05-01 19:59+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
+"Language-Team: Basque <alainmendi@gmail.com>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1430510372.000000\n"
+
+#: ../src/lxmusic.c:263
+msgid "Official icon of xmms2 by Arnaud DIDRY"
+msgstr "xmm2-ren ikono ofiziala. Egilea: Arnaud DIDRY"
+
+#: ../src/lxmusic.c:272
+#, fuzzy
+#| msgid ""
+#| "Music Player for LXDE\n"
+#| "Simple GUI XMMS2 client"
+msgid ""
+"Music Player for LXDE\n"
+"Simple XMMS2 GUI client"
+msgstr ""
+"LXDE-rentzako musika erreproduzitzailea\n"
+"XMMS2-ren GUI bezero sinplea"
+
+#: ../src/lxmusic.c:434
+#, fuzzy
+#| msgid "_Show Main Window"
+msgid "Show Main Window"
+msgstr "_Erakutsi leiho nagusia"
+
+#. default
+#: ../src/lxmusic.c:496 ../src/utils.c:103 ../data/lxmusic.desktop.in.h:1
+#: ../data/lxmusic.ui.glade.h:25
+msgid "LXMusic"
+msgstr "LXMusic"
+
+#: ../src/lxmusic.c:755
+msgid "Bitrate: "
+msgstr "Bit-emaria: "
+
+#: ../src/lxmusic.c:1062
+msgid "Audio Files"
+msgstr "Audio-fitxategiak"
+
+#: ../src/lxmusic.c:1067
+msgid "All Files"
+msgstr "Fitxategi guztiak"
+
+#: ../src/lxmusic.c:1094
+msgid "Input a URL"
+msgstr "Sartu URL bat"
+
+#: ../src/lxmusic.c:1328 ../src/lxmusic.c:1923
+msgid "Now Playing:"
+msgstr "Orain erreproduzitzen:"
+
+#. metadata available
+#: ../src/lxmusic.c:1539 ../data/lxmusic.ui.glade.h:5
+#: ../src/lxmusic-notify.c:83
+msgid "Artist"
+msgstr "Artista"
+
+#: ../src/lxmusic.c:1547 ../data/lxmusic.ui.glade.h:6
+msgid "Album"
+msgstr "Albuma"
+
+#: ../src/lxmusic.c:1555 ../src/lxmusic-notify.c:84
+msgid "Title"
+msgstr "Izenburua"
+
+#: ../src/lxmusic.c:1561
+msgid "Length"
+msgstr "Iraupena"
+
+#: ../src/lxmusic.c:1728
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: ../src/lxmusic.c:1850
+msgid "Pause"
+msgstr "Pausatu"
+
+#: ../src/lxmusic.c:1864
+msgid "Play"
+msgstr "Erreproduzitu"
+
+#: ../src/lxmusic.c:2417
+msgid "Create new playlist"
+msgstr "Sortu erreprodukzio-zerrenda berria"
+
+#: ../src/utils.c:81
+msgid "Error"
+msgstr "Errorea"
+
+#. alsa use:
+#: ../src/lxmusic-plugin-config.c:17
+msgid "Advanced Linux Sound Architecture"
+msgstr "Linux soinu-arkitektura aurreratua"
+
+#: ../src/lxmusic-plugin-config.c:18 ../src/lxmusic-plugin-config.c:23
+#: ../src/lxmusic-plugin-config.c:28
+msgid "Device:"
+msgstr "Gailua:"
+
+#: ../src/lxmusic-plugin-config.c:19 ../src/lxmusic-plugin-config.c:24
+msgid "Mixer:"
+msgstr "Nahasgailua:"
+
+#. oss
+#: ../src/lxmusic-plugin-config.c:22
+msgid "Open Sound System"
+msgstr "Open Sound System"
+
+#. ao
+#: ../src/lxmusic-plugin-config.c:27
+msgid "Cross-platform audio output library"
+msgstr "Audio irteera liburutegi plataforma-anitza"
+
+#. pulse
+#: ../src/lxmusic-plugin-config.c:31
+msgid "PulseAudio"
+msgstr "PulseAudio"
+
+#: ../src/lxmusic-plugin-config.c:32
+msgid "Name:"
+msgstr "Izena:"
+
+#: ../src/lxmusic-plugin-config.c:33 ../src/lxmusic-plugin-config.c:38
+msgid "Server:"
+msgstr "Zerbitzaria:"
+
+#: ../src/lxmusic-plugin-config.c:34
+msgid "Sink:"
+msgstr "Putzua:"
+
+#. airtunes
+#: ../src/lxmusic-plugin-config.c:37
+msgid "AirTunes"
+msgstr "AirTunes"
+
+#. jack
+#: ../src/lxmusic-plugin-config.c:41
+msgid "JACK Audio Connection Kit"
+msgstr "JACK audio konexioaren tresna-jokoa"
+
+#: ../src/lxmusic-plugin-config.c:43
+msgid "Disk Writer"
+msgstr "Disko-idazlea"
+
+#: ../src/lxmusic-plugin-config.c:44
+msgid "Destination Directory:"
+msgstr "Helburuko direktorioa:"
+
+#: ../data/lxmusic.desktop.in.h:2
+msgid "Music Player"
+msgstr "Musika erreproduzitzailea"
+
+#: ../data/lxmusic.desktop.in.h:3
+msgid "Play your music files easily"
+msgstr "Erreproduzitu zure musika-fitxategiak modu errazean"
+
+#: ../data/lxmusic.ui.glade.h:1
+msgid "No Repeat"
+msgstr "Ez errepikatu"
+
+#: ../data/lxmusic.ui.glade.h:2
+msgid "Repeat Current"
+msgstr "Errepikatu unekoa"
+
+#: ../data/lxmusic.ui.glade.h:3
+msgid "Repeat All"
+msgstr "Errepikatu guztiak"
+
+#: ../data/lxmusic.ui.glade.h:4
+msgid "All"
+msgstr "Guztiak"
+
+#: ../data/lxmusic.ui.glade.h:7
+msgid "Track Name"
+msgstr "Pistaren izena"
+
+#: ../data/lxmusic.ui.glade.h:8
+msgid "_File"
+msgstr "_Fitxategia"
+
+#: ../data/lxmusic.ui.glade.h:9
+#, fuzzy
+#| msgid "File Properties"
+msgctxt "menu"
+msgid "File Properties"
+msgstr "Fitxategiaren propietateak"
+
+#: ../data/lxmusic.ui.glade.h:10
+msgid "_Playlist"
+msgstr "_Erreprodukzio-zerrenda"
+
+#: ../data/lxmusic.ui.glade.h:11
+msgid "_Switch To Playlist"
+msgstr "_Aldatu erreprodukzio-zerrendara"
+
+#: ../data/lxmusic.ui.glade.h:12
+msgid "_Locate Currently Played"
+msgstr "_Aurkitu unean erreproduzitutakoa"
+
+#: ../data/lxmusic.ui.glade.h:13
+msgid "Add To Playlist"
+msgstr "Gehitu erreprodukzio-zerrendara"
+
+#: ../data/lxmusic.ui.glade.h:14
+msgid "Add Files or Folders"
+msgstr "Gehitu fitxategiak edo karpetak"
+
+#: ../data/lxmusic.ui.glade.h:15
+msgid "Add URL"
+msgstr "Gehitu URLa"
+
+#: ../data/lxmusic.ui.glade.h:16
+msgid "Remove From Playlist"
+msgstr "Ezabatu erreprodukzio-zerrendatik"
+
+#: ../data/lxmusic.ui.glade.h:17
+msgid "Remove Selected Items"
+msgstr "Ezabatu hautatutako elementuak"
+
+#: ../data/lxmusic.ui.glade.h:18
+msgid "Remove All Items"
+msgstr "Ezabatu elementu guztiak"
+
+#: ../data/lxmusic.ui.glade.h:19
+msgid "Create _New Playlist"
+msgstr "_Sortu erreprodukzio-zerrenda berria"
+
+#: ../data/lxmusic.ui.glade.h:20
+msgid "_Delete Current Playlist"
+msgstr "_Ezabatu uneko erreprodukzio-zerrenda"
+
+#: ../data/lxmusic.ui.glade.h:21
+msgid "_View"
+msgstr "_Ikusi"
+
+#: ../data/lxmusic.ui.glade.h:22
+msgid "Show Playlist"
+msgstr "Erakutsi erreprodukzio-zerrenda"
+
+#: ../data/lxmusic.ui.glade.h:23
+msgid "_Tools"
+msgstr "_Tresnak"
+
+#: ../data/lxmusic.ui.glade.h:24
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: ../data/lxmusic.ui.glade.h:26
+msgid "Previous"
+msgstr "Aurrekoa"
+
+#: ../data/lxmusic.ui.glade.h:27
+msgid "Play/Pause"
+msgstr "Erreproduzitu/Pausatu"
+
+#: ../data/lxmusic.ui.glade.h:28
+msgid "Stop"
+msgstr "Gelditu"
+
+#: ../data/lxmusic.ui.glade.h:29
+msgid "Next"
+msgstr "Hurrengoa"
+
+#: ../data/lxmusic.ui.glade.h:30
+msgid "Current Playlist"
+msgstr "Uneko erreprodukzio-zerrenda"
+
+#: ../data/lxmusic.ui.glade.h:31
+msgid "Favorites"
+msgstr "Gogokoak"
+
+#: ../data/lxmusic.ui.glade.h:32
+msgid "Media Library"
+msgstr "Multimedia liburutegia"
+
+#: ../data/lxmusic.ui.glade.h:33
+msgid "Add files to the playlist"
+msgstr "Gehitu fitxategiak erreprodukzio-zerrendara"
+
+#: ../data/lxmusic.ui.glade.h:34
+msgid "Remove items from the playlist"
+msgstr "Kendu elementuak erreprodukzio-zerrendatik"
+
+#: ../data/lxmusic.ui.glade.h:35
+msgid "Locate currently played track"
+msgstr "Aurkitu unean erreproduzitutako pista"
+
+#: ../data/lxmusic.ui.glade.h:36
+msgid "Filter:"
+msgstr "Iragazkia:"
+
+#: ../data/lxmusic.ui.glade.h:37
+msgid "Enter keyword here"
+msgstr "Sartu gako-hitza hemen"
+
+#: ../data/pref-dlg.ui.glade.h:1
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: ../data/pref-dlg.ui.glade.h:2
+msgid "Show system tray icon"
+msgstr "Erakutsi sistemaren erretiluko ikonoa"
+
+#: ../data/pref-dlg.ui.glade.h:3
+msgid "Minimize to system tray on close"
+msgstr "Itxitakoan sistemaren erretilura minimizatu"
+
+#: ../data/pref-dlg.ui.glade.h:4
+msgid ""
+"Music files can be played without graphical user interface to save system "
+"resources"
+msgstr ""
+"Musika fitxategiak ingurune grafikorik gabe erreproduzitu daitezke "
+"sistemaren baliabideak gutxiago erabiltzeko"
+
+#: ../data/pref-dlg.ui.glade.h:5
+msgid "Continue playback in background after exiting LXMusic"
+msgstr "Jarraitu atzeko planoan erreproduzitzen LXMusic itxi ondoren"
+
+#: ../data/pref-dlg.ui.glade.h:6
+msgid "General"
+msgstr "Orokorra"
+
+#: ../data/pref-dlg.ui.glade.h:7
+msgid "Plugin: "
+msgstr "Plugina: "
+
+#: ../data/pref-dlg.ui.glade.h:8
+msgid "Buffer Size: "
+msgstr "Bufferraren tamaina: "
+
+#: ../data/pref-dlg.ui.glade.h:9
+msgid "KB"
+msgstr "KB"
+
+#: ../data/pref-dlg.ui.glade.h:10
+msgid "<b>Output</b>"
+msgstr "<b>Irteera</b>"
+
+#: ../data/pref-dlg.ui.glade.h:11
+msgid "CD-ROM Device: "
+msgstr "CD-ROM gailua: "
+
+#: ../data/pref-dlg.ui.glade.h:12
+msgid "<b>Audio CD</b>"
+msgstr "<b>Audio CDa</b>"
+
+#: ../data/pref-dlg.ui.glade.h:13
+msgid "Audio"
+msgstr "Audioa"
+
+#: ../data/pref-dlg.ui.glade.h:14
+msgid "Default ID3 V1 Encoding: "
+msgstr "ID3 V1 kodeketa lehenetsia: "
+
+#: ../data/pref-dlg.ui.glade.h:15
+msgid "Misc"
+msgstr "Hainbat"
+
+#: ../data/track-info.ui.glade.h:1
+#, fuzzy
+#| msgid "File Properties"
+msgctxt "title"
+msgid "File Properties"
+msgstr "Fitxategiaren propietateak"
+
+#: ../data/track-info.ui.glade.h:2
+msgid "<b>File Type: </b>"
+msgstr "<b>Fitxategi mota: </b>"
+
+#: ../data/track-info.ui.glade.h:3
+msgid "<b>Size: </b>"
+msgstr "<b>Tamaina: </b>"
+
+#: ../data/track-info.ui.glade.h:4
+msgid "<b>Comment: </b>"
+msgstr "<b>Iruzkina: </b>"
+
+#: ../data/track-info.ui.glade.h:5
+msgid "<b>Artist: </b>"
+msgstr "<b>Artista:</b>"
+
+#: ../data/track-info.ui.glade.h:6
+msgid "<b>Album: </b>"
+msgstr "<b>Albuma:</b>"
+
+#: ../data/track-info.ui.glade.h:7
+msgid "<b>Title: </b>"
+msgstr "<b>Izenburua: </b>"
+
+#: ../data/track-info.ui.glade.h:8
+msgid "<b>File: </b>"
+msgstr "<b>Fitxategia: </b>"
+
+#, fuzzy
+#~ msgid "Server"
+#~ msgstr "Kontrolatzailea:"
+
+#~ msgid ""
+#~ "All\n"
+#~ "Track Name\n"
+#~ "Artist\n"
+#~ "Album"
+#~ msgstr ""
+#~ "Dena\n"
+#~ "Pistaren izena\n"
+#~ "Artista\n"
+#~ "Albuma"
+
+#~ msgid ""
+#~ "No Repeat\n"
+#~ "Repeat Current\n"
+#~ "Repeat All"
+#~ msgstr ""
+#~ "Ez errepikatu\n"
+#~ "Errepikatu unekoa\n"
+#~ "Errepikatu dena"
+
+#~ msgid "Use OSS for audio output"
+#~ msgstr "Erabili OSS audioaren irteerarentzako"
+
+#~ msgid "Use Pulse Audio for audio output"
+#~ msgstr "Erabili Pulse Audio audioaren irteerarako"

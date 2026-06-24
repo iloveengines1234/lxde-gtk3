@@ -1,0 +1,296 @@
+# French translation of GPicView.
+# Copyright (C) 2007-2008 洪任諭 (Hon Jen Yee, aka PCMan)
+# This file is distributed under the same license as the GPicView package.
+# ElGeneralMidi <ElGeneralMidi@jabber.ubuntu-fr.org>, 2007.
+# Robert-André Mauchin <zebob.m@pengzone.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: gpicview r846\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2015-03-23 23:41+0000\n"
+"Last-Translator: Jerome Leclanche <jerome@leclan.ch>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1427154074.000000\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[FICHIER]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "Affiche les informations de version et quitte"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "Démarrer le diaporama"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr ""
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "Visionneur d'images"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "Précédent"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "Suivant"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "Démarrer le diaporama"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "Zoom arrière"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "Zoom avant"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "Ajuster l'image à la taille de la fenêtre"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "Taille originale"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "Plein écran"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "Pivoter vers la gauche"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "Pivoter vers la droite"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "Pivoter horizontalement"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "Pivoter verticalement"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "Ouvrir un fichier"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "Enregistrer le fichier"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "Enregistrer le fichier sous"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "Supprimer le fichier"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "Préférences"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "Quitter"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "Arrêter le diaporama"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"Un fichier portant le nom choisi existe déjà.\n"
+"Voulez-vous remplacer le fichier existant ?\n"
+"(Attention : La qualité de l'image originale pourrait être perdue)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "Ce format d'image n'est pas pris en charge en écriture."
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"Voulez-vous vraiment supprimer le fichier actuel ?\n"
+"\n"
+"Avertissement : Une fois supprimé, le fichier ne pourra pas être récupéré."
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "Démarrer/Arrêter le diaporama"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "Enregistrer sous"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "Afficher/Masquer la barre d'outils"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr " * Se réfère au code source du visionneur d'images EOG et GThumb"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr ""
+"ElGeneralMidi <http://ubuntufromscratch.wordpress.com/>\n"
+"Robert-André Mauchin <zebob.m@pengzone.org>\n"
+"Cilyan Olowen <gaknar@gmail.com>"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "GPicView"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "Copyright (C) 2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "Visionneur d'images léger du projet LXDE"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"GPicView deviendra le visionneur d'images par défaut pour tous les types "
+"d'images pris en charge sur votre système.\n"
+"(Ceci sera effectué grâce au programme « xdg-mime ».)\n"
+"\n"
+"<b>Voulez-vous vraiment effectuer ceci ?</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "Toutes les images prises en charge"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "Tous les fichiers"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "Qualité JPEG :"
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"Une valeur plus petite entrainera un fichier plus petit,\n"
+"mais la qualité de l'image sera plus faible."
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "Niveau de compression PNG :"
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"Un niveau de compression plus élevé entrainera un fichier plus petit,\n"
+"mais le temps de compression sera également plus élevé."
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "Visionner des images facilement"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:4
+#, fuzzy
+#| msgid "Show/Hide toolbar"
+msgid "Show toolbar"
+msgstr "Afficher/Masquer la barre d'outils"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "Demander avant d'enregistrer des images"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "Demander avant de supprimer des images"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "Enregistrer automatiquement les images pivotées"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"Pivoter les images JPEG en modifiant la valeur EXIF de l'orientation.\n"
+"(Uniquement si le champ EXIF orientation est présent.)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "Intervalle entre les diapo."
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "s"
+
+#: ../data/pref-dlg.ui.h:12
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom factor"
+msgstr "Zoom arrière"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "Définir GPicview comme visionneur d'images par défaut"
+
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "Normal :"
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "Plein écran :"
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>Couleurs d'arrière-plan</b>"

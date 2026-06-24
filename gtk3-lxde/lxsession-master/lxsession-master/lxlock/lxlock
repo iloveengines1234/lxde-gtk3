@@ -1,0 +1,84 @@
+#!/bin/sh
+#
+#   Copyright (C) 1999, 2003 Olivier Fourdan (fourdan@xfce.org)
+#   Copyright (C) 2012 Julien Lavergne (gilir@ubuntu.com)
+#   Copyright (C) 2013 Jarno Suni (8@iki.fi)
+#   Modernized for strict reliability across GTK3.24.52 and Multi-Backend setups by iloveengines1234
+#
+
+# --- HELPER ROUTINE ---
+# Executes a locking command and exits with 0 ONLY if the locker successfully deployed.
+try_lock() {
+    if command -v "$1" >/dev/null 2>&1; then
+        shift
+        "$@" >/dev/null 2>&1
+        if [ $? -eq 0 ]; then
+            exit 0
+        fi
+    fi
+}
+
+# 1. Try modern systemd-logind / elogind session managers first
+try_lock loginctl loginctl lock-session
+
+# 2. Try modern GDBus interface triggers directly
+if command -v gdbus >/dev/null 2>&1; then
+    # Org.freedesktop.ScreenSaver standard (Universal fallback)
+    gdbus call --session --dest org.freedesktop.ScreenSaver --object-path /org/freedesktop/ScreenSaver --method org.freedesktop.ScreenSaver.Lock >/dev/null 2>&1 && exit 0
+
+    # MATE Screensaver
+    gdbus call --session --dest org.mate.ScreenSaver --object-path /org/mate/ScreenSaver --method org.mate.ScreenSaver.Lock >/dev/null 2>&1 && exit 0
+
+    # Cinnamon / GNOME Fallback
+    gdbus call --session --dest org.gnome.ScreenSaver --object-path /org/gnome/ScreenSaver --method org.gnome.ScreenSaver.Lock >/dev/null 2>&1 && exit 0
+fi
+
+# 3. Pure Wayland Environment Fallbacks
+if [ -n "$WAYLAND_DISPLAY" ]; then
+    try_lock swaylock swaylock -f
+    try_lock waylock waylock -fork
+    # If on Wayland and compositor lockers fail, stop completely. 
+    # Legacy X11 blockers below will crash or leave the system unlocked.
+    echo "Error: Compatible Wayland screen locker not found or failed to initialize." >&2
+    exit 1
+fi
+
+# 4. Modern X11 Environment Fallback Ladder
+# Verify that the actual daemon managers are running before calling their interface commands
+if pidof light-locker >/dev/null 2>&1; then
+    try_lock light-locker-command light-locker-command -l
+fi
+
+if pidof xfce4-screensaver >/dev/null 2>&1; then
+    try_lock xfce4-screensaver-command xfce4-screensaver-command --lock
+fi
+
+if pidof mate-screensaver >/dev/null 2>&1; then
+    try_lock mate-screensaver-command mate-screensaver-command --lock
+fi
+
+if pidof gnome-screensaver >/dev/null 2>&1; then
+    try_lock gnome-screensaver-command gnome-screensaver-command --lock
+fi
+
+if pidof xscreensaver >/dev/null 2>&1; then
+    try_lock xscreensaver-command xscreensaver-command -lock
+fi
+
+# Minimalist / standalone binary lockers (forked cleanly to prevent script hanging)
+try_lock i3lock sh -c 'i3lock &'
+try_lock xsecurelock sh -c 'xsecurelock &'
+try_lock slock sh -c 'slock &'
+
+# 5. Last Resort: Force-start an xscreensaver daemon context if completely headless
+if ! pidof xscreensaver >/dev/null 2>&1; then
+    if command -v xscreensaver >/dev/null 2>&1; then
+        xscreensaver -nosplash >/dev/null 2>&1 &
+        # Give the background daemon reasonable allocation headroom to bind to X11 displays
+        sleep 1
+    fi
+fi
+try_lock xscreensaver-command xscreensaver-command -lock
+
+echo "Error: lxlock was unable to locate or execute an operational session screen locker." >&2
+exit 1

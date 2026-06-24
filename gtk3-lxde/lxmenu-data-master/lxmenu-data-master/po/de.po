@@ -1,0 +1,185 @@
+# German translation of gnome-menus.
+# Copyright (C) 2004 THE gnome-menus'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-menus package.
+# Hendrik Brandt <heb@gnome-de.org>, 2004-2005.
+# Hendrik Richter <hendrikr@gnome.org>, 2006, 2007.
+# Ingo Brückl, 2021-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-menus HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-21 15:23+0200\n"
+"PO-Revision-Date: 2023-07-21 16:07+0200\n"
+"Last-Translator: Ingo Brückl <ib@wupperonline.de>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:1
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:2
+msgid "Audio and video applications"
+msgstr "Audio- und Videoanwendungen"
+
+#: ../desktop-directories/lxde-development.directory.in.h:1
+msgid "Development"
+msgstr "Entwicklung"
+
+#: ../desktop-directories/lxde-development.directory.in.h:2
+msgid "Tools for software development"
+msgstr "Werkzeuge zur Anwendungsentwicklung"
+
+#: ../desktop-directories/lxde-education.directory.in.h:1
+msgid "Education"
+msgstr "Bildung"
+
+#: ../desktop-directories/lxde-education.directory.in.h:2
+msgid "Educational software"
+msgstr "Lernprogramme"
+
+#: ../desktop-directories/lxde-game.directory.in.h:1
+msgid "Games"
+msgstr "Spiele"
+
+#: ../desktop-directories/lxde-game.directory.in.h:2
+msgid "Games and amusements"
+msgstr "Spiel und Spaß"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:1
+msgid "Graphics"
+msgstr "Grafik"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:2
+msgid "Graphics applications"
+msgstr "Grafikprogramme"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:1
+msgid "Hardware"
+msgstr "Geräte"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:2
+msgid "Settings for several hardware devices"
+msgstr "Einstellungen für diverse Geräte"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:1
+msgid "Internet and Network"
+msgstr "Internet und Netzwerke"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:2
+msgid "Network-related settings"
+msgstr "Einstellungen für Netzwerke"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:1
+msgid "Look and Feel"
+msgstr "Aussehen und Handhabung"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:2
+msgid "Settings controlling the desktop appearance and behavior"
+msgstr "Einstellungen, die Aussehen und Verhalten des Desktops festlegen"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:1
+msgid "Applications"
+msgstr "Anwendungen"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:2
+msgid "Application Menu"
+msgstr "Startmenü"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:1
+#: ../desktop-directories/lxde-system.directory.in.h:1
+msgid "System"
+msgstr "System"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:2
+msgid "Personal preferences and administration settings"
+msgstr "Individuelle und Systemeinstellungen"
+
+#: ../desktop-directories/lxde-network.directory.in.h:1
+msgid "Internet"
+msgstr "Internet"
+
+#: ../desktop-directories/lxde-network.directory.in.h:2
+msgid "Programs for Internet access"
+msgstr "Programme für Dienste im Internet"
+
+#: ../desktop-directories/lxde-office.directory.in.h:1
+msgid "Office"
+msgstr "Büro"
+
+#: ../desktop-directories/lxde-office.directory.in.h:2
+msgid "Office applications"
+msgstr "Büroanwendungen"
+
+#: ../desktop-directories/lxde-other.directory.in.h:1
+msgid "Other"
+msgstr "Sonstiges"
+
+#: ../desktop-directories/lxde-other.directory.in.h:2
+msgid "Applications that don't fit into other categories"
+msgstr "Anwendungen, die in keine andere Kategorie passen"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:1
+msgid "Personal"
+msgstr "Persönliches"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:2
+msgid "Personal settings"
+msgstr "Persönliche Einstellungen"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:1
+msgid "Science & Math"
+msgstr "Wissenschaft & Mathematik"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:2
+msgid "Scientific and mathematical software"
+msgstr "Wissenschaftliche und mathematische Programme"
+
+#: ../desktop-directories/lxde-science.directory.in.h:1
+msgid "Science"
+msgstr "Wissenschaft"
+
+#: ../desktop-directories/lxde-science.directory.in.h:2
+msgid "Scientific software"
+msgstr "Wissenschaftliche Programme"
+
+#: ../desktop-directories/lxde-settings.directory.in.h:1
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: ../desktop-directories/lxde-settings.directory.in.h:2
+msgid "Desktop preferences"
+msgstr "Desktop-Einstellungen"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:1
+msgid "Administration"
+msgstr "Systemverwaltung"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:2
+msgid "System-wide settings (affecting all users)"
+msgstr "Systemweite Einstellungen, die alle Benutzer betreffen"
+
+#: ../desktop-directories/lxde-system.directory.in.h:2
+msgid "System tools and monitoring"
+msgstr "Systemwerkzeuge und Systemüberwachung"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:1
+msgid "Universal Access"
+msgstr "Barrierefreiheit"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:2
+msgid "Universal Access Settings"
+msgstr "Einstellungen zur Barrierefreiheit"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:1
+msgid "Accessories"
+msgstr "Zubehör"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:2
+msgid "Desktop accessories"
+msgstr "Desktop-Zubehör"

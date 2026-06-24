@@ -1,0 +1,92 @@
+# Georgian translation for lxlauncher.
+# Copyright (C) 2026 lxlauncher authors.
+# This file is distributed under the same license as the lxlauncher package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxlauncher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-27 16:40+0100\n"
+"PO-Revision-Date: 2026-02-02 12:45+0100\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: ../src/lxlauncher.c:124
+msgid "_Customize"
+msgstr "_მორგება"
+
+#: ../src/lxlauncher.c:641
+#, c-format
+msgid "Go back to \"%s\""
+msgstr "დაბრუნება \"%s\"-ზე"
+
+#: ../src/lxlauncher.c:903
+msgid "Enable key navigation"
+msgstr "ღილაკით ნავიგაციის ჩართვა"
+
+#: ../src/lxlauncher.c:904
+msgid ""
+"Allow users to use up/down/left/right/tab/enter keys to operate the "
+"lxlauncher"
+msgstr ""
+"მომხმარებლებისთვის lxlauncher-ის სამართავად ზემოთ/ქვემოთ/მარცხივ/"
+"მარჯვნივ/tab/enter ღილაკების გამოყენების დაშვება"
+
+#: ../src/exo-wrap-table.c:196
+msgid "Column spacing"
+msgstr "სვეტების დაშორება"
+
+#: ../src/exo-wrap-table.c:197
+msgid "The amount of space between two consecutive columns"
+msgstr "ადგილი ორ მეზობელ სვეტს შორის"
+
+#: ../src/exo-wrap-table.c:211
+msgid "Row spacing"
+msgstr "მწკრივების დაშორება"
+
+#: ../src/exo-wrap-table.c:212
+msgid "The amount of space between two consecutive rows"
+msgstr "ადგილი ორ მეზობელ მწკრივს შორის"
+
+#: ../src/exo-wrap-table.c:226
+msgid "Homogeneous"
+msgstr "ჰომოგენური"
+
+#: ../src/exo-wrap-table.c:227
+msgid "Whether the children should be all the same size"
+msgstr "უნდა იყოს თუ არა შვილები ერთი ზომის"
+
+#: ../src/misc.c:344
+#, c-format
+msgid "Command not found"
+msgstr "ბრძანება ნაპოვნი არაა"
+
+#: ../data/lxde-language.directory.in.h:1
+msgid "Language"
+msgstr "ენა"
+
+#: ../data/lxde-learn.directory.in.h:1
+msgid "Learn"
+msgstr "სწავლა"
+
+#: ../data/lxde-math.directory.in.h:1
+msgid "Math"
+msgstr "მათემატიკა"
+
+#: ../data/lxde-play.directory.in.h:1
+msgid "Play"
+msgstr "დაკვრა"
+
+#: ../data/lxde-webmail.directory.in.h:1
+msgid "Web Mail"
+msgstr "ვებფოსტა"
+
+#: ../data/lxde-work.directory.in.h:1
+msgid "Work"
+msgstr "სამუშაო"

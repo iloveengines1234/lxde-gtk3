@@ -1,0 +1,409 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-25 14:00+0200\n"
+"PO-Revision-Date: 2015-06-18 20:53+0000\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1434660809.000000\n"
+
+#: ../src/lxmusic.c:263
+msgid "Official icon of xmms2 by Arnaud DIDRY"
+msgstr "ఆర్నౌడ్ డిడ్రిచే రూపొందించిన xmms2 యొక్క అధికారిక ప్రతీక"
+
+#: ../src/lxmusic.c:272
+#, fuzzy
+#| msgid ""
+#| "Music Player for LXDE\n"
+#| "Simple GUI XMMS2 client"
+msgid ""
+"Music Player for LXDE\n"
+"Simple XMMS2 GUI client"
+msgstr ""
+"LXDE కొరకు సంగీత ఆటకము\n"
+"సరళ GUI XMMS2 క్లయింటు"
+
+#: ../src/lxmusic.c:434
+#, fuzzy
+#| msgid "_Show Main Window"
+msgid "Show Main Window"
+msgstr "ప్రధాన కిటికీని చూపించు (_S)"
+
+#. default
+#: ../src/lxmusic.c:496 ../src/utils.c:103 ../data/lxmusic.desktop.in.h:1
+#: ../data/lxmusic.ui.glade.h:25
+msgid "LXMusic"
+msgstr "ఎల్‌ఎక్స్ సంగీతం"
+
+#: ../src/lxmusic.c:755
+msgid "Bitrate: "
+msgstr "బిట్‌రేట్: "
+
+#: ../src/lxmusic.c:1062
+msgid "Audio Files"
+msgstr "ఆడియో దస్త్రాలు"
+
+#: ../src/lxmusic.c:1067
+msgid "All Files"
+msgstr "అన్ని దస్త్రాలు"
+
+#: ../src/lxmusic.c:1094
+msgid "Input a URL"
+msgstr "ఒక URL ఇన్‌పుట్ వలె ఇవ్వు"
+
+#: ../src/lxmusic.c:1328 ../src/lxmusic.c:1923
+msgid "Now Playing:"
+msgstr "ఇపుడు ఆడిస్తున్నది:"
+
+#. metadata available
+#: ../src/lxmusic.c:1539 ../data/lxmusic.ui.glade.h:5
+#: ../src/lxmusic-notify.c:83
+msgid "Artist"
+msgstr "కళాకారుడు"
+
+#: ../src/lxmusic.c:1547 ../data/lxmusic.ui.glade.h:6
+msgid "Album"
+msgstr "గుచ్ఛము"
+
+#: ../src/lxmusic.c:1555 ../src/lxmusic-notify.c:84
+msgid "Title"
+msgstr "శీర్షిక"
+
+#: ../src/lxmusic.c:1561
+msgid "Length"
+msgstr "సమయం"
+
+#: ../src/lxmusic.c:1728
+msgid "Default"
+msgstr "అప్రమేయం"
+
+#: ../src/lxmusic.c:1850
+msgid "Pause"
+msgstr "నిలిపివేయి"
+
+#: ../src/lxmusic.c:1864
+msgid "Play"
+msgstr "ఆడించు"
+
+#: ../src/lxmusic.c:2417
+msgid "Create new playlist"
+msgstr "కొత్త పాటలజాబితాను సృష్టించు"
+
+#: ../src/utils.c:81
+msgid "Error"
+msgstr "దోషం"
+
+#. alsa use:
+#: ../src/lxmusic-plugin-config.c:17
+msgid "Advanced Linux Sound Architecture"
+msgstr "అధునాతన లినక్స్ ధ్వని నిర్మాణం"
+
+#: ../src/lxmusic-plugin-config.c:18 ../src/lxmusic-plugin-config.c:23
+#: ../src/lxmusic-plugin-config.c:28
+msgid "Device:"
+msgstr "పరికరం:"
+
+#: ../src/lxmusic-plugin-config.c:19 ../src/lxmusic-plugin-config.c:24
+msgid "Mixer:"
+msgstr "కలుపరి:"
+
+#. oss
+#: ../src/lxmusic-plugin-config.c:22
+msgid "Open Sound System"
+msgstr "శబ్ద వ్యవస్థను తెరువు"
+
+#. ao
+#: ../src/lxmusic-plugin-config.c:27
+msgid "Cross-platform audio output library"
+msgstr "క్రాస్-ప్లాట్‌ఫార్మ్ ఆడియో అవుట్‌పుట్ లైబ్రరీ"
+
+#. pulse
+#: ../src/lxmusic-plugin-config.c:31
+msgid "PulseAudio"
+msgstr "పల్స్ ఆడియో"
+
+#: ../src/lxmusic-plugin-config.c:32
+msgid "Name:"
+msgstr "పేరు:"
+
+#: ../src/lxmusic-plugin-config.c:33 ../src/lxmusic-plugin-config.c:38
+msgid "Server:"
+msgstr "సేవకం:"
+
+#: ../src/lxmusic-plugin-config.c:34
+msgid "Sink:"
+msgstr "సింక్:"
+
+#. airtunes
+#: ../src/lxmusic-plugin-config.c:37
+msgid "AirTunes"
+msgstr "ఎయిర్ ట్యూన్స్"
+
+#. jack
+#: ../src/lxmusic-plugin-config.c:41
+msgid "JACK Audio Connection Kit"
+msgstr "జాక్ ఆడియో అనుసంధాన సామాగ్రి"
+
+#: ../src/lxmusic-plugin-config.c:43
+msgid "Disk Writer"
+msgstr "డిస్కు వ్రాసేది"
+
+#: ../src/lxmusic-plugin-config.c:44
+msgid "Destination Directory:"
+msgstr "గమ్య సంచయం:"
+
+#: ../data/lxmusic.desktop.in.h:2
+msgid "Music Player"
+msgstr "సంగీత ప్రదర్శకం"
+
+#: ../data/lxmusic.desktop.in.h:3
+msgid "Play your music files easily"
+msgstr "మీ సంగీత దస్త్రాలను సులువుగా ఆడించండి"
+
+#: ../data/lxmusic.ui.glade.h:1
+msgid "No Repeat"
+msgstr "పునరావృతం చేయవద్దు"
+
+#: ../data/lxmusic.ui.glade.h:2
+msgid "Repeat Current"
+msgstr "ప్రస్తుతపుదానిని పునరావృతంచేయి"
+
+#: ../data/lxmusic.ui.glade.h:3
+msgid "Repeat All"
+msgstr "అన్నిటినీ పునరావృతంచేయి"
+
+#: ../data/lxmusic.ui.glade.h:4
+msgid "All"
+msgstr "అన్నీ"
+
+#: ../data/lxmusic.ui.glade.h:7
+msgid "Track Name"
+msgstr "ట్రాక్ పేరు"
+
+#: ../data/lxmusic.ui.glade.h:8
+msgid "_File"
+msgstr "దస్త్రం (_F)"
+
+#: ../data/lxmusic.ui.glade.h:9
+#, fuzzy
+#| msgid "File Properties"
+msgctxt "menu"
+msgid "File Properties"
+msgstr "దస్త్ర లక్షణాలు"
+
+#: ../data/lxmusic.ui.glade.h:10
+msgid "_Playlist"
+msgstr "పాటలజాబితా (_P)"
+
+#: ../data/lxmusic.ui.glade.h:11
+msgid "_Switch To Playlist"
+msgstr "పాటలజాబితాను మార్చు (_S)"
+
+#: ../data/lxmusic.ui.glade.h:12
+msgid "_Locate Currently Played"
+msgstr "ప్రస్తుతం ప్లే అవుతున్న దాని స్థానమును కనుగొను (_L)"
+
+#: ../data/lxmusic.ui.glade.h:13
+msgid "Add To Playlist"
+msgstr "పాటలజాబితాకు జతచేయి"
+
+#: ../data/lxmusic.ui.glade.h:14
+msgid "Add Files or Folders"
+msgstr "అన్ని దస్త్రాలు లేదా సంచయాలు"
+
+#: ../data/lxmusic.ui.glade.h:15
+msgid "Add URL"
+msgstr "URL జతచేయి"
+
+#: ../data/lxmusic.ui.glade.h:16
+msgid "Remove From Playlist"
+msgstr "పాటలజాబితా నుండి తొలగించు"
+
+#: ../data/lxmusic.ui.glade.h:17
+msgid "Remove Selected Items"
+msgstr "ఎంచుకున్న అంశాలను తొలగించు"
+
+#: ../data/lxmusic.ui.glade.h:18
+msgid "Remove All Items"
+msgstr "అన్ని అంశాలను తొలగించు"
+
+#: ../data/lxmusic.ui.glade.h:19
+msgid "Create _New Playlist"
+msgstr "కొత్త పాటలజాబితాను సృష్టించు (_N)"
+
+#: ../data/lxmusic.ui.glade.h:20
+msgid "_Delete Current Playlist"
+msgstr "ప్రస్థుత పాటలజాబితాను తీసివేయి (_D)"
+
+#: ../data/lxmusic.ui.glade.h:21
+msgid "_View"
+msgstr "వీక్షణ (_V)"
+
+#: ../data/lxmusic.ui.glade.h:22
+msgid "Show Playlist"
+msgstr "పాటలజాబితాను చూపించు"
+
+#: ../data/lxmusic.ui.glade.h:23
+msgid "_Tools"
+msgstr "పనిముట్లు (_T)"
+
+#: ../data/lxmusic.ui.glade.h:24
+msgid "_Help"
+msgstr "సహాయం (_H)"
+
+#: ../data/lxmusic.ui.glade.h:26
+msgid "Previous"
+msgstr "మునుపటిది"
+
+#: ../data/lxmusic.ui.glade.h:27
+msgid "Play/Pause"
+msgstr "ఆడించు/నిలిపివేయి"
+
+#: ../data/lxmusic.ui.glade.h:28
+msgid "Stop"
+msgstr "ఆపు"
+
+#: ../data/lxmusic.ui.glade.h:29
+msgid "Next"
+msgstr "తదుపరిది"
+
+#: ../data/lxmusic.ui.glade.h:30
+msgid "Current Playlist"
+msgstr "ప్రస్తుత పాటలజాబితా"
+
+#: ../data/lxmusic.ui.glade.h:31
+msgid "Favorites"
+msgstr "ఇష్టమైనవి"
+
+#: ../data/lxmusic.ui.glade.h:32
+msgid "Media Library"
+msgstr "మీడియా లైబ్రరీ"
+
+#: ../data/lxmusic.ui.glade.h:33
+msgid "Add files to the playlist"
+msgstr "దస్త్రాలను పాటలజాబితాకు జతచేయి"
+
+#: ../data/lxmusic.ui.glade.h:34
+msgid "Remove items from the playlist"
+msgstr "పాటలజాబితా నుండి అంశాలను తొలగించు"
+
+#: ../data/lxmusic.ui.glade.h:35
+msgid "Locate currently played track"
+msgstr "ప్రస్తుతం ఆడుతున్న ట్రాక్ స్థానాన్ని కనుగొను"
+
+#: ../data/lxmusic.ui.glade.h:36
+msgid "Filter:"
+msgstr "వడపోత:"
+
+#: ../data/lxmusic.ui.glade.h:37
+msgid "Enter keyword here"
+msgstr "ముఖ్యపదాన్ని ఇక్కడ ప్రవేశపెట్టండి"
+
+#: ../data/pref-dlg.ui.glade.h:1
+msgid "Preferences"
+msgstr "ప్రాధాన్యతలు"
+
+#: ../data/pref-dlg.ui.glade.h:2
+msgid "Show system tray icon"
+msgstr "వ్యవస్థ పల్లెము ప్రతీకను చూపించు"
+
+#: ../data/pref-dlg.ui.glade.h:3
+msgid "Minimize to system tray on close"
+msgstr "మూసివేసినపుడ వ్యవస్థ పల్లెము వద్ద కనిష్టీకరించు"
+
+#: ../data/pref-dlg.ui.glade.h:4
+msgid ""
+"Music files can be played without graphical user interface to save system "
+"resources"
+msgstr "వ్యవస్థ వనరులను భద్రపరుచుటకు గ్రాఫికల్ అంతరవర్తి లేకుండానే సంగీత ఫైళ్ళను ఆడించవచ్చు"
+
+#: ../data/pref-dlg.ui.glade.h:5
+msgid "Continue playback in background after exiting LXMusic"
+msgstr "LXసంగీతం నుండి నిష్క్రమించిన తరువాత ప్లేబాక్ నేపథ్యములో కొనసాగించు"
+
+#: ../data/pref-dlg.ui.glade.h:6
+msgid "General"
+msgstr "సాధారణం"
+
+#: ../data/pref-dlg.ui.glade.h:7
+msgid "Plugin: "
+msgstr "చొప్పింత: "
+
+#: ../data/pref-dlg.ui.glade.h:8
+msgid "Buffer Size: "
+msgstr "బఫర్ పరిమాణం: "
+
+#: ../data/pref-dlg.ui.glade.h:9
+msgid "KB"
+msgstr "కిబై"
+
+#: ../data/pref-dlg.ui.glade.h:10
+msgid "<b>Output</b>"
+msgstr "<b>అవుట్‌పుట్</b>"
+
+#: ../data/pref-dlg.ui.glade.h:11
+msgid "CD-ROM Device: "
+msgstr "CD-ROM పరికరం: "
+
+#: ../data/pref-dlg.ui.glade.h:12
+msgid "<b>Audio CD</b>"
+msgstr "<b>ఆడియో CD</b>"
+
+#: ../data/pref-dlg.ui.glade.h:13
+msgid "Audio"
+msgstr "ఆడియో"
+
+#: ../data/pref-dlg.ui.glade.h:14
+msgid "Default ID3 V1 Encoding: "
+msgstr "అప్రమేయ ID3 V1 ఎన్కోడింగ్: "
+
+#: ../data/pref-dlg.ui.glade.h:15
+msgid "Misc"
+msgstr "ఇతరాలు"
+
+#: ../data/track-info.ui.glade.h:1
+#, fuzzy
+#| msgid "File Properties"
+msgctxt "title"
+msgid "File Properties"
+msgstr "దస్త్ర లక్షణాలు"
+
+#: ../data/track-info.ui.glade.h:2
+msgid "<b>File Type: </b>"
+msgstr "<b>దస్త్ర రకం: </b>"
+
+#: ../data/track-info.ui.glade.h:3
+msgid "<b>Size: </b>"
+msgstr "<b>పరిమాణం: </b>"
+
+#: ../data/track-info.ui.glade.h:4
+msgid "<b>Comment: </b>"
+msgstr "<b>వ్యాఖ్య: </b>"
+
+#: ../data/track-info.ui.glade.h:5
+msgid "<b>Artist: </b>"
+msgstr "<b>కళాకారుడు: </b>"
+
+#: ../data/track-info.ui.glade.h:6
+msgid "<b>Album: </b>"
+msgstr "<b>గుచ్ఛము: </b>"
+
+#: ../data/track-info.ui.glade.h:7
+msgid "<b>Title: </b>"
+msgstr "<b>శీర్షిక: </b>"
+
+#: ../data/track-info.ui.glade.h:8
+msgid "<b>File: </b>"
+msgstr "<b>దస్త్రం: </b>"

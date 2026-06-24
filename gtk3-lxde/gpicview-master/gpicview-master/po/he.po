@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2015-08-17 01:28+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439774887.499453\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[FILE]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "Print version information and exit"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "התחלת המצגת"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr ""
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "מציג התמונות"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "הקודם"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "הבא"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "התחלת המצגת"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "התרחקות"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "התקרבות"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "התאמת גודל התמונה לגודל החלון"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "גודל מקורי"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "מסך מלא"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "סיבוב נגד כיוון השעון"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "סיבוב עם כיוון השעון"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "היפוך אופקי"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "היפוך אנכי"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "פתיחת קובץ"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "שמירת קובץ"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "שמירת קובץ בשם"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "מחיקת קובץ"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "העדפות"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "יציאה"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "עצירת המצגת"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"שם הקובץ שנבחר כבר קיים.\n"
+"האם לשכתב את הקובץ הקיים?\n"
+"(אזהרה: איכות התמונה המקורית עלולה להפגם)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "כתיבה כסוג תמונה זה אינה נתמכת."
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"האם למחוק את הקובץ הנוכחי?\n"
+"\n"
+"אזהרה: לאחר מחיקת הקובץ אין כל אפשרות לשחזרו."
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "התחלת/עצירת המצגת"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "שמירה בשם"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "הצגה/הסתרה של סרגל הכלים"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr " * הפניה לקוד המקור של מציג התמונות EOG ושל GThumb"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr ""
+"ירון שהרבני <sh.yaron@gmail.com>\n"
+"ליאל פרידמן <lielft@gmail.com>"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "מציג התמונות GPicView"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "כל הזכויות שמורות (C) ‏2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "מציג תמונות קליל ממיזם LXDE"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"GPicView יהפוך למציג בררת המחדל עבור כל קובצי התמונה הנתמכים שבמערכת שלך.\n"
+"(פעולה זו תתבצע דרך התכנית ‎‏'xdg-mime‎‏')\n"
+"\n"
+"‏<b>האם באמת לבצע זאת?</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "כל התמונות הנתמכות"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "כל הקבצים"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "איכות ה־JPEG:"
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"ערכי איכות נמוכים יותר מניבים קבצים קטנים יותר,\n"
+"אך איכות התמונה תהיה נמוכה יותר."
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "רמת דחיסת ה־PNG:"
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"ערכי דחיסה גבוהים יותר מניבים קבצים קטנים יותר,\n"
+"אך נדרש זמן רב יותר לדחוס אותם."
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "צפייה בהודעות האישיות בקלות"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:4
+#, fuzzy
+#| msgid "Show/Hide toolbar"
+msgid "Show toolbar"
+msgstr "הצגה/הסתרה של סרגל הכלים"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "הצגת שאלה בטרם שמירת תמונות"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "הצגת שאלה בטרם מחיקת תמונות"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "שמירה אוטומטית של תמונות מסובבות"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"סיבוב קובץ JPEG על ידי שינוי ערך הכיווניות ב־EXIF\n"
+"(רק אם קיימות תגיות כיווניות ב־EXIF)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "ההפרש בין הצגת התמונות"
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "שניות"
+
+#: ../data/pref-dlg.ui.h:12
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom factor"
+msgstr "התרחקות"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "הפיכת GPicView למציג בררת המחדל עבור תמונות"
+
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "רגיל:"
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "מסך מלא:"
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>צבעי הרקע</b>"

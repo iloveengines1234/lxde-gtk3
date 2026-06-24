@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<refentry>
+  <refentryinfo>
+    <address>
+      <email>grandpaul@gmail.com</email>
+    </address>
+    <author>
+      <firstname>Ying-Chun</firstname>
+      <surname>Liu</surname>
+    </author>
+    <copyright>
+      <year>2008-2026</year>
+      <holder>paulliu, Julien Lavergne</holder>
+    </copyright>
+    <date>May 21, 2026</date>
+  </refentryinfo>
+
+  <refmeta>
+    <refentrytitle>LXSESSION</refentrytitle>
+    <miscinfo class="source">http://LXDE.org</miscinfo>
+    <manvolnum>1</manvolnum>
+  </refmeta>
+
+  <refnamediv>
+    <refname>lxsession</refname>
+    <refpurpose>a lightweight X session manager</refpurpose>
+  </refnamediv>
+
+  <refsynopsisdiv>
+    <cmdsynopsis>
+      <command>lxsession</command>
+      <arg choice="opt">-s <replaceable>NAME</replaceable></arg>
+      <arg choice="opt">--session=<replaceable>NAME</replaceable></arg>
+      <arg choice="opt">-e <replaceable>NAME</replaceable></arg>
+      <arg choice="opt">--de=<replaceable>NAME</replaceable></arg>
+      <arg choice="opt">-r</arg>
+      <arg choice="opt">--reload</arg>
+      <arg choice="opt">-n</arg>
+      <arg choice="opt">--noxsettings</arg>
+      <arg choice="opt">-a</arg>
+      <arg choice="opt">--noautostart</arg>
+      <arg choice="opt">-c <replaceable>NAME</replaceable></arg>
+      <arg choice="opt">--compatibility=<replaceable>NAME</replaceable></arg>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+
+  <refsect1>
+    <title>DESCRIPTION</title>
+    <para><command>lxsession</command> provides an X11 session manager. It is the default 
+    session manager used by the LXDE desktop environment.</para>
+
+    <para>A session manager is responsible for automatically launching a set of core applications, 
+    exporting foundational environment variables, initializing configuration databases, and setting up a working 
+    desktop environment. Furthermore, upon session exit, it orchestrates lifecycle teardown notifications for 
+    active window managers, clipboards, polkit agents, and component loops.</para>
+  </refsect1>
+
+  <refsect1>
+    <title>OPTIONS</title>
+    <variablelist>
+      <varlistentry>
+        <term><option>-s</option>, <option>--session=NAME</option></term>
+        <listitem>
+          <para>Specify the name of the desktop session profile to use (Defaults to <literal>LXDE</literal>).</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term><option>-e</option>, <option>--de=NAME</option></term>
+        <listitem>
+          <para>Specify the name of the Desktop Environment being initialized, such as <literal>LXDE</literal>, <literal>GNOME</literal>, or <literal>XFCE</literal>.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term><option>-r</option>, <option>--reload</option></term>
+        <listitem>
+          <para>Reload existing workspace configurations and re-trigger active Xsettings daemon layouts.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term><option>-n</option>, <option>--noxsettings</option></term>
+        <listitem>
+          <para>Disable the build-in or configured third-party Xsettings daemon management entirely.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term><option>-a</option>, <option>--noautostart</option></term>
+        <listitem>
+          <para>Disable desktop autostart files and applications loading routine. Forces window-manager initialization only mode.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term><option>-c</option>, <option>--compatibility=NAME</option></term>
+        <listitem>
+          <para>Specifies a fallback compatibility engine layout mapping structure. Currently, <literal>razor-qt</literal> fallback configuration parses are implemented.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </refsect1>
+
+  <refsect1>
+    <title>SEE ALSO</title>
+    <para>lxpanel(1), lxsession-logout(1).</para>
+  </refsect1>
+
+  <refsect1>
+    <title>AUTHOR</title>
+    <para>This manual page was originally written by paulliu <email>grandpaul@gmail.com</email> for
+    the <productname>Debian</productname> system (but may be used by others). It has been expanded and 
+    updated to accurately track application parameters for modern desktop releases. Permission is
+    granted to copy, distribute and/or modify this document under the terms of the <acronym>GNU</acronym> 
+    General Public License, Version 2 or any later version published by the Free Software Foundation.</para>
+
+    <para>On Debian systems, the complete text of the GNU General Public License can be found in 
+    <filename>/usr/share/common-licenses/GPL</filename>.</para>
+  </refsect1>
+</refentry>

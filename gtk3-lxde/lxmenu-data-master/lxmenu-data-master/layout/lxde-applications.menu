@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+    <Name>Applications</Name>
+    <Directory>lxde-menu-applications.directory</Directory>
+
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+    <DefaultMergeDirs/>
+
+    <Menu>
+        <Name>Accessories</Name>
+        <Directory>lxde-utility.directory</Directory>
+        <Include>
+            <And>
+                <Category>Utility</Category>
+                <Not><Category>System</Category></Not>
+                <Not><Category>Accessibility</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Universal Access</Name>
+        <Directory>lxde-utility-accessibility.directory</Directory>
+        <Include>
+            <And>
+                <Category>Accessibility</Category>
+                <Not><Category>Settings</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Development</Name>
+        <Directory>lxde-development.directory</Directory>
+        <Include>
+            <Category>Development</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Education</Name>
+        <Directory>lxde-education.directory</Directory>
+        <Include>
+            <Category>Education</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Games</Name>
+        <Directory>lxde-game.directory</Directory>
+        <Include>
+            <Category>Game</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Graphics</Name>
+        <Directory>lxde-graphics.directory</Directory>
+        <Include>
+            <Category>Graphics</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Internet</Name>
+        <Directory>lxde-network.directory</Directory>
+        <Include>
+            <Category>Network</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Multimedia</Name>
+        <Directory>lxde-audio-video.directory</Directory>
+        <Include>
+            <Or>
+                <Category>AudioVideo</Category>
+                <Category>Audio</Category>
+                <Category>Video</Category>
+            </Or>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Office</Name>
+        <Directory>lxde-office.directory</Directory>
+        <Include>
+            <Category>Office</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Science</Name>
+        <Directory>lxde-science.directory</Directory>
+        <Include>
+            <Category>Science</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>System</Name>
+        <Directory>lxde-system.directory</Directory>
+        <Include>
+            <And>
+                <Category>System</Category>
+                <Not><Category>Settings</Category></Not>
+                <Not><Category>PackageManager</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Other</Name>
+        <Directory>lxde-other.directory</Directory>
+        <OnlyUnallocated/>
+        <Include>
+            <And>
+                <Not><Category>Core</Category></Not>
+                <Not><Category>Screensaver</Category></Not>
+                <Not><Category>Settings</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Settings</Name>
+        <Directory>lxde-settings.directory</Directory>
+        <Include>
+            <Or>
+                <Category>Settings</Category>
+                <Category>PackageManager</Category>
+            </Or>
+        </Include>
+        <Layout>
+            <Merge type="files"/>
+            <Merge type="menus"/>
+        </Layout>
+    </Menu>
+
+    <Layout>
+        <Menuname>Accessories</Menuname>
+        <Menuname>Universal Access</Menuname>
+        <Menuname>Development</Menuname>
+        <Menuname>Education</Menuname>
+        <Menuname>Games</Menuname>
+        <Menuname>Graphics</Menuname>
+        <Menuname>Internet</Menuname>
+        <Menuname>Multimedia</Menuname>
+        <Menuname>Office</Menuname>
+        <Menuname>Science</Menuname>
+        <Menuname>System</Menuname>
+        <Menuname>Other</Menuname>
+        <Separator/>
+        <Menuname>Settings</Menuname>
+        
+        <Merge type="menus"/>
+        <Merge type="files"/>
+    </Layout>
+
+</Menu>

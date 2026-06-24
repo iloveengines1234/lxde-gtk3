@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <menu id="MenuBar">
+    <submenu>
+      <attribute name="label" translatable="yes">File</attribute>
+      <item>
+        <attribute name="label" translatable="yes">New Window</attribute>
+        <attribute name="action">win.File_NewWindow</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">New Tab</attribute>
+        <attribute name="action">win.File_NewTab</attribute>
+      </item>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">Close Tab</attribute>
+          <attribute name="action">win.File_CloseTab</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Close Window</attribute>
+          <attribute name="action">win.File_CloseWindow</attribute>
+        </item>
+      </section>
+    </submenu>
+    
+    <submenu>
+      <attribute name="label" translatable="yes">Edit</attribute>
+      <item>
+        <attribute name="label" translatable="yes">Copy</attribute>
+        <attribute name="action">win.Edit_Copy</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Paste</attribute>
+        <attribute name="action">win.Edit_Paste</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Clear</attribute>
+        <attribute name="action">win.Edit_Clear</attribute>
+      </item>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">Zoom In</attribute>
+          <attribute name="action">win.Edit_ZoomIn</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Zoom Out</attribute>
+          <attribute name="action">win.Edit_ZoomOut</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Zoom Reset</attribute>
+          <attribute name="action">win.Edit_ZoomReset</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">Preferences</attribute>
+          <attribute name="action">win.Edit_Preferences</attribute>
+        </item>
+      </section>
+    </submenu>
+    
+    <submenu>
+      <attribute name="label" translatable="yes">Tabs</attribute>
+      <item>
+        <attribute name="label" translatable="yes">Name Tab</attribute>
+        <attribute name="action">win.Tabs_NameTab</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Previous Tab</attribute>
+        <attribute name="action">win.Tabs_PreviousTab</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Next Tab</attribute>
+        <attribute name="action">win.Tabs_NextTab</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Move Tab Left</attribute>
+        <attribute name="action">win.Tabs_MoveTabLeft</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Move Tab Right</attribute>
+        <attribute name="action">win.Tabs_MoveTabRight</attribute>
+      </item>
+    </submenu>
+    
+    <submenu>
+      <attribute name="label" translatable="yes">Help</attribute>
+      <item>
+        <attribute name="label" translatable="yes">About</attribute>
+        <attribute name="action">win.Help_About</attribute>
+      </item>
+    </submenu>
+  </menu>
+</interface>

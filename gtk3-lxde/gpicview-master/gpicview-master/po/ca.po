@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2025-10-31 11:33+0100\n"
+"Last-Translator: Davidmp <rbndavid@gmail.com>\n"
+"Language-Team: LXDE Catalan translators group\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+"X-POOTLE-MTIME: 1534361167.798295\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[FITXER]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "Mostra la informació de la versió i surt"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "Inicia la presentació"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr "El fitxer %s no es pot obrir!"
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "Visualitzador d'imatges"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "Anterior"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "Següent"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "Inicia la presentació"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "Apropa"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "Allunya"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "Ajusta a la finestra"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "Mida original"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "Pantalla completa"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "Gira cap a l'esquerra"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "Gira cap a la dreta"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "Gira horitzontalment"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "Gira verticalment"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "Obre"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "Desa"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "Desa com a"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "Suprimeix el fitxer"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "Preferències"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "Surt"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "Atura la presentació"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"El nom seleccionat ja existeix.\n"
+"Voleu sobreescriure el fitxer existent?\n"
+"(Atenció: podeu perdre la qualitat de la imatge original.)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "La imatge no es pot desar en aquest format."
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"Segur que voleu suprimir aquest fitxer?\n"
+"\n"
+"Alerta: un cop suprimit, el fitxer no es podrà recuperar."
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "Inicia / atura la presentació"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "Desa com a"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "Mostra / amaga la barra d'eines"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr " * Basat en el codi font dels visors d'imatges EOG i GThumb"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr ""
+"LXDE - Pootle\n"
+"Davidmp"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "GPicView"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "Copyright (C) 2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "Visualitzador d'imatges lleuger del projecte LXDE"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"El GPicView serà el visualitzador d'imatges per defecte per a totes les "
+"imatges admeses pel sistema.\n"
+"(Això es farà mitjançant el programa xdg-mime)\n"
+"\n"
+"<b>Segur que ho voleu fer?</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "Totes les imatges admeses"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "Tots els fitxers"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "Qualitat de JPEG:"
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"Amb valors baixos de qualitat tindreu fitxers petits; \n"
+"tot i això, la qualitat de la imatge serà pitjor."
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "Nivell de compressió de PNG:"
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"Amb valors alts de compressió tindreu fitxers petits,\n"
+"però es trigarà més temps a fer la compressió."
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "Visualitzeu imatges fàcilment"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr "Comença amb una finestra maximitzada"
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr "Desa la mida i la posició de la finestra"
+
+#: ../data/pref-dlg.ui.h:4
+msgid "Show toolbar"
+msgstr "Mostra la barra d'eines"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "Pregunta abans de desar imatges"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "Pregunta abans de suprimir imatges"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "Desa automàticament les imatges girades"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"Gira el fitxer JPEG canviant el valor d'orientació d'EXIF\n"
+"(només si existeix l'etiqueta EXIF d'orientació)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "Interval de la presentació"
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "s"
+
+#: ../data/pref-dlg.ui.h:12
+msgid "Zoom factor"
+msgstr "Factor d'ampliació"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "Fes que el GPicView sigui el visualitzador d'imatges predeterminat"
+
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "Normal:"
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "Pantalla completa:"
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>Colors del fons</b>"

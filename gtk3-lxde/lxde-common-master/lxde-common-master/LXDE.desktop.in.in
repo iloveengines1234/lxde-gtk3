@@ -1,0 +1,7 @@
+[Desktop Entry]
+# The names/descriptions should really be better
+Name=LXDE
+_Comment=LXDE - Lightweight X11 desktop environment
+Exec=@prefix@/bin/startlxde
+# Icon=
+Type=Application

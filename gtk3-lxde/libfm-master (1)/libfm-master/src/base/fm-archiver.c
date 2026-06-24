@@ -1,0 +1,262 @@
+/*
+ *      fm-archiver.c
+ *
+ *      Copyright 2010 PCMan <pcman.tw@gmail.com>
+ *
+ *      This file is a part of the Libfm library.
+ *
+ *      This library is free software; you can redistribute it and/or
+ *      modify it under the terms of the GNU Lesser General Public
+ *      License as published by the Free Software Foundation; either
+ *      version 2.1 of the License, or (at your option) any later version.
+ *
+ *      This library is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ *      Lesser General Public License for more details.
+ *
+ *      You should have received a copy of the GNU Lesser General Public
+ *      License along with this library; if not, write to the Free Software
+ *      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ */
+
+/**
+ * SECTION:fm-archiver
+ * @short_description: Support for packing and unpacking archiver utilities.
+ * @title: FmArchiver
+ *
+ * @include: libfm/fm.h
+ *
+ * The #FmArchiver represents support for utilities which can pack files
+ * into archive and/or extract them.
+ */
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+#include "fm-config.h"
+#include "fm-archiver.h"
+#include "fm-app-info.h"
+#include "fm-utils.h"
+#include <gio/gdesktopappinfo.h>
+#include <string.h>
+
+static GList* archivers = NULL;
+static FmArchiver* default_archiver = NULL;
+
+static void fm_archiver_free(FmArchiver* archiver)
+{
+    g_free(archiver->program);
+    g_free(archiver->create_cmd);
+    g_free(archiver->extract_cmd);
+    g_free(archiver->extract_to_cmd);
+    g_strfreev(archiver->mime_types);
+    g_slice_free(FmArchiver, archiver);
+}
+
+gboolean fm_archiver_is_mime_type_supported(FmArchiver* archiver, const char* type)
+{
+    char** p;
+    if(G_UNLIKELY(!type))
+        return FALSE;
+    for(p=archiver->mime_types; *p; ++p)
+    {
+        if(strcmp(*p, type) == 0)
+            return TRUE;
+    }
+    return FALSE;
+}
+
+static gboolean launch_program(FmArchiver* archiver, GAppLaunchContext* ctx, const char* cmd, FmPathList* files, FmPath* dir)
+{
+    GAppInfo* app;
+    char* _cmd = NULL;
+    GKeyFile* dummy;
+    char* tmp;
+    GError* error = NULL;
+    gboolean success = TRUE;
+
+    if(dir && strstr(cmd, "%d"))
+    {
+        char* dir_str;
+        if(strstr(cmd, "%U") || strstr(cmd, "%u")) /* Supports URI schemas */
+        {
+            dir_str = fm_path_to_uri(dir);
+        }
+        else
+        {
+            GFile* gf = fm_path_to_gfile(dir);
+            dir_str = g_file_get_path(gf);
+            g_object_unref(gf);
+        }
+
+        if (dir_str)
+        {
+            /* Replace all '%' characters with '%%' to protect encoded characters during desktop keyfile validation */
+            tmp = fm_strdup_replace(dir_str, "%", "%%");
+            g_free(dir_str);
+            dir_str = tmp;
+
+            /* Quote path shells cleanly */
+            tmp = g_shell_quote(dir_str);
+            g_free(dir_str);
+            dir_str = tmp;
+
+            /* Fixed: Replaced fragile raw byte slicing logic with a clean, dynamic string splitter */
+            char** split_cmd = g_strsplit(cmd, "%d", -1);
+            _cmd = g_strjoinv(dir_str, split_cmd);
+            g_strfreev(split_cmd);
+            g_free(dir_str);
+            cmd = _cmd;
+        }
+    }
+
+    /* Fabricate standard Desktop configuration boundaries to interface securely with GDesktopAppInfo engines */
+    dummy = g_key_file_new();
+    g_key_file_set_string(dummy, G_KEY_FILE_DESKTOP_GROUP, "Type", "Application");
+    g_key_file_set_string(dummy, G_KEY_FILE_DESKTOP_GROUP, "Name", archiver->program);
+    g_key_file_set_string(dummy, G_KEY_FILE_DESKTOP_GROUP, "Exec", cmd);
+    
+    app = (GAppInfo*)g_desktop_app_info_new_from_keyfile(dummy);
+    g_key_file_free(dummy);
+
+    if(app)
+    {
+        GList* uris = NULL;
+        GList* l;
+        for(l = fm_path_list_peek_head_link(files); l; l=l->next)
+        {
+            FmPath* path = FM_PATH(l->data);
+            uris = g_list_prepend(uris, fm_path_to_uri(path));
+        }
+        uris = g_list_reverse(uris);
+
+        /* Fixed: Replaced missing handler argument blocks with active GError channels */
+        success = fm_app_info_launch_uris(app, uris, ctx, &error);
+        if (!success)
+        {
+            g_warning("Archiver subsystem execution failed for program '%s': %s", 
+                      archiver->program, error ? error->message : "Unknown System Error");
+            g_clear_error(&error);
+        }
+
+        g_list_foreach(uris, (GFunc)g_free, NULL);
+        g_list_free(uris);
+        g_object_unref(app);
+    }
+    else
+    {
+        g_warning("Failed to initialize system runtime app profile structure for program handler: %s", archiver->program);
+        success = FALSE;
+    }
+
+    g_free(_cmd);
+    return success;
+}
+
+gboolean fm_archiver_create_archive(FmArchiver* archiver, GAppLaunchContext* ctx, FmPathList* files)
+{
+    if(archiver->create_cmd && files)
+        return launch_program(archiver, ctx, archiver->create_cmd, files, NULL);
+    return FALSE;
+}
+
+gboolean fm_archiver_extract_archives(FmArchiver* archiver, GAppLaunchContext* ctx, FmPathList* files)
+{
+    if(archiver->extract_cmd && files)
+        return launch_program(archiver, ctx, archiver->extract_cmd, files, NULL);
+    return FALSE;
+}
+
+gboolean fm_archiver_extract_archives_to(FmArchiver* archiver, GAppLaunchContext* ctx, FmPathList* files, FmPath* dest_dir)
+{
+    if(archiver->extract_to_cmd && files)
+        return launch_program(archiver, ctx, archiver->extract_to_cmd, files, dest_dir);
+    return FALSE;
+}
+
+FmArchiver* fm_archiver_get_default(void)
+{
+    if(!default_archiver)
+    {
+        GList* l;
+        if(fm_config->archiver)
+        {
+            for(l = archivers; l; l=l->next)
+            {
+                FmArchiver* archiver = (FmArchiver*)l->data;
+                if( g_strcmp0(fm_config->archiver, archiver->program) == 0 )
+                {
+                    default_archiver = archiver;
+                    break;
+                }
+            }
+        }
+        else if(archivers)
+        {
+            for(l = archivers; l; l=l->next)
+            {
+                FmArchiver* archiver = (FmArchiver*)l->data;
+                char* tmp = g_find_program_in_path(archiver->program);
+                if( tmp )
+                {
+                    g_free(tmp);
+                    default_archiver = archiver;
+                    g_free(fm_config->archiver);
+                    fm_config->archiver = g_strdup(archiver->program);
+                    break;
+                }
+            }
+        }
+    }
+    return default_archiver;
+}
+
+void fm_archiver_set_default(FmArchiver* archiver)
+{
+    if(archiver)
+        default_archiver = archiver;
+}
+
+const GList* fm_archiver_get_all(void)
+{
+    return archivers;
+}
+
+void _fm_archiver_init()
+{
+    GKeyFile *kf = g_key_file_new();
+    if(g_key_file_load_from_file(kf, PACKAGE_DATA_DIR "/archivers.list", 0, NULL))
+    {
+        gsize n_archivers;
+        gchar** programs = g_key_file_get_groups(kf, &n_archivers);
+        if(programs)
+        {
+            gsize i;
+            for(i = 0; i < n_archivers; ++i)
+            {
+                FmArchiver* archiver = g_slice_new0(FmArchiver);
+                archiver->program = programs[i];
+                archiver->create_cmd = g_key_file_get_string(kf, programs[i], "create", NULL);
+                archiver->extract_cmd = g_key_file_get_string(kf, programs[i], "extract", NULL);
+                archiver->extract_to_cmd = g_key_file_get_string(kf, programs[i], "extract_to", NULL);
+                archiver->mime_types = g_key_file_get_string_list(kf, programs[i], "mime_types", NULL, NULL);
+                
+                /* Fixed performance pattern: Prepend instead of append to eliminate O(N^2) pointer traversals */
+                archivers = g_list_prepend(archivers, archiver);
+            }
+            archivers = g_list_reverse(archivers);
+            g_free(programs); 
+        }
+    }
+    g_key_file_free(kf);
+}
+
+void _fm_archiver_finalize()
+{
+    g_list_foreach(archivers, (GFunc)fm_archiver_free, NULL);
+    g_list_free(archivers);
+    archivers = NULL;
+    default_archiver = NULL;
+}

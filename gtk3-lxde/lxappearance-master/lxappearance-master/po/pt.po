@@ -1,0 +1,373 @@
+# Portuguese translation for LXAPPEARANCE.
+# Copyright (C) 2010 The LXAPPEARANCE Copyright Holder.
+# This file is distributed under the same license as the LXAPPEARANCE package.
+# Sérgio Marques <smarquespt@gmail.com>, 2010-2013.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022, 2023, 2024, 2025, 2026.
+# Adaptado ao acordo ortográfico de 1990.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-22 14:54+0200\n"
+"PO-Revision-Date: 2026-05-14 09:31+0100\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+"X-POOTLE-MTIME: 1427376697.000000\n"
+
+#: ../data/lxappearance.desktop.in.h:1
+msgid "Customize Look and Feel"
+msgstr "Personalizar aspeto e comportamento"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Personaliza o aspeto da sua área de trabalho e das aplicações"
+
+#: ../data/lxappearance.desktop.in.h:3
+msgid "windows;preferences;settings;theme;style;appearance;"
+msgstr "janelas;preferências;definições;tema;estilo;aparência;"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2008-2025 LXDE Project"
+msgstr "Direitos de autor (C) 2008-2025 Projeto LXDE"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Personaliza o aspeto da sua área de trabalho"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr ""
+"Sérgio Marques <smarquespt@gmail.com>\n"
+"Hugo Carvalho <hugokarvalho@hotmail.com>"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgctxt "Title"
+msgid "Customize Look and Feel"
+msgstr "Personalizar aspeto e comportamento"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "Preview of the selected widget style"
+msgstr "Pré-visualização de estilo do widget selecionado"
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "_File"
+msgstr "_Ficheiro"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "_Help"
+msgstr "Aj_uda"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Radio Button"
+msgstr "Botão de opção"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Check Button"
+msgstr "Botão de seleção"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "button"
+msgstr "botão"
+
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Demo"
+msgstr "Exemplo"
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Page1"
+msgstr "Página1"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "column"
+msgstr "coluna"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Page2"
+msgstr "Página2"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Default font:"
+msgstr "Tipo de letra predefinida:"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Widget"
+msgstr "Widget"
+
+#: ../data/ui/lxappearance.glade.h:15 ../src/color-scheme.c:312
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+"O esquema de cores não é compatível com o tema do widget atualmente "
+"selecionado."
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Use customized color scheme"
+msgstr "Utilizar um esquema de cores personalizado"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Normal windows:"
+msgstr "Janelas normais:"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Text windows:"
+msgstr "Janelas de texto:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Selected items:"
+msgstr "Itens selecionados:"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Tooltips:"
+msgstr "Dicas:"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Background"
+msgstr "Secundária"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Foreground"
+msgstr "Principal"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Color"
+msgstr "Cor"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Install"
+msgstr "Instalar"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Remove"
+msgstr "Remover"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Preview of the selected icon theme"
+msgstr "Pré-visualização do tema de ícones selecionado"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Icon Theme"
+msgstr "Tema de ícones"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Preview of the selected cursor theme"
+msgstr "Pré-visualização do tema de cursor selecionado"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Size of cursors"
+msgstr "Tamanho do cursor"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Smaller"
+msgstr "Pequeno"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Bigger"
+msgstr "Grande"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>Nota:</b> nem todas as aplicações suportam a alteração imediata do "
+"cursor. Algumas alterações efetuadas poderão não ser aplicadas até ao "
+"próximo início de sessão."
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Mouse Cursor"
+msgstr "Cursor do rato"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Window Border"
+msgstr "Contornos da janela"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Enable antialiasing"
+msgstr "Ativar suavização"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "<b>Antialiasing</b>"
+msgstr "<b>Suavização</b>"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Enable hinting"
+msgstr "Ativar alisamento"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Hinting style: "
+msgstr "Estilo de alisamento: "
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "<b>Hinting</b>"
+msgstr "<b>Alisamento</b>"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Sub-pixel geometry: "
+msgstr "Geometria de sub-pixel: "
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "<b>Sub-pixel geometry</b>"
+msgstr "<b>Geometria de sub-pixel</b>"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Font"
+msgstr "Tipo de letra"
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "Estilo da barra de ferramentas: "
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Toolbar Icon Size: "
+msgstr "Tamanho da barra de ícones: "
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Show images on buttons"
+msgstr "Mostrar imagens nos botões"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Show images in menus"
+msgstr "Mostrar imagens nos menus"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "<b>GUI Options</b>"
+msgstr "<b>Opções de interface</b>"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "Keyboard theme:"
+msgstr "Tema do teclado:"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "<b>Keyboard Options</b>"
+msgstr "<b>Opções do teclado</b>"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "Play event sounds"
+msgstr "Reproduzir sons de eventos"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "Play event sounds as feedback to user input"
+msgstr "Reproduzir sons como resposta à ação do utilizador"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Efeitos sonoros</b>"
+
+#: ../data/ui/lxappearance.glade.h:53
+msgid "Enable _accessibility in GTK+ applications"
+msgstr "Ativar _acessibilidade nas aplicações GTK+"
+
+#: ../data/ui/lxappearance.glade.h:54
+msgid "<b>Accessibility</b>"
+msgstr "<b>Acessibilidade</b>"
+
+#: ../data/ui/lxappearance.glade.h:55
+msgid "Other"
+msgstr "Outros"
+
+#: ../data/ui/lxappearance.glade.h:56
+msgctxt "Sub-pixel geometry"
+msgid "None"
+msgstr "Nenhuma"
+
+#: ../data/ui/lxappearance.glade.h:57
+msgid "RGB"
+msgstr "RGB"
+
+#: ../data/ui/lxappearance.glade.h:58
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.glade.h:59
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.glade.h:60
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.glade.h:61
+msgctxt "Hinting style"
+msgid "None"
+msgstr "Nenhum"
+
+#: ../data/ui/lxappearance.glade.h:62
+msgid "Slight"
+msgstr "Ligeiro"
+
+#: ../data/ui/lxappearance.glade.h:63
+msgid "Medium"
+msgstr "Médio"
+
+#: ../data/ui/lxappearance.glade.h:64
+msgid "Full"
+msgstr "Total"
+
+#: ../data/ui/lxappearance.glade.h:65
+msgid "Same as menu items"
+msgstr "Igual aos itens do menu"
+
+#: ../data/ui/lxappearance.glade.h:66
+msgid "Small toolbar icon"
+msgstr "Ícones pequenos"
+
+#: ../data/ui/lxappearance.glade.h:67
+msgid "Large toolbar icon"
+msgstr "Ícones grandes"
+
+#: ../data/ui/lxappearance.glade.h:68
+msgid "Same as buttons"
+msgstr "Igual aos botões"
+
+#: ../data/ui/lxappearance.glade.h:69
+msgid "Same as drag icons"
+msgstr "Igual aos ícones arrastáveis"
+
+#: ../data/ui/lxappearance.glade.h:70
+msgid "Same as dialogs"
+msgstr "Igual aos diálogos"
+
+#: ../data/ui/lxappearance.glade.h:71
+msgid "Icons only"
+msgstr "Apenas ícones"
+
+#: ../data/ui/lxappearance.glade.h:72
+msgid "Text only"
+msgstr "Apenas texto"
+
+#: ../data/ui/lxappearance.glade.h:73
+msgid "Text below icons"
+msgstr "Texto abaixo dos ícones"
+
+#: ../data/ui/lxappearance.glade.h:74
+msgid "Text beside icons"
+msgstr "Texto ao lado dos ícones"
+
+#: ../src/utils.c:228
+msgid "Select an icon theme"
+msgstr "Selecione um tema de ícones"
+
+#: ../src/utils.c:236
+msgid "*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2, *.tar.xz (Tema de ícones)"
+
+#: ../src/color-scheme.c:309
+msgid ""
+"Setting color scheme is not available without lxsession as session manager."
+msgstr ""
+"Não pode definir o esquema de cores se não utilizar o lxsession como gestor "
+"de sessões."
+
+#~ msgid "Copyright (C) 2011 LXDE Project"
+#~ msgstr "Direitos de autor (C) 2011-2014 Projeto LXDE"

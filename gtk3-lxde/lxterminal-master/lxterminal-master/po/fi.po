@@ -1,0 +1,567 @@
+# Finnish translation for LXTerminal
+# Copyright (C) 2008
+# This file is distributed under the same license as the PACKAGE package.
+# Elias Julkunen <elias.julkunen@gmail.com>, 2008.
+# Juhani Numminen <juhaninumminen0@gmail.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 21:42+0200\n"
+"PO-Revision-Date: 2016-12-13 21:47+0200\n"
+"Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
+"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"X-POOTLE-MTIME: 1433933143.000000\n"
+
+#: ../src/lxterminal.c:129
+msgid "_File"
+msgstr "_Tiedosto"
+
+#: ../src/lxterminal.c:130
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+#: ../src/lxterminal.c:131
+msgid "_Tabs"
+msgstr "_Välilehdet"
+
+#: ../src/lxterminal.c:132
+msgid "_Help"
+msgstr "_Ohje"
+
+#: ../src/lxterminal.c:133
+msgid "_New Window"
+msgstr "_Uusi ikkuna"
+
+#: ../src/lxterminal.c:134
+msgid "New T_ab"
+msgstr "Uusi _välilehti"
+
+#: ../src/lxterminal.c:136 ../src/lxterminal.c:176
+msgid "_Close Tab"
+msgstr "S_ulje välilehti"
+
+#: ../src/lxterminal.c:137
+msgid "Close _Window"
+msgstr "_Sulje ikkuna"
+
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:165
+msgid "Cop_y"
+msgstr "_Kopioi"
+
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:166
+msgid "_Paste"
+msgstr "_Liitä"
+
+#: ../src/lxterminal.c:140
+msgid "Clear scr_ollback"
+msgstr "T_yhjennä rivihistoria"
+
+#: ../src/lxterminal.c:142
+msgid "Zoom _In"
+msgstr "_Lähennä"
+
+#: ../src/lxterminal.c:143
+msgid "Zoom O_ut"
+msgstr "L_oitonna"
+
+#: ../src/lxterminal.c:144
+msgid "Zoom _Reset"
+msgstr "_Palauta suurennus"
+
+#: ../src/lxterminal.c:146 ../src/lxterminal.c:169
+msgid "Preference_s"
+msgstr "_Asetukset"
+
+#: ../src/lxterminal.c:147 ../src/lxterminal.c:171
+msgid "Na_me Tab"
+msgstr "_Nimeä välilehti"
+
+#: ../src/lxterminal.c:148 ../src/lxterminal.c:172
+msgid "Pre_vious Tab"
+msgstr "_Edellinen välilehti"
+
+#: ../src/lxterminal.c:149 ../src/lxterminal.c:173
+msgid "Ne_xt Tab"
+msgstr "_Seuraava välilehti"
+
+#: ../src/lxterminal.c:150 ../src/lxterminal.c:174
+msgid "Move Tab _Left"
+msgstr "Siirrä välilehteä _vasemmalle"
+
+#: ../src/lxterminal.c:151 ../src/lxterminal.c:175
+msgid "Move Tab _Right"
+msgstr "Siirrä välilehteä _oikealle"
+
+#: ../src/lxterminal.c:152
+msgid "_About"
+msgstr "_Tietoja"
+
+#: ../src/lxterminal.c:160
+msgid "New _Window"
+msgstr "_Uusi ikkuna"
+
+#: ../src/lxterminal.c:161
+msgid "New _Tab"
+msgstr "Uusi _välilehti"
+
+#: ../src/lxterminal.c:163
+#, fuzzy
+#| msgid "Copy _URL"
+msgid "Open _URL"
+msgstr "Kopioi _URL"
+
+#: ../src/lxterminal.c:164
+msgid "Copy _URL"
+msgstr "Kopioi _URL"
+
+#: ../src/lxterminal.c:167
+msgid "Cl_ear scrollback"
+msgstr "T_yhjennä rivihistoria"
+
+#: ../src/lxterminal.c:603 ../data/lxterminal-preferences.glade.h:57
+msgid "Name Tab"
+msgstr "Nimeä välilehti"
+
+#: ../src/lxterminal.c:606
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/lxterminal.c:607
+msgid "_OK"
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/lxterminal.c:776
+msgid "translator-credits"
+msgstr ""
+"Elias Julkunen <elias.julkunen@gmail.com>\n"
+"Juhani Numminen <juhaninumminen0@gmail.com>"
+
+#: ../src/lxterminal.c:782 ../src/preferences.c:293
+#: ../data/lxterminal.desktop.in.h:1
+msgid "LXTerminal"
+msgstr "LXTerminal"
+
+#: ../src/lxterminal.c:784
+msgid "Copyright (C) 2008-2025"
+msgstr "Copyright © 2008–2025"
+
+#: ../src/lxterminal.c:785
+msgid "Terminal emulator for LXDE project"
+msgstr "LXDE-projektin pääteohjelma"
+
+#: ../src/lxterminal.c:816
+msgid "LXTerminal Terminal Emulator"
+msgstr ""
+
+#: ../src/lxterminal.c:850
+#, c-format
+msgid "You are about to close %d tabs. Are you sure you want to continue?"
+msgstr "Olet sulkemassa %d välilehteä. Suljetaanko välilehdet?"
+
+#: ../src/lxterminal.c:851
+msgid "Confirm close"
+msgstr "Vahvista sulkeminen"
+
+#: ../data/lxterminal-preferences.glade.h:1
+msgid "Top"
+msgstr "Ylhäällä"
+
+#: ../data/lxterminal-preferences.glade.h:2
+msgid "Bottom"
+msgstr "Alhaalla"
+
+#: ../data/lxterminal-preferences.glade.h:3
+msgid "Left"
+msgstr "Vasemmalla"
+
+#: ../data/lxterminal-preferences.glade.h:4
+msgid "Right"
+msgstr "Oikealla"
+
+#: ../data/lxterminal-preferences.glade.h:5
+msgid "LXTerminal Preferences"
+msgstr "LXTerminalin asetukset"
+
+#: ../data/lxterminal-preferences.glade.h:6
+msgid "Terminal font"
+msgstr "Päätteen kirjasin"
+
+#: ../data/lxterminal-preferences.glade.h:7
+msgid "Background"
+msgstr "Taustaväri"
+
+#: ../data/lxterminal-preferences.glade.h:8
+msgid "Foreground"
+msgstr "Edustaväri"
+
+#: ../data/lxterminal-preferences.glade.h:9
+msgid "Allow bold font"
+msgstr "Salli lihavointi"
+
+#: ../data/lxterminal-preferences.glade.h:10
+msgid "Bold is bright"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:11
+msgid "Cursor blink"
+msgstr "Vilkkuva osoitin"
+
+#: ../data/lxterminal-preferences.glade.h:12
+msgid "Cursor style"
+msgstr "Osoittimen muoto"
+
+#: ../data/lxterminal-preferences.glade.h:13
+msgid "Block"
+msgstr "Palikka"
+
+#: ../data/lxterminal-preferences.glade.h:14
+msgid "Underline"
+msgstr "Alaviiva"
+
+#: ../data/lxterminal-preferences.glade.h:15
+msgid "Audible bell"
+msgstr "Äänimerkki"
+
+#: ../data/lxterminal-preferences.glade.h:16
+#, fuzzy
+#| msgid "Audible bell"
+msgid "Visual bell"
+msgstr "Äänimerkki"
+
+#: ../data/lxterminal-preferences.glade.h:17
+msgid "Black"
+msgstr "Musta"
+
+#: ../data/lxterminal-preferences.glade.h:18
+msgid "Red"
+msgstr "Punainen"
+
+#: ../data/lxterminal-preferences.glade.h:19
+msgid "Green"
+msgstr "Vihreä"
+
+#: ../data/lxterminal-preferences.glade.h:20
+msgid "Brown"
+msgstr "Ruskea"
+
+#: ../data/lxterminal-preferences.glade.h:21
+msgid "Blue"
+msgstr "Sininen"
+
+#: ../data/lxterminal-preferences.glade.h:22
+msgid "Magenta"
+msgstr "Magenta"
+
+#: ../data/lxterminal-preferences.glade.h:23
+msgid "Cyan"
+msgstr "Syaani"
+
+#: ../data/lxterminal-preferences.glade.h:24
+msgid "Gray"
+msgstr "Harmaa"
+
+#: ../data/lxterminal-preferences.glade.h:25
+msgid "Darkgray"
+msgstr "Tumman harmaa"
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Bright Red"
+msgstr "Kirkkaan punainen"
+
+#: ../data/lxterminal-preferences.glade.h:27
+msgid "Bright Green"
+msgstr "Kirkkaan vihreä"
+
+#: ../data/lxterminal-preferences.glade.h:28
+msgid "Yellow"
+msgstr "Keltainen"
+
+#: ../data/lxterminal-preferences.glade.h:29
+msgid "Bright Blue"
+msgstr "Kirkkaan sininen"
+
+#: ../data/lxterminal-preferences.glade.h:30
+msgid "Bright Magenta"
+msgstr "Kirkkaan magenta"
+
+#: ../data/lxterminal-preferences.glade.h:31
+msgid "Bright Cyan"
+msgstr "Kirkkaan syaani"
+
+#: ../data/lxterminal-preferences.glade.h:32
+msgid "White"
+msgstr "Valkoinen"
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Palette"
+msgstr "Valipaletti"
+
+#: ../data/lxterminal-preferences.glade.h:34
+msgid "Palette Preset"
+msgstr "Paletin esiasetus"
+
+#: ../data/lxterminal-preferences.glade.h:35
+msgid "Style"
+msgstr "Tyyli"
+
+#: ../data/lxterminal-preferences.glade.h:36
+msgid "Tab panel position"
+msgstr "Välilehtipalkin sijainti"
+
+#: ../data/lxterminal-preferences.glade.h:37
+msgid "Scrollback lines"
+msgstr "Takaisinvieritys"
+
+#: ../data/lxterminal-preferences.glade.h:38
+msgid "Hide scroll bar"
+msgstr "Piilota vierityspalkki"
+
+#: ../data/lxterminal-preferences.glade.h:39
+msgid "Hide menu bar"
+msgstr "Piilota valikkopalkki"
+
+#: ../data/lxterminal-preferences.glade.h:40
+msgid "Hide Close buttons"
+msgstr "Piilota sulkemispainikkeet"
+
+#: ../data/lxterminal-preferences.glade.h:41
+msgid "Hide mouse pointer"
+msgstr "Piilota hiiren osoitin"
+
+#: ../data/lxterminal-preferences.glade.h:42
+msgid "Default window size"
+msgstr "Ikkunan oletuskoko"
+
+#: ../data/lxterminal-preferences.glade.h:43
+msgid "x"
+msgstr "x"
+
+#: ../data/lxterminal-preferences.glade.h:44
+msgid "Display"
+msgstr "Ikkuna"
+
+#: ../data/lxterminal-preferences.glade.h:45
+msgid "Select-by-word characters"
+msgstr "Sanoina valittavat merkit"
+
+#: ../data/lxterminal-preferences.glade.h:46
+msgid "Disable menu shortcut key (F10 by default)"
+msgstr "Älä käytä valikon pikanäppäintä (oletuksena F10)"
+
+#: ../data/lxterminal-preferences.glade.h:47
+msgid "Disable using Alt-n for tabs and menu"
+msgstr "Älä käytä pikanäppäintä Alt-n välilehden vaihtamiseen"
+
+#: ../data/lxterminal-preferences.glade.h:48
+msgid "Disable confirmation before closing a window with multiple tabs"
+msgstr "Älä varoita ennen usean välilehden sulkemista"
+
+#: ../data/lxterminal-preferences.glade.h:49
+msgid "Tab width"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:50
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: ../data/lxterminal-preferences.glade.h:51
+msgid "New Window"
+msgstr "Uusi ikkuna"
+
+#: ../data/lxterminal-preferences.glade.h:52
+msgid "New Tab"
+msgstr "Uusi välilehti"
+
+#: ../data/lxterminal-preferences.glade.h:53
+msgid "Close Tab"
+msgstr "Sulje välilehti"
+
+#: ../data/lxterminal-preferences.glade.h:54
+msgid "Close Window"
+msgstr "Sulje ikkuna"
+
+#: ../data/lxterminal-preferences.glade.h:55
+msgid "Copy"
+msgstr "Kopioi"
+
+#: ../data/lxterminal-preferences.glade.h:56
+msgid "Paste"
+msgstr "Liitä"
+
+#: ../data/lxterminal-preferences.glade.h:58
+msgid "Previous Tab"
+msgstr "Edellinen välilehti"
+
+#: ../data/lxterminal-preferences.glade.h:59
+msgid "Next Tab"
+msgstr "Seuraava välilehti"
+
+#: ../data/lxterminal-preferences.glade.h:60
+msgid "Move Tab Left"
+msgstr "Siirrä välilehteä vasemmalle"
+
+#: ../data/lxterminal-preferences.glade.h:61
+msgid "Move Tab Right"
+msgstr "Siirrä välilehteä oikealle"
+
+#: ../data/lxterminal-preferences.glade.h:62
+msgid "Zoom In"
+msgstr "Lähennä"
+
+#: ../data/lxterminal-preferences.glade.h:63
+msgid "Zoom Out"
+msgstr "Loitonna"
+
+#: ../data/lxterminal-preferences.glade.h:64
+msgid "Zoom Reset"
+msgstr "Palauta suurennus"
+
+#: ../data/lxterminal-preferences.glade.h:65
+msgid "Shortcuts"
+msgstr "Pikanäppäimet"
+
+#: ../data/lxterminal.desktop.in.h:2
+msgid "Terminal"
+msgstr "Pääte"
+
+#: ../data/lxterminal.desktop.in.h:3
+msgid "Use the command line"
+msgstr "Käytä komentoriviä"
+
+#: ../data/lxterminal.desktop.in.h:4
+msgid "console;command line;execute;"
+msgstr ""
+"konsoli;pääte;terminaali;komentorivi;komentotulkki;suorita;aja;console;"
+"command line;execute;"
+
+#~ msgid "West European"
+#~ msgstr "Länsieurooppalainen"
+
+#~ msgid "East European"
+#~ msgstr "Itäeurooppalainen"
+
+#~ msgid "East Asian"
+#~ msgstr "Itäaasialainen"
+
+#~ msgid "SE & SW Asian"
+#~ msgstr "Kaakkois- ja lounaisaasialainen"
+
+#~ msgid "Middle Eastern"
+#~ msgstr "Itämainen"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Länsimainen"
+
+#~ msgid "Central European"
+#~ msgstr "Keskieurooppalainen"
+
+#~ msgid "South European"
+#~ msgstr "Eteläeurooppalainen"
+
+#~ msgid "Baltic"
+#~ msgstr "Balttilainen"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Kyrillinen"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabialainen"
+
+#~ msgid "Greek"
+#~ msgstr "Kreikkalainen"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Heprealainen, kuvapohjainen"
+
+#~ msgid "Hebrew"
+#~ msgstr "Heprealainen"
+
+#~ msgid "Turkish"
+#~ msgstr "Turkkilainen"
+
+#~ msgid "Nordic"
+#~ msgstr "Pohjoismainen"
+
+#~ msgid "Celtic"
+#~ msgstr "Kelttiläinen"
+
+#~ msgid "Romanian"
+#~ msgstr "Romanialainen"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenialainen"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Kiinalainen (perinteinen)"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Kyrillinen/venäläinen"
+
+#~ msgid "Japanese"
+#~ msgstr "Japanilainen"
+
+#~ msgid "Korean"
+#~ msgstr "Korealainen"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Kiinalainen (yksinkertaistettu)"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgialainen"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Kyrillinen/Ukrainalainen"
+
+#~ msgid "Croatian"
+#~ msgstr "Kroatialainen"
+
+#~ msgid "Hindi"
+#~ msgstr "Hindi"
+
+#~ msgid "Farsi"
+#~ msgstr "Persia"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gujarati"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Gurmukhi"
+
+#~ msgid "Icelandic"
+#~ msgstr "Islantilainen"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamilainen"
+
+#~ msgid "Thai"
+#~ msgstr "Thai"
+
+#~ msgid "_Quit"
+#~ msgstr "_Poistu"
+
+#~ msgid "General"
+#~ msgstr "Yleiset"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Asetukset"
+
+#~ msgid "Transparent Background:"
+#~ msgstr "Taustaväri:"
+
+#~ msgid "_View"
+#~ msgstr "_Näytä"
+
+#~ msgid "_Character Encoding"
+#~ msgstr "_Merkkikoodaus"

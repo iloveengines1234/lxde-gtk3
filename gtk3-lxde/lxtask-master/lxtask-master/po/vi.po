@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-28 20:12+0200\n"
+"PO-Revision-Date: 2015-08-17 01:30+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439775046.447069\n"
+
+#: ../data/lxtask.desktop.in.h:1 ../src/interface.c:75
+msgid "Task Manager"
+msgstr "Quản lý tác vụ"
+
+#: ../data/lxtask.desktop.in.h:2
+msgid "Manage running processes"
+msgstr "Quản lý các tiến trình đang chạy"
+
+#: ../data/lxtask.desktop.in.h:3
+msgid "Process manager"
+msgstr "Quản lý tiến trình"
+
+#: ../data/lxtask.desktop.in.h:4
+msgid "task;kill;suspend;processor;memory;monitoring;performance;"
+msgstr ""
+
+#: ../src/xfce-taskmanager-linux.c:305
+#, c-format
+msgid ""
+"Couldn't send signal %d to the task with ID %d\n"
+"\n"
+"%s"
+msgstr ""
+"Không thể gửi tín hiệu %d cho tác vụ với ID %d\n"
+"\n"
+"%s"
+
+#: ../src/xfce-taskmanager-linux.c:319
+#, c-format
+msgid "Couldn't set priority %d to the task with ID %d"
+msgstr "Không thể đặt ưu tiên %d cho tiến trình với ID %d"
+
+#: ../src/callbacks.c:60
+msgid "Really kill the task?"
+msgstr "Thực sự muốn tắt ngay tác vụ?"
+
+#: ../src/callbacks.c:64
+msgid "Really terminate the task?"
+msgstr "Thực sự muốn kết thúc tác vụ?"
+
+#: ../src/callbacks.c:88
+msgid "Can't stop process self"
+msgstr "Không thể dừng tiến trình"
+
+#. FIXME: this will work only for < 2048 TB but where so many memory...
+#: ../src/functions.c:150
+#, c-format
+msgid "Memory: %d MB of %d MB used"
+msgstr "Bộ nhớ: %d MB trong %d MB đã sử dụng"
+
+#. TRANSLATORS: If it is customary, insert a space before the double percent sign.
+#: ../src/functions.c:160
+#, c-format
+msgid "CPU usage: %0.0f%%"
+msgstr "Mức sử dụng CPU: %0.0f %%"
+
+#: ../src/functions.c:160
+#, c-format
+msgid "CPU usage: %0.1f%%"
+msgstr "Mức sử dụng CPU: %0.1f %%"
+
+#: ../src/interface.c:57
+#, fuzzy
+#| msgid "More details"
+msgid "Less details"
+msgstr "thêm chi tiết"
+
+#: ../src/interface.c:57
+msgid "More details"
+msgstr "thêm chi tiết"
+
+#: ../src/interface.c:90
+msgid "_File"
+msgstr "_Tập tin"
+
+#: ../src/interface.c:111
+msgid "_View"
+msgstr "_Xem"
+
+#: ../src/interface.c:117
+msgid "_Help"
+msgstr "T_rợ giúp"
+
+#: ../src/interface.c:144
+msgid "cpu usage"
+msgstr "sử dụng cpu"
+
+#: ../src/interface.c:155
+msgid "memory usage"
+msgstr "sử dụng bộ nhớ"
+
+#: ../src/interface.c:210
+msgid "Command"
+msgstr "Câu lệnh"
+
+#: ../src/interface.c:221
+msgid "User"
+msgstr "Người dùng"
+
+#: ../src/interface.c:235
+msgid "CPU"
+msgstr "CPU"
+
+#: ../src/interface.c:246
+msgid "RSS"
+msgstr "RSS"
+
+#: ../src/interface.c:257
+msgid "VM-Size"
+msgstr "Kích thước bộ nhớ ảo"
+
+#: ../src/interface.c:268
+msgid "PID"
+msgstr "PID"
+
+#: ../src/interface.c:279
+msgid "State"
+msgstr "Trạng thái"
+
+#: ../src/interface.c:290
+msgid "Prio"
+msgstr "Độ ưu tiên"
+
+#: ../src/interface.c:301
+msgid "PPID"
+msgstr "PPID"
+
+#: ../src/interface.c:322
+msgid "Stop"
+msgstr "Dừng"
+
+#: ../src/interface.c:327
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: ../src/interface.c:332
+msgid "Term"
+msgstr "Tắt"
+
+#: ../src/interface.c:337
+msgid "Kill"
+msgstr "Tắt ngay"
+
+#: ../src/interface.c:342
+msgid "Priority"
+msgstr "Độ ưu tiên"
+
+#: ../src/interface.c:355
+msgid "  -10"
+msgstr "  -10"
+
+#: ../src/interface.c:360
+msgid "  -5"
+msgstr "  -5"
+
+#: ../src/interface.c:365
+msgid "    0"
+msgstr "    0"
+
+#: ../src/interface.c:370
+msgid "   5"
+msgstr "   5"
+
+#: ../src/interface.c:375
+msgid "   10"
+msgstr "   10"
+
+#: ../src/interface.c:401
+msgid "Show user tasks"
+msgstr "Hiển thị tác vụ của người dùng"
+
+#: ../src/interface.c:406
+msgid "Show root tasks"
+msgstr "Hiện thị tác vụ của root"
+
+#: ../src/interface.c:411
+msgid "Show other tasks"
+msgstr "Hiển thị các tác vụ khác"
+
+#: ../src/interface.c:416
+msgid "Show full cmdline"
+msgstr "Hiển thị đầy đủ dòng lệnh"
+
+#: ../src/interface.c:421
+msgid "Show memory used by cache as free"
+msgstr "Xem các vùng nhớ đệm (cache) như là vùng trống"
+
+#: ../src/interface.c:453
+msgid ""
+"LXTask is derived from Xfce4 Task Manager by:\n"
+"  * Johannes Zellner <webmaster@nebulon.de>"
+msgstr ""
+"LXTask dựa trên Bộ quản lý tác vụ Xfce4 bởi: \n"
+"  * Johannes Zellner <webmaster@nebulon.de>"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/interface.c:458
+msgid "translator-credits"
+msgstr "nhóm Việt hoá: Duy-Hieu Bui <scamemiv@gmail.com>"
+
+#: ../src/interface.c:467 ../src/interface.c:469
+msgid "LXTask"
+msgstr "LXTask"
+
+#: ../src/interface.c:473
+#, fuzzy
+msgid "Copyright (C) 2008-2025 LXDE team"
+msgstr "Bản quyền (C) 2008 LXDE team"
+
+#: ../src/interface.c:474
+msgid "Lightweight task manager for LXDE project"
+msgstr "Chương trình quản lý tác vụ cho dự án LXDE"
+
+#. TRANSLATORS: If it is customary, insert a space before the double percent sign.
+#: ../src/interface.c:521
+#, c-format
+msgid "%0.1f%%"
+msgstr "%0.1f %%"
+
+#: ../src/interface.c:717
+msgid "Preferences"
+msgstr "Tùy chỉnh"
+
+#: ../src/interface.c:725
+msgid "General"
+msgstr "Tổng quát"
+
+#: ../src/interface.c:726
+msgid "Refresh rate (seconds):"
+msgstr "Tốc độ làm tươi (giây):"
+
+#: ../src/utils.c:43
+msgid "Error"
+msgstr "Lỗi"
+
+#: ../src/utils.c:56
+msgid "Confirm"
+msgstr "Xác nhận"

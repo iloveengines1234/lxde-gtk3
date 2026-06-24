@@ -1,0 +1,306 @@
+# Canadian English translation for gnome-menus
+# Copyright (C) 2004-2005 Adam Weinberger and the GNOME Foundation
+# This file is distributed under the same licence as the gnome-menus package.
+# Adam Weinberger <adamw@gnome.org>, 2004, 2005.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-menus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-21 15:23+0200\n"
+"PO-Revision-Date: 2018-10-01 14:38+0000\n"
+"Last-Translator: Davidmp <rbndavid@gmail.com>\n"
+"Language-Team: Canadian English <adamw@gnome.org>\n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:1
+#, fuzzy
+#| msgid "Multimedia menu"
+msgid "Multimedia"
+msgstr "Multimedia menu"
+
+#: ../desktop-directories/lxde-audio-video.directory.in.h:2
+#, fuzzy
+#| msgid "Graphics applications"
+msgid "Audio and video applications"
+msgstr "Graphics applications"
+
+#: ../desktop-directories/lxde-development.directory.in.h:1
+msgid "Development"
+msgstr ""
+
+#: ../desktop-directories/lxde-development.directory.in.h:2
+msgid "Tools for software development"
+msgstr "Tools for software development"
+
+#: ../desktop-directories/lxde-education.directory.in.h:1
+msgid "Education"
+msgstr "Education"
+
+#: ../desktop-directories/lxde-education.directory.in.h:2
+#, fuzzy
+#| msgid "Education"
+msgid "Educational software"
+msgstr "Education"
+
+#: ../desktop-directories/lxde-game.directory.in.h:1
+msgid "Games"
+msgstr "Games"
+
+#: ../desktop-directories/lxde-game.directory.in.h:2
+msgid "Games and amusements"
+msgstr "Games and Amusements"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:1
+msgid "Graphics"
+msgstr "Graphics"
+
+#: ../desktop-directories/lxde-graphics.directory.in.h:2
+msgid "Graphics applications"
+msgstr "Graphics applications"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:1
+msgid "Hardware"
+msgstr "Hardware"
+
+#: ../desktop-directories/lxde-hardware.directory.in.h:2
+msgid "Settings for several hardware devices"
+msgstr "Settings for several hardware devices"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:1
+msgid "Internet and Network"
+msgstr "Internet and Network"
+
+#: ../desktop-directories/lxde-internet-and-network.directory.in.h:2
+msgid "Network-related settings"
+msgstr "Network-related settings"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:1
+msgid "Look and Feel"
+msgstr "Look and Feel"
+
+#: ../desktop-directories/lxde-look-and-feel.directory.in.h:2
+msgid "Settings controlling the desktop appearance and behavior"
+msgstr "Settings controlling the desktop appearance and behaviour"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:1
+msgid "Applications"
+msgstr "Applications"
+
+#: ../desktop-directories/lxde-menu-applications.directory.in.h:2
+#, fuzzy
+#| msgid "Applications"
+msgid "Application Menu"
+msgstr "Applications"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:1
+#: ../desktop-directories/lxde-system.directory.in.h:1
+msgid "System"
+msgstr "System"
+
+#: ../desktop-directories/lxde-menu-system.directory.in.h:2
+msgid "Personal preferences and administration settings"
+msgstr "Personal preferences and administration settings"
+
+#: ../desktop-directories/lxde-network.directory.in.h:1
+msgid "Internet"
+msgstr "Internet"
+
+#: ../desktop-directories/lxde-network.directory.in.h:2
+#, fuzzy
+#| msgid "Programs for Internet access such as web and email"
+msgid "Programs for Internet access"
+msgstr "Programs for Internet access such as web and e-mail"
+
+#: ../desktop-directories/lxde-office.directory.in.h:1
+msgid "Office"
+msgstr "Office"
+
+#: ../desktop-directories/lxde-office.directory.in.h:2
+#, fuzzy
+#| msgid "Office Applications"
+msgid "Office applications"
+msgstr "Office Applications"
+
+#: ../desktop-directories/lxde-other.directory.in.h:1
+msgid "Other"
+msgstr "Other"
+
+#: ../desktop-directories/lxde-other.directory.in.h:2
+#, fuzzy
+#| msgid "Applications that did not fit in other categories"
+msgid "Applications that don't fit into other categories"
+msgstr "Applications that do not fit in other categories"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:1
+msgid "Personal"
+msgstr "Personal"
+
+#: ../desktop-directories/lxde-personal.directory.in.h:2
+msgid "Personal settings"
+msgstr "Personal settings"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:1
+msgid "Science & Math"
+msgstr "Science & Maths"
+
+#: ../desktop-directories/lxde-science-math.directory.in.h:2
+msgid "Scientific and mathematical software"
+msgstr ""
+
+#: ../desktop-directories/lxde-science.directory.in.h:1
+msgid "Science"
+msgstr "Science & Maths"
+
+#: ../desktop-directories/lxde-science.directory.in.h:2
+msgid "Scientific software"
+msgstr ""
+
+#: ../desktop-directories/lxde-settings.directory.in.h:1
+msgid "Preferences"
+msgstr "Preferences"
+
+#: ../desktop-directories/lxde-settings.directory.in.h:2
+#, fuzzy
+#| msgid "Personal preferences"
+msgid "Desktop preferences"
+msgstr "Personal preferences"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:1
+msgid "Administration"
+msgstr "Administration"
+
+#: ../desktop-directories/lxde-settings-system.directory.in.h:2
+#, fuzzy
+#| msgid "Change system-wide settings (affects all users)"
+msgid "System-wide settings (affecting all users)"
+msgstr "Change system-wide settings (affects all users)"
+
+#: ../desktop-directories/lxde-system.directory.in.h:2
+#, fuzzy
+#| msgid "System configuration and monitoring"
+msgid "System tools and monitoring"
+msgstr "System configuration and monitoring"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:1
+msgid "Universal Access"
+msgstr "Universal Access"
+
+#: ../desktop-directories/lxde-utility-accessibility.directory.in.h:2
+msgid "Universal Access Settings"
+msgstr "Universal Access Settings"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:1
+msgid "Accessories"
+msgstr "Accessories"
+
+#: ../desktop-directories/lxde-utility.directory.in.h:2
+msgid "Desktop accessories"
+msgstr "Desktop accessories"
+
+#~ msgid "Sound & Video"
+#~ msgstr "Sound & Video"
+
+#~ msgid "Programming"
+#~ msgstr "Programming"
+
+#~ msgid "System settings"
+#~ msgstr "System settings"
+
+#~ msgid "System Tools"
+#~ msgstr "System Tools"
+
+#~ msgid "Universal access related preferences"
+#~ msgstr "Universal access related preferences"
+
+#~ msgid "Personal preferences and settings"
+#~ msgstr "Personal preferences and settings"
+
+#~ msgid "Menu Editor"
+#~ msgstr "Menu Editor"
+
+#~ msgid "Edit Menus"
+#~ msgstr "Edit Menus"
+
+#~ msgid "_Applications:"
+#~ msgstr "_Applications:"
+
+#~ msgid "_Defaults"
+#~ msgstr "_Defaults"
+
+#~ msgid "_Menus:"
+#~ msgstr "_Menus:"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Show"
+#~ msgstr "Show"
+
+#~ msgid ""
+#~ "Cannot find home directory: not set in /etc/passwd and no value for $HOME "
+#~ "in environment"
+#~ msgstr ""
+#~ "Cannot find home directory: not set in /etc/passwd and no value for $HOME "
+#~ "in environment"
+
+#~ msgid "Menu file"
+#~ msgstr "Menu file"
+
+#~ msgid "MENU_FILE"
+#~ msgstr "MENU_FILE"
+
+#~ msgid "Monitor for menu changes"
+#~ msgstr "Monitor for menu changes"
+
+#~ msgid "Include <Exclude>d entries"
+#~ msgstr "Include <Exclude>d entries"
+
+#~ msgid "Include NoDisplay=true entries"
+#~ msgstr "Include NoDisplay=true entries"
+
+#~ msgid "Invalid desktop file ID"
+#~ msgstr "Invalid desktop file ID"
+
+#~ msgid "[Invalid Filename]"
+#~ msgstr "[Invalid Filename]"
+
+#~ msgid " <excluded>"
+#~ msgstr " <excluded>"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "==== Menu changed, reloading ====\n"
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "==== Menu changed, reloading ====\n"
+#~ "\n"
+#~ "\n"
+
+#~ msgid "Menu tree is empty"
+#~ msgstr "Menu tree is empty"
+
+#~ msgid "- test GNOME's implementation of the Desktop Menu Specification"
+#~ msgstr "- test GNOME's implementation of the Desktop Menu Specification"
+
+#~ msgid "Accessibility"
+#~ msgstr "Accessibility"
+
+#~ msgid "Accessibility Settings"
+#~ msgstr "Accessibility Settings"
+
+#~ msgid "Desktop"
+#~ msgstr "Desktop"
+
+#~ msgid "Hide"
+#~ msgstr "Hide"

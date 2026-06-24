@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/lxde/lxsession/ui">
+    <file preprocess="xml-stripblanks">lxpolkit.ui</file>
+    <file preprocess="xml-stripblanks">lxsession-default-apps.ui</file>
+    <file preprocess="xml-stripblanks">lxsession-edit.ui</file>
+  </gresource>
+</gresources>

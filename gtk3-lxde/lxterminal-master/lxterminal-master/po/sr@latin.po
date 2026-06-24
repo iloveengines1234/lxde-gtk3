@@ -1,0 +1,585 @@
+# Serbian translation for LXTerminal package
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the LXTerminal package.
+# Jay A. Fleming <tito.nehru.naser@gmail.com>, 2009.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LXTerminal 0.1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 21:42+0200\n"
+"PO-Revision-Date: 2014-07-08 19:15+0000\n"
+"Last-Translator: system user <>\n"
+"Language-Team: \n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1404846950.000000\n"
+
+#: ../src/lxterminal.c:129
+msgid "_File"
+msgstr "_Datoteka"
+
+#: ../src/lxterminal.c:130
+msgid "_Edit"
+msgstr "_Uredi"
+
+#: ../src/lxterminal.c:131
+msgid "_Tabs"
+msgstr "_Listovi"
+
+#: ../src/lxterminal.c:132
+msgid "_Help"
+msgstr "_Pomoć"
+
+#: ../src/lxterminal.c:133
+#, fuzzy
+msgid "_New Window"
+msgstr "Novi _prozor"
+
+#: ../src/lxterminal.c:134
+#, fuzzy
+msgid "New T_ab"
+msgstr "Novi _list"
+
+#: ../src/lxterminal.c:136 ../src/lxterminal.c:176
+msgid "_Close Tab"
+msgstr "Za_tvori list"
+
+#: ../src/lxterminal.c:137
+#, fuzzy
+msgid "Close _Window"
+msgstr "Novi _prozor"
+
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:165
+msgid "Cop_y"
+msgstr "_Umnoži"
+
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:166
+msgid "_Paste"
+msgstr "U_baci"
+
+#: ../src/lxterminal.c:140
+msgid "Clear scr_ollback"
+msgstr "Obriši „scr_ollback“ ostavu"
+
+#: ../src/lxterminal.c:142
+msgid "Zoom _In"
+msgstr ""
+
+#: ../src/lxterminal.c:143
+msgid "Zoom O_ut"
+msgstr ""
+
+#: ../src/lxterminal.c:144
+msgid "Zoom _Reset"
+msgstr ""
+
+#: ../src/lxterminal.c:146 ../src/lxterminal.c:169
+msgid "Preference_s"
+msgstr "Po_stavke"
+
+#: ../src/lxterminal.c:147 ../src/lxterminal.c:171
+msgid "Na_me Tab"
+msgstr "_Ime lista"
+
+#: ../src/lxterminal.c:148 ../src/lxterminal.c:172
+msgid "Pre_vious Tab"
+msgstr "_Prethodni list"
+
+#: ../src/lxterminal.c:149 ../src/lxterminal.c:173
+msgid "Ne_xt Tab"
+msgstr "_Sledeći list"
+
+#: ../src/lxterminal.c:150 ../src/lxterminal.c:174
+msgid "Move Tab _Left"
+msgstr "Premesti list _levo"
+
+#: ../src/lxterminal.c:151 ../src/lxterminal.c:175
+msgid "Move Tab _Right"
+msgstr "Premesti list _desno"
+
+#: ../src/lxterminal.c:152
+msgid "_About"
+msgstr "_O programu"
+
+#: ../src/lxterminal.c:160
+msgid "New _Window"
+msgstr "Novi _prozor"
+
+#: ../src/lxterminal.c:161
+msgid "New _Tab"
+msgstr "Novi _list"
+
+#: ../src/lxterminal.c:163
+#, fuzzy
+#| msgid "Copy _URL"
+msgid "Open _URL"
+msgstr "Umnoži _URL"
+
+#: ../src/lxterminal.c:164
+msgid "Copy _URL"
+msgstr "Umnoži _URL"
+
+#: ../src/lxterminal.c:167
+msgid "Cl_ear scrollback"
+msgstr "O_briši „scrollback“ ostavu"
+
+#: ../src/lxterminal.c:603 ../data/lxterminal-preferences.glade.h:57
+msgid "Name Tab"
+msgstr "Dajte ime listu"
+
+#: ../src/lxterminal.c:606
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/lxterminal.c:607
+msgid "_OK"
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/lxterminal.c:776
+msgid "translator-credits"
+msgstr "Serbian (sr) — Jay A. Fleming <tito.nehru.naser@gmail.com>"
+
+#: ../src/lxterminal.c:782 ../src/preferences.c:293
+#: ../data/lxterminal.desktop.in.h:1
+msgid "LXTerminal"
+msgstr "LIks-Terminal"
+
+#: ../src/lxterminal.c:784
+#, fuzzy
+msgid "Copyright (C) 2008-2025"
+msgstr "2008-2025. Neka su prava zadržana."
+
+#: ../src/lxterminal.c:785
+msgid "Terminal emulator for LXDE project"
+msgstr "Emulator terminala za LIks-DE"
+
+#: ../src/lxterminal.c:816
+msgid "LXTerminal Terminal Emulator"
+msgstr ""
+
+#: ../src/lxterminal.c:850
+#, c-format
+msgid "You are about to close %d tabs. Are you sure you want to continue?"
+msgstr ""
+
+#: ../src/lxterminal.c:851
+msgid "Confirm close"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:1
+msgid "Top"
+msgstr "Gore"
+
+#: ../data/lxterminal-preferences.glade.h:2
+msgid "Bottom"
+msgstr "Dole"
+
+#: ../data/lxterminal-preferences.glade.h:3
+msgid "Left"
+msgstr "Levo"
+
+#: ../data/lxterminal-preferences.glade.h:4
+msgid "Right"
+msgstr "Desno"
+
+#: ../data/lxterminal-preferences.glade.h:5
+msgid "LXTerminal Preferences"
+msgstr "Podešavanja"
+
+#: ../data/lxterminal-preferences.glade.h:6
+msgid "Terminal font"
+msgstr "Font u terminalu:"
+
+#: ../data/lxterminal-preferences.glade.h:7
+msgid "Background"
+msgstr "Pozadina"
+
+#: ../data/lxterminal-preferences.glade.h:8
+msgid "Foreground"
+msgstr "Boja teksta"
+
+#: ../data/lxterminal-preferences.glade.h:9
+msgid "Allow bold font"
+msgstr "Dozvoli zadebljan font"
+
+#: ../data/lxterminal-preferences.glade.h:10
+msgid "Bold is bright"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:11
+msgid "Cursor blink"
+msgstr "Pokazivač trepće"
+
+#: ../data/lxterminal-preferences.glade.h:12
+msgid "Cursor style"
+msgstr "Izgled pokazivača"
+
+#: ../data/lxterminal-preferences.glade.h:13
+msgid "Block"
+msgstr "Blok"
+
+#: ../data/lxterminal-preferences.glade.h:14
+msgid "Underline"
+msgstr "Podvučeno"
+
+#: ../data/lxterminal-preferences.glade.h:15
+msgid "Audible bell"
+msgstr "Zvuk zvona"
+
+#: ../data/lxterminal-preferences.glade.h:16
+#, fuzzy
+#| msgid "Audible bell"
+msgid "Visual bell"
+msgstr "Zvuk zvona"
+
+#: ../data/lxterminal-preferences.glade.h:17
+msgid "Black"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:18
+msgid "Red"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:19
+#, fuzzy
+msgid "Green"
+msgstr "Grčki"
+
+#: ../data/lxterminal-preferences.glade.h:20
+msgid "Brown"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:21
+msgid "Blue"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:22
+msgid "Magenta"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:23
+msgid "Cyan"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:24
+msgid "Gray"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:25
+msgid "Darkgray"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Bright Red"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:27
+msgid "Bright Green"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:28
+msgid "Yellow"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:29
+msgid "Bright Blue"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:30
+msgid "Bright Magenta"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:31
+msgid "Bright Cyan"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:32
+msgid "White"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Palette"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:34
+msgid "Palette Preset"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:35
+msgid "Style"
+msgstr "Stil"
+
+#: ../data/lxterminal-preferences.glade.h:36
+msgid "Tab panel position"
+msgstr "Smeštaj trake sa listovima:"
+
+#: ../data/lxterminal-preferences.glade.h:37
+msgid "Scrollback lines"
+msgstr "Broj linija istorije"
+
+#: ../data/lxterminal-preferences.glade.h:38
+msgid "Hide scroll bar"
+msgstr "Sakrij dugmad za klizanje"
+
+#: ../data/lxterminal-preferences.glade.h:39
+msgid "Hide menu bar"
+msgstr "Sakrij traku sa menijem"
+
+#: ../data/lxterminal-preferences.glade.h:40
+msgid "Hide Close buttons"
+msgstr "Sakrij  dugmad za zatvaranje"
+
+#: ../data/lxterminal-preferences.glade.h:41
+#, fuzzy
+msgid "Hide mouse pointer"
+msgstr "Sakrij  dugmad za zatvaranje"
+
+#: ../data/lxterminal-preferences.glade.h:42
+msgid "Default window size"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:43
+msgid "x"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:44
+msgid "Display"
+msgstr "Prikaz"
+
+#: ../data/lxterminal-preferences.glade.h:45
+msgid "Select-by-word characters"
+msgstr "Znakovi koji obrazuju reči"
+
+#: ../data/lxterminal-preferences.glade.h:46
+msgid "Disable menu shortcut key (F10 by default)"
+msgstr "Isključi prečice za meni (F10 podrazumevano)"
+
+#: ../data/lxterminal-preferences.glade.h:47
+msgid "Disable using Alt-n for tabs and menu"
+msgstr "Isključi upotrebu „Alt-n“ tastera u listovima i meniju"
+
+#: ../data/lxterminal-preferences.glade.h:48
+msgid "Disable confirmation before closing a window with multiple tabs"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:49
+msgid "Tab width"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:50
+msgid "Advanced"
+msgstr "Napredno"
+
+#: ../data/lxterminal-preferences.glade.h:51
+#, fuzzy
+msgid "New Window"
+msgstr "Novi _prozor"
+
+#: ../data/lxterminal-preferences.glade.h:52
+#, fuzzy
+msgid "New Tab"
+msgstr "Novi _list"
+
+#: ../data/lxterminal-preferences.glade.h:53
+#, fuzzy
+msgid "Close Tab"
+msgstr "Za_tvori list"
+
+#: ../data/lxterminal-preferences.glade.h:54
+#, fuzzy
+msgid "Close Window"
+msgstr "Novi _prozor"
+
+#: ../data/lxterminal-preferences.glade.h:55
+#, fuzzy
+msgid "Copy"
+msgstr "Umnoži _URL"
+
+#: ../data/lxterminal-preferences.glade.h:56
+#, fuzzy
+msgid "Paste"
+msgstr "U_baci"
+
+#: ../data/lxterminal-preferences.glade.h:58
+#, fuzzy
+msgid "Previous Tab"
+msgstr "_Prethodni list"
+
+#: ../data/lxterminal-preferences.glade.h:59
+#, fuzzy
+msgid "Next Tab"
+msgstr "_Sledeći list"
+
+#: ../data/lxterminal-preferences.glade.h:60
+#, fuzzy
+msgid "Move Tab Left"
+msgstr "Premesti list _levo"
+
+#: ../data/lxterminal-preferences.glade.h:61
+#, fuzzy
+msgid "Move Tab Right"
+msgstr "Premesti list _desno"
+
+#: ../data/lxterminal-preferences.glade.h:62
+msgid "Zoom In"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:63
+msgid "Zoom Out"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:64
+msgid "Zoom Reset"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:65
+msgid "Shortcuts"
+msgstr ""
+
+#: ../data/lxterminal.desktop.in.h:2
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../data/lxterminal.desktop.in.h:3
+msgid "Use the command line"
+msgstr "Koristite liniju naredbi"
+
+#: ../data/lxterminal.desktop.in.h:4
+msgid "console;command line;execute;"
+msgstr ""
+
+#~ msgid "West European"
+#~ msgstr "Zapadnoevropski"
+
+#~ msgid "East European"
+#~ msgstr "Istočnoevropski"
+
+#~ msgid "East Asian"
+#~ msgstr "Istočnoazijski"
+
+#~ msgid "SE & SW Asian"
+#~ msgstr "Jugoistočno/jugozapadno azijski"
+
+#~ msgid "Middle Eastern"
+#~ msgstr "Bliskoistočni"
+
+#~ msgid "Unicode"
+#~ msgstr "Unikod"
+
+#~ msgid "Western"
+#~ msgstr "Zapadni"
+
+#~ msgid "Central European"
+#~ msgstr "Centralnoevropski"
+
+#~ msgid "South European"
+#~ msgstr "Južnoevropski"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltički"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Ćirilični"
+
+#~ msgid "Arabic"
+#~ msgstr "Arapski"
+
+#~ msgid "Greek"
+#~ msgstr "Grčki"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebrejski vizuelni"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebrejski"
+
+#~ msgid "Turkish"
+#~ msgstr "Turski"
+
+#~ msgid "Nordic"
+#~ msgstr "Norveški"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltski"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumunski"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenski"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Tradicionalni Kineski"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Ćirilični/ruski"
+
+#~ msgid "Japanese"
+#~ msgstr "Japanski"
+
+#~ msgid "Korean"
+#~ msgstr "Korejski"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Kineski pojednostavljeni"
+
+#~ msgid "Georgian"
+#~ msgstr "Gruzijski"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Ćirilični/ukrajinski"
+
+#~ msgid "Croatian"
+#~ msgstr "Hrvatski"
+
+#~ msgid "Hindi"
+#~ msgstr "Hindu"
+
+#~ msgid "Farsi"
+#~ msgstr "Farski"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gujarati"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Gurmuki "
+
+#~ msgid "Icelandic"
+#~ msgstr "Islandski"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vijetnamski"
+
+#~ msgid "Thai"
+#~ msgstr "Tajlandski"
+
+#~ msgid "_Quit"
+#~ msgstr "_Zatvori prozor"
+
+#, fuzzy
+#~ msgid "gtk-cancel"
+#~ msgstr "gtk-cancel"
+
+#, fuzzy
+#~ msgid "gtk-ok"
+#~ msgstr "gtk-ok"
+
+#~ msgid "Disable F10 shortcut for menu:"
+#~ msgstr "Isključi poziv menija tasterom F10"
+
+#~ msgid "General"
+#~ msgstr "Opšte"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Postavke"
+
+#~ msgid "Transparent Background:"
+#~ msgstr "Providna pozadina"

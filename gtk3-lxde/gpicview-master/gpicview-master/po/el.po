@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: gpicview\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2015-01-09 21:06+0000\n"
+"Last-Translator: system user <>\n"
+"Language-Team: Greek <LL@li.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1420837591.000000\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[ΑΡΧΕΙΟ]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "Εκτύπωση πληροφοριών έκδοσης και έξοδος"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "Έναρξη παρουσίασης"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr ""
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "Εφαρμογή Προβολής Εικόνων"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "Επόμενο"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "Έναρξη παρουσίασης"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "Σμίκρυνση"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "Μεγέθυνση"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "Προσαρμογή της εικόνας στο μέγεθος του παραθύρου"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "Αρχικό μέγεθος"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "Πλήρης οθόνη"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "Περιστροφή αριστερά"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "Περιστροφή δεξιά"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "Εναλλαγή οριζόντια"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "Εναλλαγή κάθετα"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "Άνοιγμα αρχείου"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "Αποθήκευση αρχείου"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "Αποθήκευση αρχείου ως"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "Διαγραφή αρχείου"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "Διακοπή παρουσίασης"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"Το όνομα αρχείου που επιλέξατε υπάρχει ήδη.\n"
+"Θέλετε να αντικαταστήσετε το υπάρχον αρχείο;\n"
+"(Προειδοποίηση: Η ποιότητα της αρχικής εικόνας μπορεί να χαθεί)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "Η εγγραφή τέτοιου τύπου εικόνας δεν υποστηρίζεται."
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να διαγράψετε το παρόν αρχείο;\n"
+"\n"
+"Προειδοποίηση: Αν διαγραφεί το αρχείο δεν γίνεται να επαναφερθεί."
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "Έναρξη/Διακοπή Παρουσίασης"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "Αποθήκευση ως"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "Εμφάνιση/Απόκρυψη γραμμής εργαλείων"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr "* Αναφορά στον πηγαίο κώδικα του EOG image viewer και του GThumb"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr ""
+"Βασιλάκος Γιώργος <forfolias@linuxteam.cs.teilar.gr>\n"
+"Αρμακόλας Νικόλαος <armakolas@gmail.com> 2014"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "GPicView"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "Πνευματικά δικαιώματα (C) 2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "Ελαφρύ πρόγραμμα προβολής εικόνων από το LXDE project"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"Ο GPicView θα γίνει το προεπιλεγμένο πρόγραμμα προβολής εικόνων για τους "
+"υποστηριζόμενους τύπους αρχείων στο σύστημά σας.\n"
+"(Αυτό θα γίνει μέσο του προγράμματος 'xdg-mime')\n"
+"\n"
+"<b>Είστε σίγουροι ότι θέλετε να το κάνετε αυτό;</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "Όλοι οι υποστηριζόμενοι τύποι εικόνων"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "Όλα τα αρχεία"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "Ποιότητα JPEG:"
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"Μικρότερες τιμές ποιότητας αποδίδουν μικρότερο μέγεθος αρχείου,\n"
+"αλλά η ποιότητα είναι πιο φτωχή."
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "Επίπεδο συμπίεσης PNG:"
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"Μεγαλύτερες τιμές συμπίεσης αποδίδουν μικρότερο μέγεθος αρχείου,\n"
+"αλλά παίρνουν περισσότερη ώρα για να συμπιεστούν."
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "Προβάλετε τις εικόνες σας εύκολα"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:4
+#, fuzzy
+#| msgid "Show/Hide toolbar"
+msgid "Show toolbar"
+msgstr "Εμφάνιση/Απόκρυψη γραμμής εργαλείων"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "Ερώτηση πριν την αποθήκευση αρχείων"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "Ερώτηση πριν τη διαγραφή αρχείων"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "Αυτόματη αποθήκευση εικόνων που έχουν περιστραφεί"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"Περιστροφή του αρχείου JPEG αλλάζοντας το EXIF προσανατολισμό\n"
+"(μόνο αν το πεδίο EXIF προσανατολισμού υπάρχει)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "Χρονικό διάστημα παρουσίασης"
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "δευτερόλεπτα"
+
+#: ../data/pref-dlg.ui.h:12
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom factor"
+msgstr "Σμίκρυνση"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "Κάνε το GPicView το προεπιλεγμένο πρόγραμμα προβολής εικόνων"
+
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "Κανονικά:"
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "Πλήρης οθόνη:"
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>Χρώματα παρασκηνίου</b>"

@@ -1,0 +1,97 @@
+# Slovak translation of lxlauncher
+# Copyright (C) 2006 lxde team
+# This file is distributed under the same license as the lxlauncher package.
+# Ivan MasÃ¡r <helix84@centrum.sk>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxlauncher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-27 16:40+0100\n"
+"PO-Revision-Date: 2018-12-13 11:17+0000\n"
+"Last-Translator: mirek <mirek@cnl.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1544699860.607085\n"
+
+#: ../src/lxlauncher.c:124
+msgid "_Customize"
+msgstr "_Prispôsobiť"
+
+#: ../src/lxlauncher.c:641
+#, c-format
+msgid "Go back to \"%s\""
+msgstr "Späť na „%s“"
+
+#: ../src/lxlauncher.c:903
+msgid "Enable key navigation"
+msgstr "Zapnúť navigáciu pomocou kláves"
+
+#: ../src/lxlauncher.c:904
+msgid ""
+"Allow users to use up/down/left/right/tab/enter keys to operate the "
+"lxlauncher"
+msgstr ""
+"Umožniť používateľom na ovládanie lxlaucher používať klávesy šípok, tab a "
+"enter"
+
+#: ../src/exo-wrap-table.c:196
+msgid "Column spacing"
+msgstr "Rozostupy stĺpcov"
+
+#: ../src/exo-wrap-table.c:197
+msgid "The amount of space between two consecutive columns"
+msgstr "Miesto medzi dvomi po sebe idúcimi stĺpcami"
+
+#: ../src/exo-wrap-table.c:211
+msgid "Row spacing"
+msgstr "Rozostupy riadkov"
+
+#: ../src/exo-wrap-table.c:212
+msgid "The amount of space between two consecutive rows"
+msgstr "Miesto medzi dvomi po sebe idúcimi riadkami"
+
+#: ../src/exo-wrap-table.c:226
+msgid "Homogeneous"
+msgstr "Homogénne"
+
+#: ../src/exo-wrap-table.c:227
+msgid "Whether the children should be all the same size"
+msgstr "Či majú byť všetky podradené položky rovnakej veľkosti"
+
+#: ../src/misc.c:344
+#, c-format
+msgid "Command not found"
+msgstr "Príkaz nebol nájdený"
+
+#: ../data/lxde-language.directory.in.h:1
+msgid "Language"
+msgstr ""
+
+#: ../data/lxde-learn.directory.in.h:1
+msgid "Learn"
+msgstr "Vzdelávanie"
+
+#: ../data/lxde-math.directory.in.h:1
+msgid "Math"
+msgstr "Matematika"
+
+#: ../data/lxde-play.directory.in.h:1
+msgid "Play"
+msgstr "Hry"
+
+#: ../data/lxde-webmail.directory.in.h:1
+msgid "Web Mail"
+msgstr "Webový email"
+
+#: ../data/lxde-work.directory.in.h:1
+msgid "Work"
+msgstr "Práca"
+
+#~ msgid "Science"
+#~ msgstr "Veda"

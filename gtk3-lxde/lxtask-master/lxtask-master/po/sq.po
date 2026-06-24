@@ -1,0 +1,256 @@
+# Albanian translation of the xfce4-taskmanager package.
+# Copyright (C) 2005 Johannes Zellner.
+# This file is distributed under the same license as the xfce4-taskmanager package.
+# Besnik Bleta <besnik@programeshqip.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-taskmanager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-28 20:12+0200\n"
+"PO-Revision-Date: 2015-08-17 01:30+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439775046.447069\n"
+
+#: ../data/lxtask.desktop.in.h:1 ../src/interface.c:75
+#, fuzzy
+msgid "Task Manager"
+msgstr "xfce4-taskmanager"
+
+#: ../data/lxtask.desktop.in.h:2
+msgid "Manage running processes"
+msgstr ""
+
+#: ../data/lxtask.desktop.in.h:3
+msgid "Process manager"
+msgstr ""
+
+#: ../data/lxtask.desktop.in.h:4
+msgid "task;kill;suspend;processor;memory;monitoring;performance;"
+msgstr ""
+
+#: ../src/xfce-taskmanager-linux.c:305
+#, c-format
+msgid ""
+"Couldn't send signal %d to the task with ID %d\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/xfce-taskmanager-linux.c:319
+#, c-format
+msgid "Couldn't set priority %d to the task with ID %d"
+msgstr ""
+
+#: ../src/callbacks.c:60
+msgid "Really kill the task?"
+msgstr "Ta asgjësoj vërtet këtë akt?"
+
+#: ../src/callbacks.c:64
+msgid "Really terminate the task?"
+msgstr "Ta përfundoj vërtet këtë akt?"
+
+#: ../src/callbacks.c:88
+msgid "Can't stop process self"
+msgstr ""
+
+#. FIXME: this will work only for < 2048 TB but where so many memory...
+#: ../src/functions.c:150
+#, fuzzy, c-format
+msgid "Memory: %d MB of %d MB used"
+msgstr "përdorur %d kB nga %d kB"
+
+#. TRANSLATORS: If it is customary, insert a space before the double percent sign.
+#: ../src/functions.c:160
+#, c-format
+msgid "CPU usage: %0.0f%%"
+msgstr ""
+
+#: ../src/functions.c:160
+#, c-format
+msgid "CPU usage: %0.1f%%"
+msgstr ""
+
+#: ../src/interface.c:57
+#, fuzzy
+#| msgid "More details"
+msgid "Less details"
+msgstr "më tepër hollësi"
+
+#: ../src/interface.c:57
+msgid "More details"
+msgstr "më tepër hollësi"
+
+#: ../src/interface.c:90
+msgid "_File"
+msgstr ""
+
+#: ../src/interface.c:111
+msgid "_View"
+msgstr ""
+
+#: ../src/interface.c:117
+msgid "_Help"
+msgstr ""
+
+#: ../src/interface.c:144
+msgid "cpu usage"
+msgstr "përdorim cpu-je"
+
+#: ../src/interface.c:155
+msgid "memory usage"
+msgstr "përdorim kujtese"
+
+#: ../src/interface.c:210
+msgid "Command"
+msgstr "Urdhër"
+
+#: ../src/interface.c:221
+msgid "User"
+msgstr "Përdorues"
+
+#: ../src/interface.c:235
+msgid "CPU"
+msgstr "CPU"
+
+#: ../src/interface.c:246
+msgid "RSS"
+msgstr "RSS"
+
+#: ../src/interface.c:257
+msgid "VM-Size"
+msgstr "Madhësi VM"
+
+#: ../src/interface.c:268
+msgid "PID"
+msgstr "PID"
+
+#: ../src/interface.c:279
+msgid "State"
+msgstr "Gjendje"
+
+#: ../src/interface.c:290
+msgid "Prio"
+msgstr ""
+
+#: ../src/interface.c:301
+msgid "PPID"
+msgstr "PPID"
+
+#: ../src/interface.c:322
+msgid "Stop"
+msgstr "Ndal"
+
+#: ../src/interface.c:327
+msgid "Continue"
+msgstr "Vazhdo"
+
+#: ../src/interface.c:332
+msgid "Term"
+msgstr "Përfundo"
+
+#: ../src/interface.c:337
+msgid "Kill"
+msgstr "Asgjëso"
+
+#: ../src/interface.c:342
+msgid "Priority"
+msgstr ""
+
+#: ../src/interface.c:355
+msgid "  -10"
+msgstr ""
+
+#: ../src/interface.c:360
+msgid "  -5"
+msgstr ""
+
+#: ../src/interface.c:365
+msgid "    0"
+msgstr ""
+
+#: ../src/interface.c:370
+msgid "   5"
+msgstr ""
+
+#: ../src/interface.c:375
+msgid "   10"
+msgstr ""
+
+#: ../src/interface.c:401
+msgid "Show user tasks"
+msgstr "Shfaq veprime përdoruesi"
+
+#: ../src/interface.c:406
+msgid "Show root tasks"
+msgstr "Shfaq veprime rrënje"
+
+#: ../src/interface.c:411
+msgid "Show other tasks"
+msgstr "Shfaq veprime të tjera"
+
+#: ../src/interface.c:416
+msgid "Show full cmdline"
+msgstr ""
+
+#: ../src/interface.c:421
+msgid "Show memory used by cache as free"
+msgstr "Kujtesën e përdorur nga fshehtina shfaqe si të lirë"
+
+#: ../src/interface.c:453
+msgid ""
+"LXTask is derived from Xfce4 Task Manager by:\n"
+"  * Johannes Zellner <webmaster@nebulon.de>"
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/interface.c:458
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/interface.c:467 ../src/interface.c:469
+msgid "LXTask"
+msgstr ""
+
+#: ../src/interface.c:473
+msgid "Copyright (C) 2008-2025 LXDE team"
+msgstr ""
+
+#: ../src/interface.c:474
+msgid "Lightweight task manager for LXDE project"
+msgstr ""
+
+#. TRANSLATORS: If it is customary, insert a space before the double percent sign.
+#: ../src/interface.c:521
+#, c-format
+msgid "%0.1f%%"
+msgstr ""
+
+#: ../src/interface.c:717
+msgid "Preferences"
+msgstr ""
+
+#: ../src/interface.c:725
+msgid "General"
+msgstr ""
+
+#: ../src/interface.c:726
+msgid "Refresh rate (seconds):"
+msgstr ""
+
+#: ../src/utils.c:43
+msgid "Error"
+msgstr ""
+
+#: ../src/utils.c:56
+msgid "Confirm"
+msgstr ""
+
+#~ msgid "%0.0f %%"
+#~ msgstr "%0.0f %%"

@@ -1,0 +1,547 @@
+# Kazakh translation for lxterminal.
+# Copyright (C) 2012 The LXDE team
+# This file is distributed under the same license as the LXDE package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012-2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 21:42+0200\n"
+"PO-Revision-Date: 2017-05-23 02:02+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1495504928.347956\n"
+
+#: ../src/lxterminal.c:129
+msgid "_File"
+msgstr "_Файл"
+
+#: ../src/lxterminal.c:130
+msgid "_Edit"
+msgstr "Тү_зету"
+
+#: ../src/lxterminal.c:131
+msgid "_Tabs"
+msgstr "Б_еттер"
+
+#: ../src/lxterminal.c:132
+msgid "_Help"
+msgstr "_Көмек"
+
+#: ../src/lxterminal.c:133
+msgid "_New Window"
+msgstr "Жаңа тере_зе"
+
+#: ../src/lxterminal.c:134
+msgid "New T_ab"
+msgstr "Жаңа _бет"
+
+#: ../src/lxterminal.c:136 ../src/lxterminal.c:176
+msgid "_Close Tab"
+msgstr "Бетті _жабу"
+
+#: ../src/lxterminal.c:137
+msgid "Close _Window"
+msgstr "_Терезені жабу"
+
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:165
+msgid "Cop_y"
+msgstr "Кө_шіру"
+
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:166
+msgid "_Paste"
+msgstr "Кірі_стіру"
+
+#: ../src/lxterminal.c:140
+msgid "Clear scr_ollback"
+msgstr "Айна_лдыруды тазарту"
+
+#: ../src/lxterminal.c:142
+msgid "Zoom _In"
+msgstr "Үлке_йту"
+
+#: ../src/lxterminal.c:143
+msgid "Zoom O_ut"
+msgstr "_Кішірейту"
+
+#: ../src/lxterminal.c:144
+msgid "Zoom _Reset"
+msgstr "Масштабты _тастау"
+
+#: ../src/lxterminal.c:146 ../src/lxterminal.c:169
+msgid "Preference_s"
+msgstr "Ба_птаулар"
+
+#: ../src/lxterminal.c:147 ../src/lxterminal.c:171
+msgid "Na_me Tab"
+msgstr "Бетті а_тау"
+
+#: ../src/lxterminal.c:148 ../src/lxterminal.c:172
+msgid "Pre_vious Tab"
+msgstr "Ал_дыңғы бет"
+
+#: ../src/lxterminal.c:149 ../src/lxterminal.c:173
+msgid "Ne_xt Tab"
+msgstr "Ке_лесі бет"
+
+#: ../src/lxterminal.c:150 ../src/lxterminal.c:174
+msgid "Move Tab _Left"
+msgstr "Бетті _солға жылжыту"
+
+#: ../src/lxterminal.c:151 ../src/lxterminal.c:175
+msgid "Move Tab _Right"
+msgstr "Бетті _оңға жылжыту"
+
+#: ../src/lxterminal.c:152
+msgid "_About"
+msgstr "О_сы туралы"
+
+#: ../src/lxterminal.c:160
+msgid "New _Window"
+msgstr "Жаңа _терезе"
+
+#: ../src/lxterminal.c:161
+msgid "New _Tab"
+msgstr "Жаңа _бет"
+
+#: ../src/lxterminal.c:163
+#, fuzzy
+#| msgid "Copy _URL"
+msgid "Open _URL"
+msgstr "_Сілтемені көшіру"
+
+#: ../src/lxterminal.c:164
+msgid "Copy _URL"
+msgstr "_Сілтемені көшіру"
+
+#: ../src/lxterminal.c:167
+msgid "Cl_ear scrollback"
+msgstr "А_йналдыру тарихын тазарту"
+
+#: ../src/lxterminal.c:603 ../data/lxterminal-preferences.glade.h:57
+msgid "Name Tab"
+msgstr "Бетті атау"
+
+#: ../src/lxterminal.c:606
+msgid "_Cancel"
+msgstr "Ба_с тарту"
+
+#: ../src/lxterminal.c:607
+msgid "_OK"
+msgstr "_ОК"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/lxterminal.c:776
+msgid "translator-credits"
+msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
+
+#: ../src/lxterminal.c:782 ../src/preferences.c:293
+#: ../data/lxterminal.desktop.in.h:1
+msgid "LXTerminal"
+msgstr "LXTerminal"
+
+#: ../src/lxterminal.c:784
+msgid "Copyright (C) 2008-2025"
+msgstr "Copyright (C) 2008-2025"
+
+#: ../src/lxterminal.c:785
+msgid "Terminal emulator for LXDE project"
+msgstr "LXDE жобасы үшін терминал эмуляторы"
+
+#: ../src/lxterminal.c:816
+msgid "LXTerminal Terminal Emulator"
+msgstr ""
+
+#: ../src/lxterminal.c:850
+#, c-format
+msgid "You are about to close %d tabs. Are you sure you want to continue?"
+msgstr "%d бетті жабуды сұрадыңыз. Жалғастыруды шынымен қалайсыз ба?"
+
+#: ../src/lxterminal.c:851
+msgid "Confirm close"
+msgstr "Жабуды растау"
+
+#: ../data/lxterminal-preferences.glade.h:1
+msgid "Top"
+msgstr "Жоғары"
+
+#: ../data/lxterminal-preferences.glade.h:2
+msgid "Bottom"
+msgstr "Төмен"
+
+#: ../data/lxterminal-preferences.glade.h:3
+msgid "Left"
+msgstr "Сол жақ"
+
+#: ../data/lxterminal-preferences.glade.h:4
+msgid "Right"
+msgstr "Оң жақ"
+
+#: ../data/lxterminal-preferences.glade.h:5
+msgid "LXTerminal Preferences"
+msgstr "LXTerminal баптаулары"
+
+#: ../data/lxterminal-preferences.glade.h:6
+msgid "Terminal font"
+msgstr "Терминал қарібі"
+
+#: ../data/lxterminal-preferences.glade.h:7
+msgid "Background"
+msgstr "Фон"
+
+#: ../data/lxterminal-preferences.glade.h:8
+msgid "Foreground"
+msgstr "Алдыңғы көрінісі"
+
+#: ../data/lxterminal-preferences.glade.h:9
+msgid "Allow bold font"
+msgstr "Жуан қаріпке рұқсат ету"
+
+#: ../data/lxterminal-preferences.glade.h:10
+msgid "Bold is bright"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:11
+msgid "Cursor blink"
+msgstr "Курсор жыпылықтауы"
+
+#: ../data/lxterminal-preferences.glade.h:12
+msgid "Cursor style"
+msgstr "Курсор стилі"
+
+#: ../data/lxterminal-preferences.glade.h:13
+msgid "Block"
+msgstr "Блоктық"
+
+#: ../data/lxterminal-preferences.glade.h:14
+msgid "Underline"
+msgstr "Асты сызылған"
+
+#: ../data/lxterminal-preferences.glade.h:15
+msgid "Audible bell"
+msgstr "Дыбыс беру"
+
+#: ../data/lxterminal-preferences.glade.h:16
+#, fuzzy
+#| msgid "Audible bell"
+msgid "Visual bell"
+msgstr "Дыбыс беру"
+
+#: ../data/lxterminal-preferences.glade.h:17
+msgid "Black"
+msgstr "Қара"
+
+#: ../data/lxterminal-preferences.glade.h:18
+msgid "Red"
+msgstr "Қызыл"
+
+#: ../data/lxterminal-preferences.glade.h:19
+msgid "Green"
+msgstr "Жасыл"
+
+#: ../data/lxterminal-preferences.glade.h:20
+msgid "Brown"
+msgstr "Қоңыр"
+
+#: ../data/lxterminal-preferences.glade.h:21
+msgid "Blue"
+msgstr "Көк"
+
+#: ../data/lxterminal-preferences.glade.h:22
+msgid "Magenta"
+msgstr "Күлгін"
+
+#: ../data/lxterminal-preferences.glade.h:23
+msgid "Cyan"
+msgstr "Көгілдір"
+
+#: ../data/lxterminal-preferences.glade.h:24
+msgid "Gray"
+msgstr "Сұр"
+
+#: ../data/lxterminal-preferences.glade.h:25
+msgid "Darkgray"
+msgstr "Күңгірт сұр"
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Bright Red"
+msgstr "Ақшыл қызыл"
+
+#: ../data/lxterminal-preferences.glade.h:27
+msgid "Bright Green"
+msgstr "Ақшыл жасыл"
+
+#: ../data/lxterminal-preferences.glade.h:28
+msgid "Yellow"
+msgstr "Сары"
+
+#: ../data/lxterminal-preferences.glade.h:29
+msgid "Bright Blue"
+msgstr "Ақшыл көк"
+
+#: ../data/lxterminal-preferences.glade.h:30
+msgid "Bright Magenta"
+msgstr "Ақшыл күлгін"
+
+#: ../data/lxterminal-preferences.glade.h:31
+msgid "Bright Cyan"
+msgstr "Ақшыл көгілдір"
+
+#: ../data/lxterminal-preferences.glade.h:32
+msgid "White"
+msgstr "Ақ"
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Palette"
+msgstr "Палитра"
+
+#: ../data/lxterminal-preferences.glade.h:34
+msgid "Palette Preset"
+msgstr "Палитраны тастау"
+
+#: ../data/lxterminal-preferences.glade.h:35
+msgid "Style"
+msgstr "Стилі"
+
+#: ../data/lxterminal-preferences.glade.h:36
+msgid "Tab panel position"
+msgstr "Беттер панелінің орналасуы"
+
+#: ../data/lxterminal-preferences.glade.h:37
+msgid "Scrollback lines"
+msgstr "Айналдыру жолдар саны"
+
+#: ../data/lxterminal-preferences.glade.h:38
+msgid "Hide scroll bar"
+msgstr "Айналдыру жолағын жасыру"
+
+#: ../data/lxterminal-preferences.glade.h:39
+msgid "Hide menu bar"
+msgstr "Мәзір жолағын жасыру"
+
+#: ../data/lxterminal-preferences.glade.h:40
+msgid "Hide Close buttons"
+msgstr "Жабу батырмаларын жасыру"
+
+#: ../data/lxterminal-preferences.glade.h:41
+msgid "Hide mouse pointer"
+msgstr "Тышқан курсорын жасыру"
+
+#: ../data/lxterminal-preferences.glade.h:42
+msgid "Default window size"
+msgstr "Терезенің үнсіз келісім өлшемі"
+
+#: ../data/lxterminal-preferences.glade.h:43
+msgid "x"
+msgstr "x"
+
+#: ../data/lxterminal-preferences.glade.h:44
+msgid "Display"
+msgstr "Көрініс"
+
+#: ../data/lxterminal-preferences.glade.h:45
+msgid "Select-by-word characters"
+msgstr "Сөзді таңдау таңбалары"
+
+#: ../data/lxterminal-preferences.glade.h:46
+msgid "Disable menu shortcut key (F10 by default)"
+msgstr "Мәзірге қатынау жарлық пернесін сөндіру (F10 бастапқы)"
+
+#: ../data/lxterminal-preferences.glade.h:47
+msgid "Disable using Alt-n for tabs and menu"
+msgstr "Беттер мен мәзірлер үшін Alt-n қолдануды сөндіру"
+
+#: ../data/lxterminal-preferences.glade.h:48
+msgid "Disable confirmation before closing a window with multiple tabs"
+msgstr "Бірнеше беті бар терезені жабу кезінде растау сұрауды сөндіру"
+
+#: ../data/lxterminal-preferences.glade.h:49
+msgid "Tab width"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:50
+msgid "Advanced"
+msgstr "Кеңейтілген"
+
+#: ../data/lxterminal-preferences.glade.h:51
+msgid "New Window"
+msgstr "Жаңа терезе"
+
+#: ../data/lxterminal-preferences.glade.h:52
+msgid "New Tab"
+msgstr "Жаңа бет"
+
+#: ../data/lxterminal-preferences.glade.h:53
+msgid "Close Tab"
+msgstr "Бетті жабу"
+
+#: ../data/lxterminal-preferences.glade.h:54
+msgid "Close Window"
+msgstr "Терезені жабу"
+
+#: ../data/lxterminal-preferences.glade.h:55
+msgid "Copy"
+msgstr "Көшіріп алу"
+
+#: ../data/lxterminal-preferences.glade.h:56
+msgid "Paste"
+msgstr "Кірістіру"
+
+#: ../data/lxterminal-preferences.glade.h:58
+msgid "Previous Tab"
+msgstr "Алдыңғы бет"
+
+#: ../data/lxterminal-preferences.glade.h:59
+msgid "Next Tab"
+msgstr "Келесі бет"
+
+#: ../data/lxterminal-preferences.glade.h:60
+msgid "Move Tab Left"
+msgstr "Бетті солға жылжыту"
+
+#: ../data/lxterminal-preferences.glade.h:61
+msgid "Move Tab Right"
+msgstr "Бетті оңға жылжыту"
+
+#: ../data/lxterminal-preferences.glade.h:62
+msgid "Zoom In"
+msgstr "Үлкейту"
+
+#: ../data/lxterminal-preferences.glade.h:63
+msgid "Zoom Out"
+msgstr "Кішірейту"
+
+#: ../data/lxterminal-preferences.glade.h:64
+msgid "Zoom Reset"
+msgstr "Масштабты тастау"
+
+#: ../data/lxterminal-preferences.glade.h:65
+msgid "Shortcuts"
+msgstr "Жарлықтар"
+
+#: ../data/lxterminal.desktop.in.h:2
+msgid "Terminal"
+msgstr "Терминал"
+
+#: ../data/lxterminal.desktop.in.h:3
+msgid "Use the command line"
+msgstr "Командалық жолды қолдану"
+
+#: ../data/lxterminal.desktop.in.h:4
+msgid "console;command line;execute;"
+msgstr "консоль;командалық жол;жөнелту;орындау;console;terminal;"
+
+#~ msgid "West European"
+#~ msgstr "Батыс Еуропалық"
+
+#~ msgid "East European"
+#~ msgstr "Шығыс Еуропалық"
+
+#~ msgid "East Asian"
+#~ msgstr "Шығыс Азиялық"
+
+#~ msgid "SE & SW Asian"
+#~ msgstr "ОШ және ОБ Азиялық"
+
+#~ msgid "Middle Eastern"
+#~ msgstr "Орта шығыс"
+
+#~ msgid "Unicode"
+#~ msgstr "Юникод"
+
+#~ msgid "Western"
+#~ msgstr "Батыс"
+
+#~ msgid "Central European"
+#~ msgstr "Орталық Еуропалық"
+
+#~ msgid "South European"
+#~ msgstr "Оңтүстік Еуропалық"
+
+#~ msgid "Baltic"
+#~ msgstr "Балтық"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Кириллица"
+
+#~ msgid "Arabic"
+#~ msgstr "Араб"
+
+#~ msgid "Greek"
+#~ msgstr "Грек"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Иврит визуалды"
+
+#~ msgid "Hebrew"
+#~ msgstr "Иврит"
+
+#~ msgid "Turkish"
+#~ msgstr "Түрік"
+
+#~ msgid "Nordic"
+#~ msgstr "Норд"
+
+#~ msgid "Celtic"
+#~ msgstr "Кельт"
+
+#~ msgid "Romanian"
+#~ msgstr "Румын"
+
+#~ msgid "Armenian"
+#~ msgstr "Армян"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Қытайша дәстүрлі"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Кириллица/Орыс"
+
+#~ msgid "Japanese"
+#~ msgstr "Жапон"
+
+#~ msgid "Korean"
+#~ msgstr "Кәріс"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Қытайша оңайлатылған"
+
+#~ msgid "Georgian"
+#~ msgstr "Грузин"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Кириллица/Украин"
+
+#~ msgid "Croatian"
+#~ msgstr "Хорватиялық"
+
+#~ msgid "Hindi"
+#~ msgstr "Хинди"
+
+#~ msgid "Farsi"
+#~ msgstr "Парсы"
+
+#~ msgid "Gujarati"
+#~ msgstr "Гуджарати"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Гурмукхи"
+
+#~ msgid "Icelandic"
+#~ msgstr "Исландиялық"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Вьетнам"
+
+#~ msgid "Thai"
+#~ msgstr "Тай"
+
+#~ msgid "_Quit"
+#~ msgstr "_Шығу"

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Fall back safely to standard XDG default (~/.config) if the variable is empty
+XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+
+# Fixed: Fully quote path definitions and argument strings to handle spaces safely
+exec openbox --config-file "$XDG_CONFIG_HOME/openbox/lxde-rc.xml" "$@"

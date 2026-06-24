@@ -1,0 +1,595 @@
+# Translation of lxterminal to Italian
+# Copyright (C) 2009 Fabio Barone <phonky at gmx.net>
+# This file is distributed under the same license as the lxterminal package
+# Fabio Barone <phonky at gmx.net>, 2009
+# Andrea Florio <andrea@opensuse.org>, 2010.
+# Daniele Forsi <daniele@forsi.it>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxterminal 0.1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 21:42+0200\n"
+"PO-Revision-Date: 2014-08-08 08:33+0000\n"
+"Last-Translator: Daniele Forsi <daniele@forsi.it>\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-POOTLE-MTIME: 1407486790.000000\n"
+
+#: ../src/lxterminal.c:129
+msgid "_File"
+msgstr "_File"
+
+#: ../src/lxterminal.c:130
+msgid "_Edit"
+msgstr "_Modifica"
+
+#: ../src/lxterminal.c:131
+msgid "_Tabs"
+msgstr "_Schede"
+
+#: ../src/lxterminal.c:132
+msgid "_Help"
+msgstr "A_iuto"
+
+#: ../src/lxterminal.c:133
+#, fuzzy
+msgid "_New Window"
+msgstr "_Nuova finestra"
+
+#: ../src/lxterminal.c:134
+#, fuzzy
+msgid "New T_ab"
+msgstr "Nuova _scheda"
+
+#: ../src/lxterminal.c:136 ../src/lxterminal.c:176
+msgid "_Close Tab"
+msgstr "_Chiudi scheda"
+
+#: ../src/lxterminal.c:137
+#, fuzzy
+msgid "Close _Window"
+msgstr "_Nuova finestra"
+
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:165
+msgid "Cop_y"
+msgstr "_Copia"
+
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:166
+msgid "_Paste"
+msgstr "_Incolla"
+
+#: ../src/lxterminal.c:140
+msgid "Clear scr_ollback"
+msgstr "Pulisci sc_orrimento all'indietro"
+
+#: ../src/lxterminal.c:142
+msgid "Zoom _In"
+msgstr ""
+
+#: ../src/lxterminal.c:143
+msgid "Zoom O_ut"
+msgstr ""
+
+#: ../src/lxterminal.c:144
+msgid "Zoom _Reset"
+msgstr ""
+
+#: ../src/lxterminal.c:146 ../src/lxterminal.c:169
+msgid "Preference_s"
+msgstr "Preferen_ze"
+
+#: ../src/lxterminal.c:147 ../src/lxterminal.c:171
+msgid "Na_me Tab"
+msgstr "Rino_mina scheda"
+
+#: ../src/lxterminal.c:148 ../src/lxterminal.c:172
+msgid "Pre_vious Tab"
+msgstr "Scheda _precedente"
+
+#: ../src/lxterminal.c:149 ../src/lxterminal.c:173
+msgid "Ne_xt Tab"
+msgstr "Scheda _successiva"
+
+#: ../src/lxterminal.c:150 ../src/lxterminal.c:174
+msgid "Move Tab _Left"
+msgstr "Sposta scheda a sinistra"
+
+#: ../src/lxterminal.c:151 ../src/lxterminal.c:175
+msgid "Move Tab _Right"
+msgstr "Sposta scheda a destra"
+
+#: ../src/lxterminal.c:152
+msgid "_About"
+msgstr "I_nformazioni"
+
+#: ../src/lxterminal.c:160
+msgid "New _Window"
+msgstr "_Nuova finestra"
+
+#: ../src/lxterminal.c:161
+msgid "New _Tab"
+msgstr "Nuova _scheda"
+
+#: ../src/lxterminal.c:163
+#, fuzzy
+#| msgid "Copy _URL"
+msgid "Open _URL"
+msgstr "Copia _URL"
+
+#: ../src/lxterminal.c:164
+msgid "Copy _URL"
+msgstr "Copia _URL"
+
+#: ../src/lxterminal.c:167
+msgid "Cl_ear scrollback"
+msgstr "Pu_lisci scorrimento all'indietro"
+
+#: ../src/lxterminal.c:603 ../data/lxterminal-preferences.glade.h:57
+msgid "Name Tab"
+msgstr "Rinomina scheda"
+
+#: ../src/lxterminal.c:606
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/lxterminal.c:607
+msgid "_OK"
+msgstr ""
+
+# I nomi sembrano in ordine dall'ultimo al primo
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/lxterminal.c:776
+msgid "translator-credits"
+msgstr ""
+"Daniele Forsi <daniele@forsi.it>\n"
+"Andrea Florio <andrea@opensuse.org>\n"
+"Alessandro Pellizzari <alex@amiran.it>\n"
+"Fabio Barone<phonky@gmx.net>"
+
+#: ../src/lxterminal.c:782 ../src/preferences.c:293
+#: ../data/lxterminal.desktop.in.h:1
+msgid "LXTerminal"
+msgstr "LXTerminal"
+
+#: ../src/lxterminal.c:784
+#, fuzzy
+msgid "Copyright (C) 2008-2025"
+msgstr "Copyright © 2008-2025"
+
+#: ../src/lxterminal.c:785
+msgid "Terminal emulator for LXDE project"
+msgstr "Emulatore di terminale per il progetto LXDE"
+
+#: ../src/lxterminal.c:816
+msgid "LXTerminal Terminal Emulator"
+msgstr ""
+
+#: ../src/lxterminal.c:850
+#, c-format
+msgid "You are about to close %d tabs. Are you sure you want to continue?"
+msgstr ""
+
+#: ../src/lxterminal.c:851
+msgid "Confirm close"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:1
+msgid "Top"
+msgstr "Sopra"
+
+#: ../data/lxterminal-preferences.glade.h:2
+msgid "Bottom"
+msgstr "Sotto"
+
+#: ../data/lxterminal-preferences.glade.h:3
+msgid "Left"
+msgstr "Sinistra"
+
+#: ../data/lxterminal-preferences.glade.h:4
+msgid "Right"
+msgstr "Destra"
+
+#: ../data/lxterminal-preferences.glade.h:5
+msgid "LXTerminal Preferences"
+msgstr "Preferenze di LXTerminal"
+
+#: ../data/lxterminal-preferences.glade.h:6
+msgid "Terminal font"
+msgstr "Carattere del terminale"
+
+#: ../data/lxterminal-preferences.glade.h:7
+msgid "Background"
+msgstr "Sfondo"
+
+#: ../data/lxterminal-preferences.glade.h:8
+msgid "Foreground"
+msgstr "Primo piano"
+
+#: ../data/lxterminal-preferences.glade.h:9
+msgid "Allow bold font"
+msgstr "Permetti font grassetto"
+
+#: ../data/lxterminal-preferences.glade.h:10
+msgid "Bold is bright"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:11
+msgid "Cursor blink"
+msgstr "Lampeggiamento cursore"
+
+#: ../data/lxterminal-preferences.glade.h:12
+msgid "Cursor style"
+msgstr "Stile cursore"
+
+#: ../data/lxterminal-preferences.glade.h:13
+msgid "Block"
+msgstr "Blocco"
+
+# gnome-terminal traduce Underline->Trattino basso
+#: ../data/lxterminal-preferences.glade.h:14
+msgid "Underline"
+msgstr "Trattino basso"
+
+# gnome-terminal traduce Terminal bell->Avviso acustico
+#: ../data/lxterminal-preferences.glade.h:15
+msgid "Audible bell"
+msgstr "Avviso acustico"
+
+# gnome-terminal traduce Terminal bell->Avviso acustico
+#: ../data/lxterminal-preferences.glade.h:16
+#, fuzzy
+#| msgid "Audible bell"
+msgid "Visual bell"
+msgstr "Avviso acustico"
+
+#: ../data/lxterminal-preferences.glade.h:17
+msgid "Black"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:18
+msgid "Red"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:19
+#, fuzzy
+msgid "Green"
+msgstr "Greco"
+
+#: ../data/lxterminal-preferences.glade.h:20
+msgid "Brown"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:21
+msgid "Blue"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:22
+msgid "Magenta"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:23
+msgid "Cyan"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:24
+msgid "Gray"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:25
+msgid "Darkgray"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Bright Red"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:27
+msgid "Bright Green"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:28
+msgid "Yellow"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:29
+msgid "Bright Blue"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:30
+msgid "Bright Magenta"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:31
+msgid "Bright Cyan"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:32
+msgid "White"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Palette"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:34
+msgid "Palette Preset"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:35
+msgid "Style"
+msgstr "Stile"
+
+#: ../data/lxterminal-preferences.glade.h:36
+msgid "Tab panel position"
+msgstr "Posizione pannello schede"
+
+#: ../data/lxterminal-preferences.glade.h:37
+msgid "Scrollback lines"
+msgstr "Righe di scorrimento all'indietro"
+
+#: ../data/lxterminal-preferences.glade.h:38
+msgid "Hide scroll bar"
+msgstr "Nascondi barra scorrimento"
+
+#: ../data/lxterminal-preferences.glade.h:39
+msgid "Hide menu bar"
+msgstr "Nascondi barra menu"
+
+#: ../data/lxterminal-preferences.glade.h:40
+msgid "Hide Close buttons"
+msgstr "Nascondi pulsanti di chiusura"
+
+#: ../data/lxterminal-preferences.glade.h:41
+#, fuzzy
+msgid "Hide mouse pointer"
+msgstr "Nascondi pulsanti di chiusura"
+
+#: ../data/lxterminal-preferences.glade.h:42
+msgid "Default window size"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:43
+msgid "x"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:44
+msgid "Display"
+msgstr "Visualizzazione"
+
+#: ../data/lxterminal-preferences.glade.h:45
+msgid "Select-by-word characters"
+msgstr "Caratteri per selezionare parole"
+
+# Vado a capo altrimenti la finestra si allarga troppo
+#: ../data/lxterminal-preferences.glade.h:46
+msgid "Disable menu shortcut key (F10 by default)"
+msgstr ""
+"Disabilita il tasto scorciatoia per i menu\n"
+"(predefinito F10)"
+
+# Accorcio altrimenti la finestra si allarga troppo
+#: ../data/lxterminal-preferences.glade.h:47
+msgid "Disable using Alt-n for tabs and menu"
+msgstr "Disabilita l'uso di Alt-N per schede e menu"
+
+#: ../data/lxterminal-preferences.glade.h:48
+msgid "Disable confirmation before closing a window with multiple tabs"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:49
+msgid "Tab width"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:50
+msgid "Advanced"
+msgstr "Avanzate"
+
+#: ../data/lxterminal-preferences.glade.h:51
+#, fuzzy
+msgid "New Window"
+msgstr "_Nuova finestra"
+
+#: ../data/lxterminal-preferences.glade.h:52
+#, fuzzy
+msgid "New Tab"
+msgstr "Nuova _scheda"
+
+#: ../data/lxterminal-preferences.glade.h:53
+#, fuzzy
+msgid "Close Tab"
+msgstr "_Chiudi scheda"
+
+#: ../data/lxterminal-preferences.glade.h:54
+#, fuzzy
+msgid "Close Window"
+msgstr "_Nuova finestra"
+
+#: ../data/lxterminal-preferences.glade.h:55
+#, fuzzy
+msgid "Copy"
+msgstr "Copia _URL"
+
+#: ../data/lxterminal-preferences.glade.h:56
+#, fuzzy
+msgid "Paste"
+msgstr "_Incolla"
+
+#: ../data/lxterminal-preferences.glade.h:58
+#, fuzzy
+msgid "Previous Tab"
+msgstr "Scheda _precedente"
+
+#: ../data/lxterminal-preferences.glade.h:59
+#, fuzzy
+msgid "Next Tab"
+msgstr "Scheda _successiva"
+
+#: ../data/lxterminal-preferences.glade.h:60
+#, fuzzy
+msgid "Move Tab Left"
+msgstr "Sposta scheda a sinistra"
+
+#: ../data/lxterminal-preferences.glade.h:61
+#, fuzzy
+msgid "Move Tab Right"
+msgstr "Sposta scheda a destra"
+
+#: ../data/lxterminal-preferences.glade.h:62
+msgid "Zoom In"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:63
+msgid "Zoom Out"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:64
+msgid "Zoom Reset"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:65
+msgid "Shortcuts"
+msgstr ""
+
+#: ../data/lxterminal.desktop.in.h:2
+msgid "Terminal"
+msgstr "Terminale"
+
+#: ../data/lxterminal.desktop.in.h:3
+msgid "Use the command line"
+msgstr "Usa la riga di comando"
+
+#: ../data/lxterminal.desktop.in.h:4
+msgid "console;command line;execute;"
+msgstr ""
+
+#~ msgid "West European"
+#~ msgstr "Ovest Europeo"
+
+#~ msgid "East European"
+#~ msgstr "Est Europeo"
+
+#~ msgid "East Asian"
+#~ msgstr "Est Asiatico"
+
+#~ msgid "SE & SW Asian"
+#~ msgstr "Asiatico Sud-est e Sud-ovest"
+
+#~ msgid "Middle Eastern"
+#~ msgstr "Mediorientale"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Occidentale"
+
+#~ msgid "Central European"
+#~ msgstr "Centro Europeo"
+
+#~ msgid "South European"
+#~ msgstr "Sud Europeo"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltico"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Cirillico"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabo"
+
+#~ msgid "Greek"
+#~ msgstr "Greco"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Ebraico Visuale"
+
+#~ msgid "Hebrew"
+#~ msgstr "Ebraico"
+
+#~ msgid "Turkish"
+#~ msgstr "Turco"
+
+#~ msgid "Nordic"
+#~ msgstr "Nordico"
+
+#~ msgid "Celtic"
+#~ msgstr "Celtico"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumeno"
+
+#~ msgid "Armenian"
+#~ msgstr "Armeno"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Cinese Tradizionale"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Cirillico/Russo"
+
+#~ msgid "Japanese"
+#~ msgstr "Giapponese"
+
+#~ msgid "Korean"
+#~ msgstr "Coreano"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Cinese Semplificato"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgiano"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Cirillico/Ucraino"
+
+#~ msgid "Croatian"
+#~ msgstr "Croato"
+
+#~ msgid "Hindi"
+#~ msgstr "Hindi"
+
+#~ msgid "Farsi"
+#~ msgstr "Farsi"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gujarati"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Gurmukhi"
+
+#~ msgid "Icelandic"
+#~ msgstr "Islandese"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamita"
+
+#~ msgid "Thai"
+#~ msgstr "Tailandese"
+
+#~ msgid "_Quit"
+#~ msgstr "_Esci"
+
+#~ msgid "Failed to launch the web browser. The command was `%s'\n"
+#~ msgstr "Errore nell'avviare il browser web. Il comando era `%s'\n"
+
+#~ msgid "Misc"
+#~ msgstr "Varie"
+
+#~ msgid "Disable F10 shortcut for menu:"
+#~ msgstr "Disabilita tasto scorciatoia F10 per i menù:"
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "_Preferences"
+#~ msgstr "Impostazioni"
+
+#~ msgid "Transparent Background:"
+#~ msgstr "Sfondo trasparente:"

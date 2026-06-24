@@ -1,0 +1,297 @@
+# translation of ru.po to Russian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# azamat@belyjsoft.ru, 11.04.2008.
+# Alexander Kazancev kazancas@mandriva.ru, 2010
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:05+0200\n"
+"PO-Revision-Date: 2014-10-21 23:32+0000\n"
+"Last-Translator: Andriy Grytsenko <andrej@rep.kiev.ua>\n"
+"Language-Team: RUSSIAN <ru@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1413934346.000000\n"
+
+#: ../src/gpicview.c:38
+msgid "[FILE]"
+msgstr "[ФАЙЛ]"
+
+#: ../src/gpicview.c:40
+msgid "Print version information and exit"
+msgstr "Вывести информацию о версии и выйти"
+
+#: ../src/gpicview.c:42
+msgid "Start slideshow"
+msgstr "Запуск слайдшоу"
+
+#: ../src/gpicview.c:96
+#, c-format
+msgid "The file \"%s\" cannot be opened!"
+msgstr ""
+
+#: ../src/main-win.c:167 ../src/main-win.c:1429 ../gpicview.desktop.in.h:2
+msgid "Image Viewer"
+msgstr "Просмотр изображений"
+
+#: ../src/main-win.c:279 ../src/main-win.c:1452
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: ../src/main-win.c:280 ../src/main-win.c:1453
+msgid "Next"
+msgstr "Следующий"
+
+#: ../src/main-win.c:281 ../src/main-win.c:770
+msgid "Start Slideshow"
+msgstr "Запуск слайдшоу"
+
+#: ../src/main-win.c:285 ../src/main-win.c:1456
+msgid "Zoom Out"
+msgstr "Уменьшить"
+
+#: ../src/main-win.c:286 ../src/main-win.c:1457
+msgid "Zoom In"
+msgstr "Увеличить"
+
+#: ../src/main-win.c:293 ../src/main-win.c:1458
+msgid "Fit Image To Window Size"
+msgstr "Масштабировать к размеру окна"
+
+#: ../src/main-win.c:295 ../src/main-win.c:1459
+msgid "Original Size"
+msgstr "Масштаб 1:1"
+
+#: ../src/main-win.c:302 ../src/main-win.c:1461
+msgid "Full Screen"
+msgstr "На полный экран"
+
+#: ../src/main-win.c:306 ../src/main-win.c:1463
+msgid "Rotate Counterclockwise"
+msgstr "Повернуть против часовой стрелки"
+
+#: ../src/main-win.c:307 ../src/main-win.c:1464
+msgid "Rotate Clockwise"
+msgstr "Повернуть по часовой стрелке"
+
+#: ../src/main-win.c:309 ../src/main-win.c:1465
+msgid "Flip Horizontal"
+msgstr "Перевернуть по горизонтали"
+
+#: ../src/main-win.c:310 ../src/main-win.c:1466
+msgid "Flip Vertical"
+msgstr "Перевернуть по вертикали"
+
+#: ../src/main-win.c:314 ../src/main-win.c:1468
+msgid "Open File"
+msgstr "Открыть файл"
+
+#: ../src/main-win.c:315 ../src/main-win.c:1469
+msgid "Save File"
+msgstr "Сохранить файл"
+
+#: ../src/main-win.c:316
+msgid "Save File As"
+msgstr "Сохранить файл как"
+
+#: ../src/main-win.c:317 ../src/main-win.c:1472
+msgid "Delete File"
+msgstr "Удалить файл"
+
+#: ../src/main-win.c:320 ../src/main-win.c:1474 ../data/pref-dlg.ui.h:1
+msgid "Preferences"
+msgstr "Настройки"
+
+#: ../src/main-win.c:321 ../src/main-win.c:1478
+msgid "Quit"
+msgstr "Выход"
+
+#: ../src/main-win.c:778
+msgid "Stop Slideshow"
+msgstr "Останов слайдшоу"
+
+#: ../src/main-win.c:1319
+msgid ""
+"The file name you selected already exists.\n"
+"Do you want to overwrite existing file?\n"
+"(Warning: The quality of original image might be lost)"
+msgstr ""
+"Файл с таким именем уже существует.\n"
+"Вы хотите переписать существующий файл?\n"
+"(Внимание: Качество оригинала может быть потеряно)"
+
+#: ../src/main-win.c:1360
+msgid "Writing this image format is not supported."
+msgstr "Запись этого формата изображений не поддерживается."
+
+#: ../src/main-win.c:1398
+msgid ""
+"Are you sure you want to delete current file?\n"
+"\n"
+"Warning: Once deleted, the file cannot be recovered."
+msgstr ""
+"Вы уверены что хотите удалить этот файл?\n"
+"\n"
+"Внимание: Удаленный файл не может быть восстановлен."
+
+#: ../src/main-win.c:1454
+msgid "Start/Stop Slideshow"
+msgstr "Запуск/останов слайдшоу"
+
+#: ../src/main-win.c:1470
+msgid "Save As"
+msgstr "Сохранить как"
+
+#: ../src/main-win.c:1475
+msgid "Show/Hide toolbar"
+msgstr "Показать/Скрыть панель"
+
+#: ../src/main-win.c:1519
+msgid " * Refer to source code of EOG image viewer and GThumb"
+msgstr " * Смотри исходный код просмотрщика EOG  и GThumb"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/main-win.c:1523
+msgid "translator-credits"
+msgstr ""
+"перевод Kazm для PuppyRus Linux http://puppyrus.ru\n"
+"Vitaly Pashkov <admin@fluda.net>"
+
+#: ../src/main-win.c:1529 ../gpicview.desktop.in.h:1
+msgid "GPicView"
+msgstr "GPicView"
+
+#: ../src/main-win.c:1531
+msgid "Copyright (C) 2007 - 2025"
+msgstr "Все права защищены (С) 2007 - 2025"
+
+#: ../src/main-win.c:1532
+msgid "Lightweight image viewer from LXDE project"
+msgstr "Легкий просмотрщик изображений для проекта LXDE"
+
+#: ../src/pref.c:207
+msgid ""
+"GPicView will become the default viewer for all supported image files on "
+"your system.\n"
+"(This will be done through 'xdg-mime' program)\n"
+"\n"
+"<b>Are you sure you really want to do this?</b>"
+msgstr ""
+"GPicView станет просмотрщиком изображений по умолчанию для всех "
+"поддерживаемых файлов в вашей системе.\n"
+"(Это будет сделано через программу 'xdg-mime')\n"
+"\n"
+"<b>Вы действительно хотите сделать это?</b>"
+
+#: ../src/file-dlgs.c:62
+msgid "All Supported Images"
+msgstr "Все поддерживаемые изображения"
+
+#: ../src/file-dlgs.c:67
+msgid "All Files"
+msgstr "Все файлы"
+
+#: ../src/file-dlgs.c:103
+msgid "JPEG Quality:"
+msgstr "Качество JPEG:"
+
+#: ../src/file-dlgs.c:104
+msgid ""
+"Lower quality values yield smaller file sizes,\n"
+"but the image quality will be poorer."
+msgstr ""
+"Меньший уровень качества приводит к меньшим размерам,\n"
+" но качество изображения будет хуже."
+
+#: ../src/file-dlgs.c:122
+msgid "PNG Compression Level:"
+msgstr "Уровень сжатия PNG:"
+
+#: ../src/file-dlgs.c:123
+msgid ""
+"Higher compression levels yield smaller file sizes,\n"
+"but takes more time to do the compression."
+msgstr ""
+"Больший уровень сжатия приводит к меньшим размерам,\n"
+"но требует больше времени на сжатие."
+
+#: ../gpicview.desktop.in.h:3
+msgid "View your images easily"
+msgstr "Смотрите ваши изображения без проблем"
+
+#: ../data/pref-dlg.ui.h:2
+msgid "Start with a maximized window"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:3
+msgid "Save window size and position"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:4
+#, fuzzy
+#| msgid "Show/Hide toolbar"
+msgid "Show toolbar"
+msgstr "Показать/Скрыть панель"
+
+#: ../data/pref-dlg.ui.h:5
+msgid "Ask before saving images"
+msgstr "Спросить перед сохранением изображений"
+
+#: ../data/pref-dlg.ui.h:6
+msgid "Ask before deleting images"
+msgstr "Спросить перед удалением изображений"
+
+#: ../data/pref-dlg.ui.h:7
+msgid "Automatically save rotated images"
+msgstr "Автоматически сохранять повернутые изображения"
+
+#: ../data/pref-dlg.ui.h:8
+msgid ""
+"Rotate JPEG file by changing EXIF orientation value\n"
+"(only if EXIF orientation tag exists)"
+msgstr ""
+"Поворачивать JPEG файл изменяя значение ориентации EXIF\n"
+"(только если параметр ориентации EXIF существует)"
+
+#: ../data/pref-dlg.ui.h:10
+msgid "Slideshow interval"
+msgstr "Интервал слайдшоу"
+
+#: ../data/pref-dlg.ui.h:11
+msgid "sec"
+msgstr "сек"
+
+#: ../data/pref-dlg.ui.h:12
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom factor"
+msgstr "Уменьшить"
+
+#: ../data/pref-dlg.ui.h:14
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#: ../data/pref-dlg.ui.h:15
+msgid "Make GPicView the default viewer for images"
+msgstr "Сделать GPicView просмотрщиком изображений по-умолчанию"
+
+# Нужно проверить интерфейс, т.к. в англ. прил/сущ/гл есть одно слово.
+#: ../data/pref-dlg.ui.h:16
+msgid "Normal:"
+msgstr "Обычный:"
+
+#: ../data/pref-dlg.ui.h:17
+msgid "Fullscreen:"
+msgstr "На полный экран:"
+
+#: ../data/pref-dlg.ui.h:18
+msgid "<b>Background colors</b>"
+msgstr "<b>Цвета фона</b>"

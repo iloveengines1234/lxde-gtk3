@@ -1,0 +1,145 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+    edge=bottom
+    align=left
+    margin=0
+    widthtype=percent
+    width=100
+    # Fixed: Scaled panel to 32px to provide proper structural padding for GTK 3 widgets
+    height=32
+    transparent=1
+    tintcolor=#000000
+    # Adjusted alpha level to 40 for clean semi-transparency rendering natively
+    alpha=40
+    setdocktype=1
+    setpartialstrut=1
+    usefontcolor=1
+    fontcolor=#ffffff
+    background=0
+}
+
+Plugin {
+    type = menu
+    Config {
+        image=@prefix@/share/lxde/images/lxde-icon.png
+        system {
+        }
+        separator {
+        }
+        item {
+            command=run
+        }
+        separator {
+        }
+        item {
+            # Fixed: Changed legacy naming conventions to standard freedesktop spec keys
+            image=system-log-out
+            command=logout
+        }
+    }
+}
+
+Plugin {
+    type = launchbar
+    Config {
+        Button {
+            id=pcmanfm.desktop
+        }
+        Button {
+            # Modernized tip: Many distributions default to firefox-esr or native layout tags
+            id=firefox.desktop
+        }
+    }
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=6
+    }
+}
+
+Plugin {
+    type = wincmd
+    Config {
+        Button1=iconify
+        Button2=shade
+    }
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=6
+    }
+}
+
+Plugin {
+    type = pager
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=6
+    }
+}
+
+Plugin {
+    type = taskbar
+    expand=1
+    Config {
+        tooltips=1
+        IconsOnly=0
+        AcceptSkipPager=1
+        ShowIconified=1
+        ShowMapped=1
+        ShowAllDesks=0
+        ShowSquareBrackets=0
+        UseMouseWheel=1
+        UseUrgencyHint=1
+        FlatButton=1
+        MaxTaskWidth=180
+        spacing=2
+    }
+}
+
+Plugin {
+    type = cpu
+}
+
+Plugin {
+    type = volume
+    Config {
+        VolumeMuteKey = XF86AudioMute
+        VolumeDownKey = XF86AudioLowerVolume
+        VolumeUpKey = XF86AudioRaiseVolume
+    }
+}
+
+Plugin {
+    type = tray
+}
+
+Plugin {
+    type = dclock
+    Config {
+        ClockFmt=%R
+        TooltipFmt=%A %x
+        BoldFont=0
+    }
+}
+
+Plugin {
+    type = launchbar
+    Config {
+        Button {
+            id=lxde-screenlock.desktop
+        }
+        Button {
+            id=lxde-logout.desktop
+        }
+    }
+}
