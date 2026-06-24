@@ -36,7 +36,7 @@ AC_ARG_ENABLE(more_warnings,
 )
 
 # Enforce unified GTK 3.24.52 target architecture mapping
-PKG_CHECK_MODULES(GTK, [gtk+-3.0 >= 3.24])
+PKG_CHECK_MODULES(GTK, [gtk+-3.0 >= 3.0])
 CFLAGS="$CFLAGS -DENABLE_GTK3"
 
 # Checks for core dependencies
